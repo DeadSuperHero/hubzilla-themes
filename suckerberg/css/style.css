@@ -634,6 +634,8 @@ aside li {
 
 #side-bar-photos-albums {
 	margin-top: 15px;
+	background-color: white;
+	border: 1px solid #CFCFCF;
 }
 
 #side-bar-photos-albums ul {
@@ -2121,11 +2123,11 @@ img.mail-list-sender-photo {
 /* widgets */
 
 .widget {
-	background-color: $comment_item_colour;
-	border-bottom: 1px solid $widget_brdrcolour;
-	-moz-border-radius: $radiuspx;
-	-webkit-border-radius: $radiuspx;
-	border-radius: $radiuspx;
+	background-color: rgba(255, 255, 255, 1);
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #CFCFCF;
 }
 
 .widget h3 {
