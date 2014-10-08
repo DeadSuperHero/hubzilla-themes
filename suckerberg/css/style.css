@@ -1736,6 +1736,15 @@ header {
 
 .profile-match-connect { margin-top: 5px; }
 
+.shared_container {
+	background: #F8F5FD;
+	margin: 1em;
+	padding: 1em;
+	border-radius: 0.2em;
+	border: 1px solid #849CA8;
+	box-shadow: 1px 1px 0px #fff inset;
+}
+
 .reshared-content { margin-left: 20px; }
 .shared_header img { margin-right: 10px; }
 
@@ -2096,10 +2105,24 @@ img.mail-list-sender-photo {
 .comment-edit-text-empty {
 	color: gray;
 	font-size: 12px;
+	padding: 0px 8px;
+	line-height: 28px;
+	height: 30px;
+	overflow: hidden;
+	resize: none;
+	-webkit-transition-property: height;
+	-webkit-transition-duration: 0.05s;
+	-webkit-transition-timing-function: linear;
 }
 
 .comment-edit-text-full {
 	color: black;
+	padding: 8px;
+	height: 150px;
+	overflow: auto;
+	-webkit-transition-property: height;
+	-webkit-transition-duration: 0.05s;
+	-webkit-transition-timing-function: linear;
 }
 
 .divgrow-showmore {
@@ -2200,8 +2223,9 @@ nav i {
 nav img {
 	height: 47px;
 	width: 47px;
-	margin-top: 2px;
-	border-radius: $radiuspx;
+	margin-top: 0px;
+	border-radius: 0.9em;
+	padding: 0.3em;
 }
 
 nav ul li {
