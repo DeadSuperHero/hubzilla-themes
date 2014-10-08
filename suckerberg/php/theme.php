@@ -9,7 +9,7 @@
  *
  */
 
-function mytheme_init(&$a) {
+function suckerberg_init(&$a) {
 
     $a->theme_info['extends'] = 'redbasic';
 
