@@ -2338,9 +2338,9 @@ span.wall-item-name {
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background-image: -webkit-linear-gradient(top, $nav_active_gradient_top 0%, $nav_active_gradient_bottom 100%);
-	background-image:         linear-gradient(to bottom, $nav_active_gradient_top 0%, $nav_active_gradient_bottom 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$nav_active_gradient_top, endColorstr=$nav_active_gradient_bottom, GradientType=0);
+	background-image: -webkit-linear-gradient(to bottom, #263555 0%, #44619D 100%);
+	background-image: linear-gradient(to bottom, #263555 0%, #44619D 100%);
+	color: white;
 }
 
 
@@ -2351,7 +2351,7 @@ span.wall-item-name {
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-	color: $nav_active_icon_colour;
+	color: white;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
