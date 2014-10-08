@@ -1974,6 +1974,8 @@ img.mail-list-sender-photo {
 .thread-wrapper .wall-item-comment-wrapper,
 .wall-item-content-wrapper.comment {
 	margin-left: $comment_indent;
+	background: #F6F7F8;
+	border: 1px solid #BFBFBF;
 }
 
 .thread-wrapper.toplevel_item {
@@ -1986,6 +1988,7 @@ img.mail-list-sender-photo {
     background-color: #FFF;
     border: 1px solid rgba(191, 191, 191, 1);
     border-bottom: none;
+    margin-bottom: -3px;
 }
 
 .comment .wall-item-body {
@@ -2204,10 +2207,9 @@ nav ul li {
 }
 
 nav .badge {
-	display: inline-block;
 	min-width: 10px;
-	padding: 3px 7px;
-	font-size: 12px;
+	padding: 1px 7px;
+	font-size: 10px;
 	font-weight: bold;
 	line-height: 1.3;
 	color: #fff;
@@ -2215,7 +2217,7 @@ nav .badge {
 	white-space: nowrap;
 	vertical-align: baseline;
 	background-color: #EB242E;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 nav .dropdown-menu {
