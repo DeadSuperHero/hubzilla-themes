@@ -1757,7 +1757,7 @@ header {
 .reshared-content { margin-left: 20px; }
 .shared_header img { 
 	margin-right: 10px;
-	width: 2em;
+	width: 2em !important;
 }
 
 .tag1 {
