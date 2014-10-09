@@ -882,14 +882,14 @@ aside li {
 }
 
 #nav-search-text {
-    height: 29px;
-    margin: 10px;
-    padding: 0px 5px;
-    border-radius: 6px;
-    border-color: #E7E7E7;
-    background-color: #EEE;
-    transition: background-color 300ms ease 0s;
-    width: 28em;
+	height: 29px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 5px;
+	border-radius: 6px;
+	border-color: #E7E7E7;
+	background-color: #EEE;
+	transition: background-color 300ms ease 0s;
+	width: 23em;
 }
 
 #nav-search-text::-webkit-input-placeholder {
