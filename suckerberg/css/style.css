@@ -2026,6 +2026,10 @@ img.mail-list-sender-photo {
     border-top: none;
 }
 
+.wall-item-body.divmore {
+	height: inherit !important;
+}
+
 .hide-comments-outer {
 	background-color: $comment_item_colour;
 	border-left: $comment_border_left $comment_border_colour;
