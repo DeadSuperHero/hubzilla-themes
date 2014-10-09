@@ -2026,8 +2026,8 @@ img.mail-list-sender-photo {
     border-top: none;
 }
 
-.wall-item-body.divmore {
-	height: inherit !important;
+.wall-item-body .divmore {
+	height: 100% !important;
 }
 
 .hide-comments-outer {
