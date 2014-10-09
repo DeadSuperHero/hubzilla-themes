@@ -2030,6 +2030,11 @@ img.mail-list-sender-photo {
 	height: 100% !important;
 }
 
+.wall-item-body strong {
+	font-weight: 600;
+	font-size: 12px !important;
+}
+
 .hide-comments-outer {
 	background-color: $comment_item_colour;
 	border-left: $comment_border_left $comment_border_colour;
