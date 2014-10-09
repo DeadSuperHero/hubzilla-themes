@@ -1,8 +1,8 @@
 **
- * Redbasic
+ * Suckerberg
  *
- * Based on duepuntozero Friendica style
- * by Fabio Comuni <fabrix.xm@gmail.com>
+ * Based on redbasic
+ * by Sean Tilley <sean@deadsuperhero.com>
  */
 
 
@@ -23,7 +23,7 @@ body {
     height: 100%;
 }
 .jslider {
-	font-family: arial,freesans,sans-serif;
+	font-family: Helvetica,freesans,sans-serif;
 }
 
 abbr {
@@ -48,7 +48,7 @@ abbr {
 }
 
 a, a:visited, a:link, .fakelink, .fakelink:visited, .fakelink:link { 
-	font-weight: bold;
+	font-weight: 100;
 	color: $link_colour; 
 	text-decoration: none; 
 }
@@ -191,6 +191,7 @@ header #banner {
 	font-weight: 100;
 	margin-top: 0.6em;
 	text-shadow: 1px 1px 5px #000;
+	display: none;
 }
 
 header #banner a,
@@ -1741,11 +1742,11 @@ header {
 .profile-match-connect { margin-top: 5px; }
 
 .shared_container {
-	background: #F8F5FD;
+	background: #E4EBFA;
 	margin: 1em;
 	padding: 1em;
 	border-radius: 0.2em;
-	border: 1px solid #849CA8;
+	border: 1px solid #697A9E;
 	box-shadow: 1px 1px 0px #fff inset;
 }
 
@@ -2221,8 +2222,17 @@ img.mail-list-sender-photo {
 
 nav i {
 	font-size: 14px;
-	text-shadow: 1px 1px 3px rgba(60, 60, 60, 1);
+	text-shadow: 1px 1px 0px #AAB3DB;
+	color: rgba(48, 46, 90, 1);
+}
+
+nav a:active {
 	color: white;
+}
+
+nav i:hover {
+	color: #FFF;
+	text-shadow: 1px 1px 0px #000;
 }
 
 nav img {
