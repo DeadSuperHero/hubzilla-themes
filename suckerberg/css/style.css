@@ -105,11 +105,11 @@ code {
 	font-size: 1em;
 	display: block;
 	overflow: auto;
-	border: 1px solid $code_borderc;
-	background: $code_bgcolour;
-	color: $code_txtcolour;
+	color: white;
 	padding: 10px;
-	margin-top: 20px; 
+	margin-top: 20px;
+	background: linear-gradient(to bottom, #393A3C 0%, #5A5A5A 100%);
+	box-shadow: 1px 1px 5px rgb(161, 161, 161) inset;
 }
 
 pre {
@@ -2576,9 +2576,9 @@ span.wall-item-name {
 		height: 48px !important;
 	}
 
-	.wall-item-content img.smiley, img.smiley, .wall-item-content img .smiley, .smiley img {
-	max-width: 1em !important;
-	max-height: 1em;
+	.wall-item-content img.smiley, img.smiley, .wall-item-content img .smiley, .smiley img, .smiley.img {
+	width: 1.2em;
+	height: 1.2em;
 }
 
 span.item.app {
