@@ -167,6 +167,10 @@ header {
 
 }
 
+.widget .nav>li>a {
+	display: inline-block !important;
+}
+
 
 nav #banner #logo-text a {
 	font-size: 40px;
@@ -180,13 +184,13 @@ nav #banner #logo-text a:hover { text-decoration: none; }
 .nav-channel-select { margin-left: 8px; }
 
 header #banner {
-/*  overflow: hidden; */
-  text-align: center;
-  font-size: 14px;
-  font-family: tahoma, "Lucida Sans", sans;
-  color: $banner_colour;
-  font-weight: bold;
-  margin-top: 14px;
+	text-align: center;
+	font-size: 1.4em;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	font-weight: 100;
+	margin-top: 0.6em;
+	text-shadow: 1px 1px 5px #000;
 }
 
 header #banner a,
@@ -2216,8 +2220,9 @@ img.mail-list-sender-photo {
 /* nav bootstrap */
 
 nav i {
-    font-size: 14px;
-    text-shadow: 1px 1px 3px rgba(74, 74, 74, 1);
+	font-size: 14px;
+	text-shadow: 1px 1px 3px rgba(60, 60, 60, 1);
+	color: white;
 }
 
 nav img {
@@ -2360,7 +2365,8 @@ span.wall-item-name {
 }
 
 .navbar-inverse .navbar-collapse {
-	border-color: $nav_bd;
+	border-color: black;
+	background: rgb(103, 103, 103);
 }
 
 .navbar-inverse .navbar-nav > .active > a {
@@ -2389,8 +2395,9 @@ span.wall-item-name {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-	background-color: $nav_bd;
-	color: $nav_active_icon_colour;
+	background-image: -webkit-linear-gradient(to bottom, #263555 0%, #44619D 100%);
+	background-image: linear-gradient(to bottom, #263555 0%, #44619D 100%);
+	color: white;
 }
 
 .navbar-inverse .navbar-toggle {
