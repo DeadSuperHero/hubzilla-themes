@@ -2566,6 +2566,10 @@ span.wall-item-name {
 		height: 48px !important;
 	}
 
+	img.smiley {
+	width: 2.5em;
+}
+
 	.comment .wall-item-photo {
 		width: 32px !important;
 		height: 32px !important;
