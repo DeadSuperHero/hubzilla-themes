@@ -2567,7 +2567,7 @@ span.wall-item-name {
 	}
 
 	img.smiley {
-	width: 2.5em;
+	width: 2.5em !important;
 }
 
 	.comment .wall-item-photo {
