@@ -2576,8 +2576,8 @@ span.wall-item-name {
 		height: 48px !important;
 	}
 
-	img.smiley, img .smiley {
-	width: 20px;
+img.smiley {
+	width: 20px !important;
 }
 
 span.item.app {
