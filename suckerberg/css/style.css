@@ -12,7 +12,7 @@ html {
 }
 
 section#region_2 {
-	width: 100%;
+	width: 60em;
 }
 
 body {
@@ -1757,7 +1757,7 @@ header {
 .reshared-content { margin-left: 20px; }
 .shared_header img { 
 	margin-right: 10px;
-	max-width: 2em !important;
+	width: 2em;
 }
 
 .tag1 {
