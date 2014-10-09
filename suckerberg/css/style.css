@@ -2026,8 +2026,8 @@ img.mail-list-sender-photo {
     border-top: none;
 }
 
-.wall-item-body .divmore {
-	height: 100% !important;
+.wall-item-body.divmore {
+	height: inherit !important;
 }
 
 .wall-item-body strong {
@@ -2576,9 +2576,8 @@ span.wall-item-name {
 		height: 48px !important;
 	}
 
-	.wall-item-content img.smiley, img.smiley, .wall-item-content img .smiley, .smiley img, .smiley.img {
-	width: 1.2em;
-	height: 1.2em;
+	img.smiley, img .smiley {
+	width: 1.4em;
 }
 
 span.item.app {
