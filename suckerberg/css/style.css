@@ -11,6 +11,10 @@ html {
 	height: 100%;
 }
 
+section#region_2 {
+	width: 50%;
+}
+
 body {
     font-family: Helvetica,arial,freesans,sans-serif;
     font-size: 0.75rem;
@@ -1751,7 +1755,10 @@ header {
 }
 
 .reshared-content { margin-left: 20px; }
-.shared_header img { margin-right: 10px; }
+.shared_header img { 
+	margin-right: 10px;
+	max-width: 2em !important;
+}
 
 .tag1 {
     font-size : 1.0em !important;
@@ -2116,8 +2123,11 @@ img.mail-list-sender-photo {
 	overflow: hidden;
 	resize: none;
 	-webkit-transition-property: height;
+	-moz-transition-property: height;
 	-webkit-transition-duration: 0.05s;
+	-moz-transition-duration: 0.05s;
 	-webkit-transition-timing-function: linear;
+	-moz-transition-timing-function: linear;
 }
 
 .comment-edit-text-full {
@@ -2126,8 +2136,11 @@ img.mail-list-sender-photo {
 	height: 150px;
 	overflow: auto;
 	-webkit-transition-property: height;
+	-moz-transition-property: height;
 	-webkit-transition-duration: 0.05s;
+	-moz-transition-duration: 0.05s;
 	-webkit-transition-timing-function: linear;
+	-moz-transition-timing-function: linear;
 }
 
 .divgrow-showmore {
@@ -2325,6 +2338,17 @@ h5, h6 {
 span.wall-item-name {
     font-weight: bold;
     font-size: 1.1em;
+}
+
+.wall-item-content img {
+    padding: 0em;
+    height: auto;
+    width: 100%;
+}
+
+.wall-item-outside-wrapper, .wall-item-outside0-wrapper shiny {
+	font-size: 12px;
+	font-weight: 100;
 }
 
 .wall-item-content h1,  .wall-item-content h2 {
