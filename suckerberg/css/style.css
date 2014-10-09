@@ -2348,6 +2348,7 @@ span.wall-item-name {
     padding: 0em;
     height: auto;
     width: 100%;
+    max-width: none !important;
 }
 
 .wall-item-outside-wrapper, .wall-item-outside0-wrapper shiny {
