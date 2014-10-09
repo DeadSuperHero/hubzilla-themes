@@ -2566,8 +2566,12 @@ span.wall-item-name {
 		height: 48px !important;
 	}
 
-	.wall-item-content img.smiley, .smiley img {
+	.wall-item-content img.smiley,, .wall-item-content img .smiley, .smiley img {
 	width: 2.5em !important;
+}
+
+span.item.app {
+	font-weight: bold;
 }
 
 	.comment .wall-item-photo {
