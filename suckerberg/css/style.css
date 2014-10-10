@@ -2037,10 +2037,6 @@ img.mail-list-sender-photo {
     border-top: none;
 }
 
-.wall-item-body.divmore {
-	height: inherit !important;
-}
-
 .wall-item-body strong {
 	font-weight: 600;
 	font-size: 12px !important;
