@@ -26,6 +26,11 @@ body {
     margin: 0px;
     height: 100%;
 }
+
+img.smiley {
+	width: 20px !important;
+}
+
 .jslider {
 	font-family: Helvetica,freesans,sans-serif;
 }
@@ -2575,10 +2580,6 @@ span.wall-item-name {
 		width: 48px !important;
 		height: 48px !important;
 	}
-
-img.smiley {
-	width: 20px !important;
-}
 
 span.item.app {
 	font-weight: bold;
