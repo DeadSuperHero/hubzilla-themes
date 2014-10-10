@@ -1517,14 +1517,20 @@ brain is weird like that */
 
 /* popup notifications */
 div.jGrowl div.notice {
-  background: #511919 url("../../../../images/icons/48/notice.png") no-repeat 5px center;
+  background-color: #BBD7E9; url("../../../../images/icons/48/notice.png") no-repeat 5px center;
   color: #ffffff;
+  font-family: Helvetica,sans-serif;
   padding-left: 58px;
+  	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 div.jGrowl div.info {
-  background: #364e59 url("../../../../images/icons/48/info.png") no-repeat 5px center;
+  background-color: #BBD7E9; url("../../../../images/icons/48/info.png") no-repeat 5px center;
   color: #ffffff;
+  font-family: Helvetica,sans-serif;
   padding-left: 58px;
+  	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 #jGrowl.top-right {
 	top: 65px;
