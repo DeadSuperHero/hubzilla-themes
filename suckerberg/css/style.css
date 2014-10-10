@@ -15,10 +15,6 @@ video {
 	max-width: none !important;
 }
 
-section#region_2 {
-	max-width: 60em;
-}
-
 body {
     font-family: Helvetica,arial,freesans,sans-serif;
     font-size: 0.75rem;
@@ -2552,6 +2548,10 @@ span.wall-item-name {
 	background-color:$alert_bgcolour;
 	border-color: $alert_bordercol;
 	background-image: linear-gradient(to bottom, $alert_bgcolour 0px, $alert_gradientcol 100%);
+}
+
+section#region_2 {
+	width: 50em;
 }
 
 .well {
