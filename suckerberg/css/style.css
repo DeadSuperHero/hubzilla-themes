@@ -2566,6 +2566,10 @@ section#region_2 {
 		border-right: 1px solid $nav_bd;
 	}
 
+	section#region_2 {
+	width: 100%;
+}
+
 	main {
 		-webkit-transition: all 0.25s ease-out;
 		-moz-transition: all 0.25s ease-out;
