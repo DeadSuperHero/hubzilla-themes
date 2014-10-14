@@ -1600,10 +1600,9 @@ div.jGrowl div.jGrowl-notification {
 }
 
 .jslider .jslider-scale ins {
-    color: #333;
-	font-size: $body_font_size;
-	width: 100px;
-	text-align: center;
+    color: rgba(255, 80, 80, 1);
+    width: 100px;
+    text-align: center;
 }
 
 #contact-slider {
@@ -1768,12 +1767,12 @@ a:hover, .fakelink:hover {
 .profile-match-connect { margin-top: 5px; }
 
 .shared_container {
-	background: #E4EBFA;
-	margin: 1em;
-	padding: 1em;
-	border-radius: 0.2em;
-	border: 1px solid #697A9E;
-	box-shadow: 1px 1px 0px #fff inset;
+    background: none repeat scroll 0% 0% rgba(36, 11, 11, 1);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0em 1.2em;
+    border: 1px solid rgba(126, 24, 24, 1);
+    box-shadow: 1px 1px 0px rgba(221, 17, 17, 1) inset;
 }
 
 .reshared-content { margin-left: 20px; }
@@ -2015,12 +2014,9 @@ img.mail-list-sender-photo {
 
 /* conversation */
 
-.hide-comments-outer,
-.thread-wrapper .wall-item-comment-wrapper,
-.wall-item-content-wrapper.comment {
-	margin-left: $comment_indent;
-	background: #F6F7F8;
-	border: 1px solid #BFBFBF;
+.hide-comments-outer, .thread-wrapper .wall-item-comment-wrapper, .wall-item-content-wrapper.comment {
+    background: none repeat scroll 0% 0% rgba(41, 36, 36, 1);
+    border: 1px solid rgba(134, 10, 10, 1);
 }
 
 .thread-wrapper.toplevel_item {
@@ -2028,12 +2024,11 @@ img.mail-list-sender-photo {
 }
 
 .wall-item-content-wrapper {
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
-    background-color: #FFF;
-    border: 1px solid rgba(191, 191, 191, 1);
-    border-bottom: none;
-    margin-bottom: -3px;
+    background-color: #232323;
+    border-radius: 0px;
+    padding: 7px 10px 7px 7px;
+    border-image: none;
+    border: 1px solid rgba(255, 72, 72, 1);
 }
 
 .comment .wall-item-body {
@@ -2192,7 +2187,7 @@ img.mail-list-sender-photo {
 
 .widget {
     background: linear-gradient(to bottom, #090C11 31%, #330005 76%) repeat scroll 0% 0% #F62323;
-    border: 2px solid #D54C4C;
+    border: 1px solid #D54C4C;
     border-radius: 0px 23px;
     box-shadow: 1px 1px 13px #540D0D inset;
 }
@@ -2260,9 +2255,9 @@ img.mail-list-sender-photo {
 /* nav bootstrap */
 
 nav i {
-	font-size: 14px;
-	text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
-	color: #DD0010;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px rgba(161, 0, 0, 1);
+    color: rgba(227, 227, 227, 1);
 }
 
 nav a:active {
@@ -2414,9 +2409,9 @@ span.wall-item-name {
 }
 
 .open .dropdown-toggle.btn-default {
-    color: $dropdown_togglecol; 
-    background-color: $dropdown_togglebgcol; 
-    border-color: $dropdown_bordercol; 
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(135, 11, 11, 1);
+    border-color: rgba(51, 1, 1, 1);
 }
 
 .navbar-inverse {
@@ -2533,18 +2528,18 @@ span.wall-item-name {
 }
 
 .btn-default {
-    	background-color: $editbuttons_bgcolour;
-    	border-color: $editbuttons_bordercolour;
-		color: $editbuttons_colour;
-    	text-shadow: none;
-    	box-shadow: none;
+    background-color: transparent;
+    border-color: rgba(189, 14, 14, 1);
+    color: rgba(218, 0, 0, 1);
+    text-shadow: none;
+    box-shadow: none;
+    border-radius: 0px 9px;
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default:active .btn-default.active {
-    	background-color: $editbuttons_bghover;
-		border-color: $editbuttons_bordercolourhover;
-		color: $input_colourhover;
-		text-decoration: $input_decohover;
+    background-color: rgba(200, 24, 24, 1);
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
 }
 
 .btn-default.btn-sm:hover, .btn-default.btn-sm:focus, .btn-default.btn-sm:active .btn-default.btn-sm.active {
@@ -2559,9 +2554,8 @@ span.wall-item-name {
 }
 
 section#region_2 {
-    border-left: 3px solid #920000;
-    background: linear-gradient(to bottom, #090C11 31%, #330005 76%);
-    box-shadow: 13em 24em 99em rgba(59, 0, 0, 1) inset;
+	border-left: 1px solid #AA4E4E;
+	box-shadow: 1em 5em 4em #5F0000 inset;
 }
 
 .well {
