@@ -1771,6 +1771,11 @@ header {
 }
 
 .reshared-content { margin-left: 20px; }
+
+.reshared-content img {
+	width: 1em;
+}
+
 .shared_header img { 
 	margin-right: 10px;
 	width: 2em !important;
@@ -2354,6 +2359,11 @@ h3, h4 {
 
 h5, h6 {
    font-size: 0.75rem; 
+}
+
+
+span {
+	font-size: 12px;
 }
 
 span.wall-item-name {
