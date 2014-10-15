@@ -785,16 +785,19 @@ aside li {
 
 .rconnect {
 	display: block;
-	color: $nav_active_icon_colour;
+	color: #fff;
 	margin-top: 15px;
-	background-color: $nav_bg;
-	-webkit-border-radius: $radiuspx ;
-	-moz-border-radius: $radiuspx;
-	border-radius: $radiuspx;
-	border: 1px solid $nav_bd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #383B81;
 	padding: 5px;
 	font-weight: bold;
 	clear: both;
+	text-align: center;
+	font-weight: bold;
+	box-shadow: 2px 2px 6px #9C9BC5 inset;
+	background-image: linear-gradient(to bottom, #4D69A2 35%, #3B5998 78%);
 }
 
 #pause {
