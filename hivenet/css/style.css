@@ -1,5 +1,5 @@
 **
- * Suckerberg
+ * Hivenet
  *
  * Based on redbasic
  * by Sean Tilley <sean@deadsuperhero.com>
@@ -18,7 +18,7 @@ video {
 body {
     font-family: Helvetica,arial,freesans,sans-serif;
     font-size: 0.75rem;
-    background-color: #E9EAED;
+    background-color: rgba(0, 0, 0, 1);
     background-image: url('');
     background-attachment: fixed;
     background-size: cover;
@@ -61,10 +61,9 @@ abbr {
 	margin-right: 5px;
 }
 
-a, a:visited, a:link, .fakelink, .fakelink:visited, .fakelink:link { 
-	font-weight: 100;
-	color: $link_colour; 
-	text-decoration: none; 
+a, a:visited, a:link, .fakelink, .fakelink:visited, .fakelink:link {
+    font-weight: normal;
+    color: #FF4141;
 }
 
 a:hover, .fakelink:hover { color: $link_colour; text-decoration: underline; }
@@ -887,19 +886,22 @@ aside li {
 
 #nav-search-text:hover,
 #nav-search-text:focus {
-	background-color: #fff;
-	color: #000; 
+	background-color: #CE3F3F;
+	color: #000;
 }
 
 #nav-search-text {
 	height: 29px;
-	margin: 10px 0px 0px 0px;
+	margin: 10px 0px 0px;
 	padding: 0px 5px;
-	border-radius: 6px;
-	border-color: #E7E7E7;
-	background-color: #EEE;
+	border-color: #C04646;
+	background-color: #A54949;
 	transition: background-color 300ms ease 0s;
 	width: 23em;
+	border-radius: 7px 0px 7px 1px;
+	color: #F29898;
+	box-shadow: 1px 1px 28px #3B0C0C inset;
+	opacity: 1.0 !important;
 }
 
 #nav-search-text::-webkit-input-placeholder {
@@ -1598,10 +1600,9 @@ div.jGrowl div.jGrowl-notification {
 }
 
 .jslider .jslider-scale ins {
-    color: #333;
-	font-size: $body_font_size;
-	width: 100px;
-	text-align: center;
+    color: rgba(255, 80, 80, 1);
+    width: 100px;
+    text-align: center;
 }
 
 #contact-slider {
@@ -1658,6 +1659,10 @@ header {
 .notify-seen a {
 	background: $notifyseen_bgcolour;
 	color: $notifyseen_linkcolour !important;
+}
+
+a:hover, .fakelink:hover {
+    color: rgba(202, 66, 66, 1);
 }
 
 .notify-seen a:hover {
@@ -1762,12 +1767,12 @@ header {
 .profile-match-connect { margin-top: 5px; }
 
 .shared_container {
-	background: #E4EBFA;
-	margin: 1em;
-	padding: 1em;
-	border-radius: 0.2em;
-	border: 1px solid #697A9E;
-	box-shadow: 1px 1px 0px #fff inset;
+    background: none repeat scroll 0% 0% rgba(36, 11, 11, 1);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0em 1.2em;
+    border: 1px solid rgba(126, 24, 24, 1);
+    box-shadow: 1px 1px 0px rgba(221, 17, 17, 1) inset;
 }
 
 .reshared-content { margin-left: 20px; }
@@ -2014,12 +2019,9 @@ img.mail-list-sender-photo {
 
 /* conversation */
 
-.hide-comments-outer,
-.thread-wrapper .wall-item-comment-wrapper,
-.wall-item-content-wrapper.comment {
-	margin-left: $comment_indent;
-	background: #F6F7F8;
-	border: 1px solid #BFBFBF;
+.hide-comments-outer, .thread-wrapper .wall-item-comment-wrapper, .wall-item-content-wrapper.comment {
+    background: none repeat scroll 0% 0% rgba(41, 36, 36, 1);
+    border: 1px solid rgba(134, 10, 10, 1);
 }
 
 .thread-wrapper.toplevel_item {
@@ -2027,12 +2029,11 @@ img.mail-list-sender-photo {
 }
 
 .wall-item-content-wrapper {
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
-    background-color: #FFF;
-    border: 1px solid rgba(191, 191, 191, 1);
-    border-bottom: none;
-    margin-bottom: -3px;
+    background-color: #232323;
+    border-radius: 0px;
+    padding: 7px 10px 7px 7px;
+    border-image: none;
+    border: 1px solid rgba(255, 72, 72, 1);
 }
 
 .comment .wall-item-body {
@@ -2190,11 +2191,10 @@ img.mail-list-sender-photo {
 /* widgets */
 
 .widget {
-	background-color: rgba(255, 255, 255, 1);
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-	border: 1px solid #CFCFCF;
+    background: linear-gradient(to bottom, #090C11 31%, #330005 76%) repeat scroll 0% 0% #F62323;
+    border: 1px solid #D54C4C;
+    border-radius: 0px 23px;
+    box-shadow: 1px 1px 13px #540D0D inset;
 }
 
 .widget h3 {
@@ -2260,9 +2260,9 @@ img.mail-list-sender-photo {
 /* nav bootstrap */
 
 nav i {
-	font-size: 14px;
-	text-shadow: 1px 1px 0px #AAB3DB;
-	color: rgba(48, 46, 90, 1);
+    font-size: 14px;
+    text-shadow: 1px 1px 0px rgba(161, 0, 0, 1);
+    color: rgba(227, 227, 227, 1);
 }
 
 nav a:active {
@@ -2275,11 +2275,13 @@ nav i:hover {
 }
 
 nav img {
-	height: 47px;
-	width: 47px;
-	margin-top: 0px;
-	border-radius: 0.9em;
-	padding: 0.3em;
+	height: 40px;
+	width: 40px;
+	margin-top: 4px;
+	border-radius: 0.6em 0em 0.7em 0em;
+	border: 1px solid red;
+	opacity: 1;
+	z-index: 7;
 }
 
 nav ul li {
@@ -2328,7 +2330,7 @@ nav .dropdown-menu>li>a:hover,nav .dropdown-menu>li>a:focus{
 }
 
 #usermenu-caret {
-	color: #282734;
+	color: $nav_icon_colour;
 }
 
 #avatar:hover + #usermenu-caret {
@@ -2359,11 +2361,6 @@ h3, h4 {
 
 h5, h6 {
    font-size: 0.75rem; 
-}
-
-
-span {
-	font-size: 12px;
 }
 
 span.wall-item-name {
@@ -2417,29 +2414,27 @@ span.wall-item-name {
 }
 
 .open .dropdown-toggle.btn-default {
-    color: $dropdown_togglecol; 
-    background-color: $dropdown_togglebgcol; 
-    border-color: $dropdown_bordercol; 
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(135, 11, 11, 1);
+    border-color: rgba(51, 1, 1, 1);
 }
 
 .navbar-inverse {
     background-color: #F8F8F8;
-    border-color: #232D44;
-    background-image: linear-gradient(to bottom, #4D69A2 0%, #3B5998 100%);
-    height: 3.9em;
-    box-shadow: 0px 0px 6px rgba(101, 100, 100, 1);
+    border-color: #232D44 #232D44 #F00;
+    height: 4.3em;
+    background-image: linear-gradient(to bottom, #381414 0%, #1A1515 100%);
+    border-bottom: 2px solid rgba(224, 0, 0, 1);
 }
 
 .navbar-inverse .navbar-collapse {
-	border-color: black;
-	background: rgb(103, 103, 103);
-	background-image: linear-gradient(to bottom, #4D69A2 0%, #3B5998 100%);
+    border-color: #000;
+    background: linear-gradient(to bottom, #090C11 0%, #330005 100%) repeat scroll 0% 0% #F62323;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background-image: -webkit-linear-gradient(to bottom, #263555 0%, #44619D 100%);
-	background-image: linear-gradient(to bottom, #263555 0%, #44619D 100%);
-	color: white;
+    background-image: linear-gradient(to bottom, rgba(85, 38, 38, 1) 0%, rgba(183, 42, 42, 1) 100%);
+    color: #FFF;
 }
 
 
@@ -2479,10 +2474,12 @@ span.wall-item-name {
 	background-color: $nav_active_icon_colour;
 }
 
-#expand-aside,
-#expand-tabs {
-	color: $nav_active_icon_colour;
-	padding: 7px 10px;
+#expand-aside, #expand-tabs {
+    color: #CE2929;
+    padding: 6px 10px;
+    border-radius: 4em;
+    border: none;
+    background-color: rgba(56, 56, 56, 1);
 }
 
 #tabs-collapse-1 {
@@ -2536,18 +2533,18 @@ span.wall-item-name {
 }
 
 .btn-default {
-    	background-color: $editbuttons_bgcolour;
-    	border-color: $editbuttons_bordercolour;
-		color: $editbuttons_colour;
-    	text-shadow: none;
-    	box-shadow: none;
+    background-color: transparent;
+    border-color: rgba(189, 14, 14, 1);
+    color: rgba(218, 0, 0, 1);
+    text-shadow: none;
+    box-shadow: none;
+    border-radius: 0px 9px;
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default:active .btn-default.active {
-    	background-color: $editbuttons_bghover;
-		border-color: $editbuttons_bordercolourhover;
-		color: $input_colourhover;
-		text-decoration: $input_decohover;
+    background-color: rgba(200, 24, 24, 1);
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
 }
 
 .btn-default.btn-sm:hover, .btn-default.btn-sm:focus, .btn-default.btn-sm:active .btn-default.btn-sm.active {
@@ -2562,7 +2559,8 @@ span.wall-item-name {
 }
 
 section#region_2 {
-	width: 50em;
+	border-left: 1px solid #AA4E4E;
+	box-shadow: 1em 5em 4em #5F0000 inset;
 }
 
 .well {
