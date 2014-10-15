@@ -2323,7 +2323,7 @@ nav .dropdown-menu>li>a:hover,nav .dropdown-menu>li>a:focus{
 }
 
 #usermenu-caret {
-	color: $nav_icon_colour;
+	color: #282734;
 }
 
 #avatar:hover + #usermenu-caret {
