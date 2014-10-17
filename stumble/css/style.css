@@ -18,11 +18,11 @@ video {
 body {
     font-family: Helvetica,arial,freesans,sans-serif;
     font-size: 0.75rem;
-    background-color: #2c4762;
+    background-color: #3A5876;
     background-image: url('');
     background-attachment: fixed;
     background-size: cover;
-    color: #4D4D4D;
+    color: #3A5876;
     margin: 0px;
     height: 100%;
 }
@@ -2202,7 +2202,10 @@ img.mail-list-sender-photo {
 }
 
 .widget h3 {
-	color: $toolicon_colour;
+    color: #475F76;
+    text-align: center;
+    border-bottom: 2px solid;
+    padding-bottom: 0.4em;
 }
 
 #note-text {
@@ -2264,7 +2267,7 @@ img.mail-list-sender-photo {
 /* nav bootstrap */
 
 nav i {
-	font-size: 1.8em;
+	font-size: 1.3em;
 	color: rgba(255, 255, 255, 1);
 }
 
@@ -2427,16 +2430,17 @@ span.wall-item-name {
 
 .navbar-inverse {
     background-color: #F8F8F8;
-    border-color: #232D44;
-    background-image: linear-gradient(to bottom, #4D69A2 0%, #3B5998 100%);
-    height: 5em;
-    box-shadow: 0px 0px 6px rgba(101, 100, 100, 1);
+    background-image: linear-gradient(to bottom, #3A5876 0%, #3A5876 100%);
+    height: 4em;
 }
 
 .navbar-inverse .navbar-collapse {
-	border-color: black;
-	background: rgb(103, 103, 103);
-	background-image: linear-gradient(to bottom, #4D69A2 0%, #3B5998 100%);
+    background: linear-gradient(to bottom, #3A5876 0%, #3A5876 100%) repeat scroll 0% 0% #3A5876;
+    border: medium none;
+}
+
+.navbar-collapse.collapse {
+	height: 4em !important;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
@@ -2519,6 +2523,24 @@ span.wall-item-name {
 	$navtabs_linkchover
 }
 
+
+.nav-stacked > li + li {
+    margin-top: 2px;
+    margin-left: 0px;
+    border-bottom: 2px solid #475F76;
+    color: #475F76;
+}
+
+.nav-stacked > li + li a {
+    font-weight: bold;
+    color: #475F76;
+}
+
+.nav-stacked > li + li a.group-selected {
+    color: #FFF !important;
+    font-weight: bold;
+}
+
 @media (min-width: 768px) {
   .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid $navtabs_borderc;
@@ -2565,7 +2587,11 @@ span.wall-item-name {
 }
 
 section#region_2 {
-	width: 65em;
+    width: 65em;
+    background: none repeat scroll 0% 0% #2C4762;
+    top: 6em;
+    position: absolute;
+    border-radius: 0.6em;
 }
 
 .well {
