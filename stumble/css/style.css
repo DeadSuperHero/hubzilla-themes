@@ -1345,6 +1345,14 @@ brain is weird like that */
 /**
  * Form fields
  */
+
+form#profile-jot-form {
+	background: none repeat scroll 0% 0% #FFF;
+	padding: 1em;
+	margin-bottom: 1em;
+	border-radius: 0.5em;
+}
+
 .field {
 	margin-bottom: 10px;
 /*	padding-bottom: 10px; */
@@ -2073,7 +2081,7 @@ img.mail-list-sender-photo {
 }
 
 .thread-wrapper.toplevel_item {
-	max-width: $converse_width;
+	width: 45em;
 }
 
 .wall-item-content-wrapper {
@@ -2311,7 +2319,7 @@ img.mail-list-sender-photo {
 /* nav bootstrap */
 
 nav i {
-	font-size: 1.3em;
+	font-size: 1.7em;
 	color: rgba(255, 255, 255, 1);
 }
 
@@ -2648,7 +2656,7 @@ aside#region_1 {
 
 section#region_2 {
     background: none repeat scroll 0% 0% #2C4762;
-    border-radius: 0.6em;
+    border-radius: 1.6em;
     padding: 20px !important;
     width: 65em;
 }
@@ -2690,8 +2698,8 @@ section#region_2 {
 	}
 
 	.wall-item-photo {
-		width: 48px !important;
-		height: 48px !important;
+		width: 60px !important;
+		height: 60px !important;
 	}
 
 span.item.app {
