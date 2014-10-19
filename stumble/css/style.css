@@ -469,7 +469,6 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
     background-color: #2C4762;
     border: none;
     text-align: center;
-    margin-top: 0.5em;
 }
 
 .vcard .title {
@@ -845,11 +844,12 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
 #contact-block {
     width: 100%;
     float: left;
-    background-color: #FFF;
+    background-color: #2C4762;
     border-radius: 4px;
     padding: 9px;
     margin-bottom: 10px;
-    border: 1px solid #C9C9C9;
+    border: none;
+    text-align: center;
 }
 
 #contact-block-numcontacts {
@@ -2350,6 +2350,7 @@ nav .badge {
     border-radius: 4px;
     position: relative;
     left: 2em;
+    z-index: 5;
 }
 
 nav .dropdown-menu {
@@ -2522,15 +2523,18 @@ span.wall-item-name {
 }
 
 .navbar-inverse .navbar-toggle {
-	border-color: $nav_bd;
+	border: medium none;
+	background-color: #2C4762;
 }
+
+
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
 	background-color: $nav_bg;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-	background-color: $nav_active_icon_colour;
+	background-color: #fff;
 }
 
 #expand-aside,
@@ -2644,8 +2648,9 @@ aside#region_1 {
 
 section#region_2 {
     background: none repeat scroll 0% 0% #2C4762;
-	border-radius: 0.6em;
-	padding: 20px !important;
+    border-radius: 0.6em;
+    padding: 20px !important;
+    width: 65em;
 }
 
 .well {
