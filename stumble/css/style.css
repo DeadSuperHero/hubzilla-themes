@@ -36,6 +36,13 @@ body {
 	border: 1px solid #cecece;
 }
 
+.generic-content-wrapper {
+    background-color: #FFF;
+    padding: 2em;
+    border-radius: 0.5em;
+
+}
+
 img.smiley {
 	width: 20px !important;
 }
@@ -1984,6 +1991,15 @@ text-decoration: none;
 img.mail-list-sender-photo {
 	-moz-border-radius: $radiuspx;
 	border-radius: $radiuspx;
+}
+
+.mail-conv-detail {
+    margin-left: 20px;
+    width: 85%;
+}
+
+img.mframe.mail-conv-sender-photo {
+	border-radius: 0.5em;
 }
 
 /* jot */
