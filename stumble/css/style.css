@@ -2105,6 +2105,10 @@ img.mframe.mail-conv-sender-photo {
 	margin-left: -7em;
 }
 
+.wall-item-content-wrapper .wall-item-photo-wrapper {
+	margin-left: 0em;
+}
+
 .wall-item-content-wrapper {
 	border-top-right-radius: 8px;
 	border-top-left-radius: 8px;
