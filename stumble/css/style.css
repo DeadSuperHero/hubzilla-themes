@@ -278,10 +278,20 @@ aside li {
 	/* margin-left: 10px; */
 }
 
+aside .nav > li > a:hover, aside .nav > li > a:focus {
+    text-decoration: none;
+    background-color: rgba(32, 51, 71, 1);
+}
+
 /*TODO: we should use one class for all this. */
 .group-selected, .fileas-selected, .categories-selected, .search-selected, .active {
-	color: $selected_active_colour !important;
-	text-decoration: $selected_active_deco !important;
+	color: white !important;
+	text-decoration: none !important;
+	font-weight: bold !important;
+}
+
+.group-selected:hover {
+
 }
 
 .fileas-all {
@@ -437,17 +447,17 @@ aside li {
 .fn {
 	font-weight: bold;
 	font-size: 16px;
-	color: #444444;
+	color: #BCBCBC;
 }
 
 .vcard {
     padding: 10px;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
+    border-radius: 0.5em;
     margin-bottom: 10px;
-    background-color: #FFF;
-    border: 1px solid #CFCFCF;
+    background-color: #2C4762;
+    border: none;
+    text-align: center;
+    margin-top: 0.5em;
 }
 
 .vcard .title {
@@ -517,6 +527,8 @@ aside li {
     width: 197px;
     height: 197px;
     padding: 3px;
+    border: none;
+    border-radius: 0.7em;
 }
 
 #profile-in-dir-yes-label,
@@ -739,6 +751,14 @@ aside li {
 	font-family: FontAwesome;
 }
 
+
+#peoplefind-sidebar .btn {
+    margin: 10px 0px;
+    width: 100%;
+    background-color: rgba(28, 47, 65, 1);
+    border: none;
+    color: rgba(63, 96, 129, 1);
+}
 
 #side-match-link {
 	margin-top: 10px;
@@ -1114,9 +1134,10 @@ aside li {
 }
 
 .profile-match-name {
-	width: 120px;
+	width: 100%;
 	height: 1.5em;
 	overflow: hidden !important;
+	text-align: center;
 }
 
 .profile-match-note {
@@ -1135,13 +1156,15 @@ aside li {
 
 .profile-match-wrapper {
     float: left;
-    width: 120px;
+    width: 100%;
     height: 150px;
     padding: 10px;
-    margin: 8px 10px 0 0;
-    border-top: 1px solid #eee;
-    border-left: 2px solid #eee;
+    margin: 8px 10px 0px 0px;
+    background-color: rgba(35, 61, 80, 1);
+    border-radius: 0.5em;
+    border: none;
 }
+
 .profile-match-ignore {
 	float: right;
 }
@@ -1763,7 +1786,14 @@ header {
 	filter:alpha(opacity=30);
 }
 
-.profile-match-connect { margin-top: 5px; }
+.profile-match-connect { 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: medium none;
+    background-color: #2C4762;
+    color: #2C4762;
+}
 
 .shared_container {
 	background: #E4EBFA;
@@ -2194,11 +2224,9 @@ img.mail-list-sender-photo {
 /* widgets */
 
 .widget {
-	background-color: rgba(255, 255, 255, 1);
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-	border: 1px solid #CFCFCF;
+    background-color: #2C4762;
+    border-radius: 4px;
+    border: none !important;
 }
 
 .widget h3 {
@@ -2293,17 +2321,19 @@ nav ul li {
 }
 
 nav .badge {
-	min-width: 10px;
-	padding: 1px 7px;
-	font-size: 10px;
-	font-weight: bold;
-	line-height: 1.3;
-	color: #fff;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: baseline;
-	background-color: #EB242E;
-	border-radius: 5px;
+    min-width: 10px;
+    padding: 0px 8px 2px 8px;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #FFF;
+    text-align: right;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #EB242E;
+    border-radius: 4px;
+    position: relative;
+    left: 2em;
 }
 
 nav .dropdown-menu {
@@ -2432,15 +2462,15 @@ span.wall-item-name {
     background-color: #F8F8F8;
     background-image: linear-gradient(to bottom, #3A5876 0%, #3A5876 100%);
     height: 4em;
+    border: none;
 }
 
 .navbar-inverse .navbar-collapse {
     background: linear-gradient(to bottom, #3A5876 0%, #3A5876 100%) repeat scroll 0% 0% #3A5876;
-    border: medium none;
+    border: none;
 }
 
 .navbar-collapse.collapse {
-	height: 4em !important;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
@@ -2561,9 +2591,9 @@ span.wall-item-name {
 }
 
 .btn-default {
-    	background-color: $editbuttons_bgcolour;
-    	border-color: $editbuttons_bordercolour;
-		color: $editbuttons_colour;
+    	background-color: #2C4762;
+    	border: none;
+		color: #428BCA;
     	text-shadow: none;
     	box-shadow: none;
 }
@@ -2587,7 +2617,6 @@ span.wall-item-name {
 }
 
 section#region_2 {
-    width: 65em;
     background: none repeat scroll 0% 0% #2C4762;
     top: 6em;
     position: absolute;
