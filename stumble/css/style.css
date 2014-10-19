@@ -2096,12 +2096,11 @@ img.mframe.mail-conv-sender-photo {
 }
 
 .thread-wrapper.toplevel_item {
-    width: 90%;
-    margin-left: 6em;
+    width: 100%;
 }
 
 .thread-wrapper.toplevel_item .wall-item-photo-wrapper {
-	margin-left: -7em;
+	margin-left: 0em;
 }
 
 .wall-item-content-wrapper.comment .wall-item-photo-wrapper {
