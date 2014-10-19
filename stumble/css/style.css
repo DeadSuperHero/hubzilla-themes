@@ -2097,12 +2097,12 @@ img.mframe.mail-conv-sender-photo {
 }
 
 .thread-wrapper.toplevel_item {
-	width: 45em;
+	width: 100%;
 }
 
 .wall-item-content-wrapper {
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
     background-color: #FFF;
     border: 1px solid rgba(191, 191, 191, 1);
     border-bottom: none;
