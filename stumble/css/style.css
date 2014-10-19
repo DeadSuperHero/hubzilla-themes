@@ -2101,6 +2101,10 @@ img.mframe.mail-conv-sender-photo {
     margin-left: 6em;
 }
 
+.thread-wrapper.toplevel_item .wall-item-photo-wrapper {
+	margin-left: -7em;
+}
+
 .wall-item-content-wrapper {
 	border-top-right-radius: 8px;
 	border-top-left-radius: 8px;
@@ -2168,7 +2172,6 @@ img.mframe.mail-conv-sender-photo {
 .wall-item-photo-wrapper {
     margin-top: 0px;
     margin-bottom: 20px;
-    margin-left: -7em;
 }
 
 .comment .wall-item-photo {
