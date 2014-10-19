@@ -151,7 +151,7 @@ blockquote {
 	background-color: $blockquote_bgcolour;
 	border-left: 4px solid $blockquote_bordercolour;
 	padding: 0.4em;
-	color: $blockquote_colour;
+	color: #D0D0D0;
 	margin-left: 20px;
 }
 
@@ -2091,9 +2091,8 @@ img.mframe.mail-conv-sender-photo {
 .hide-comments-outer,
 .thread-wrapper .wall-item-comment-wrapper,
 .wall-item-content-wrapper.comment {
-	margin-left: $comment_indent;
-	background: #F6F7F8;
-	border: 1px solid #BFBFBF;
+	background: #39485F;
+	border: 1px solid #24244A;
 }
 
 .thread-wrapper.toplevel_item {
@@ -2107,6 +2106,11 @@ img.mframe.mail-conv-sender-photo {
 
 .wall-item-content-wrapper.comment .wall-item-photo-wrapper {
 	margin-left: 0em;
+}
+
+.wall-item-content-wrapper.comment button {
+	color: #7C92E8;
+	border: 1px solid #7C92E8;
 }
 
 .wall-item-content-wrapper {
