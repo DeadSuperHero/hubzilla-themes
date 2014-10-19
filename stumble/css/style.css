@@ -2159,10 +2159,9 @@ img.mframe.mail-conv-sender-photo {
 }
 
 .wall-item-photo {
-	border: none;
-	width: $top_photo !important;
-	height: $top_photo !important;
-
+    border: none;
+    width: 60px !important;
+    height: 60px !important;
 }
 
 .comment .wall-item-photo {
