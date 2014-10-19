@@ -2097,7 +2097,8 @@ img.mframe.mail-conv-sender-photo {
 }
 
 .thread-wrapper.toplevel_item {
-	width: 100%;
+    width: 90%;
+    margin-left: 6em;
 }
 
 .wall-item-content-wrapper {
@@ -2162,6 +2163,12 @@ img.mframe.mail-conv-sender-photo {
     border: none;
     width: 60px !important;
     height: 60px !important;
+}
+
+.wall-item-photo-wrapper {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: -7em;
 }
 
 .comment .wall-item-photo {
