@@ -15,6 +15,10 @@ video {
 	max-width: none !important;
 }
 
+main {
+	margin-top: 5em;
+}
+
 body {
     font-family: Helvetica,arial,freesans,sans-serif;
     font-size: 0.75rem;
@@ -39,6 +43,14 @@ img.smiley {
 .jslider {
 	font-family: Helvetica,freesans,sans-serif;
 }
+
+#main-slider {
+    position: relative;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 abbr {
 	border-bottom: none;
@@ -924,6 +936,7 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
 	border-color: #2c4762;
 	margin-top: 1em;
 	border-radius: 3em;
+	color: #fff;
 }
 
 #nav-search-text::-webkit-input-placeholder {
@@ -1130,7 +1143,8 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
 }
 
 .profile-match-photo {
-	float: left;
+    float: none;
+    text-align: center;
 }
 
 .profile-match-name {
@@ -1166,7 +1180,9 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
 }
 
 .profile-match-ignore {
-	float: right;
+    float: none !important;
+    position: relative;
+    bottom: 3.7em;
 }
 
 #profile-match-wrapper-end {
@@ -2474,9 +2490,10 @@ span.wall-item-name {
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background-image: -webkit-linear-gradient(to bottom, #263555 0%, #44619D 100%);
-	background-image: linear-gradient(to bottom, #263555 0%, #44619D 100%);
-	color: white;
+    background-color: #2C4762;
+    box-shadow: none;
+    color: #FFF;
+    background-image: none;
 }
 
 
@@ -2590,7 +2607,7 @@ span.wall-item-name {
 	font-size: 0.75rem;
 }
 
-.btn-default {
+.widget .btn-default {
     	background-color: #2C4762;
     	border: none;
 		color: #428BCA;
@@ -2616,11 +2633,19 @@ span.wall-item-name {
 	background-image: linear-gradient(to bottom, $alert_bgcolour 0px, $alert_gradientcol 100%);
 }
 
+aside#region_1 {
+    width: 231px;
+    min-width: 231px;
+    max-width: 231px;
+    display: table-cell;
+    vertical-align: top;
+    padding: 0px 7px 0px;
+}
+
 section#region_2 {
     background: none repeat scroll 0% 0% #2C4762;
-    top: 6em;
-    position: absolute;
-    border-radius: 0.6em;
+	border-radius: 0.6em;
+	padding: 20px !important;
 }
 
 .well {
@@ -2665,7 +2690,7 @@ section#region_2 {
 	}
 
 span.item.app {
-	font-weight: bold;
+	font-weight: bold !important;
 }
 
 	.comment .wall-item-photo {
