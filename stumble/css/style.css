@@ -2105,7 +2105,7 @@ img.mframe.mail-conv-sender-photo {
 	margin-left: -7em;
 }
 
-.wall-item-content-wrapper .wall-item-photo-wrapper {
+.wall-item-content-wrapper.comment .wall-item-photo-wrapper {
 	margin-left: 0em;
 }
 
@@ -2123,11 +2123,12 @@ img.mframe.mail-conv-sender-photo {
 }
 
 .wall-item-content-wrapper.comment {
-    background-color: #F6F7F8;
-    border-radius: 0px;
-    padding: 7px 10px 7px 7px;
-    border: 1px solid #CCC;
-    border-top: none;
+	background-color: #39485F;
+	border-radius: 0px;
+	padding: 7px 10px 7px 7px;
+	border: 1px solid #24244A;
+	border-top: none;
+	color: #7C92E8;
 }
 
 .wall-item-body strong {
