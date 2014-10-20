@@ -1988,9 +1988,15 @@ text-decoration: none;
 
 /* message */
 
+#mail-list-wrapper.generic-content-wrapper {
+	border-radius: none;
+}
+
 img.mail-list-sender-photo {
-	-moz-border-radius: $radiuspx;
-	border-radius: $radiuspx;
+	height: 40px;
+	width: 40px;
+	float: left;
+	margin-right: 10px;
 }
 
 .mail-conv-detail {
