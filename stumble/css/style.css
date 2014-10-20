@@ -47,6 +47,11 @@ img.smiley {
 	width: 20px !important;
 }
 
+span.item.app, span .item.app {
+	font-weight: 900;
+	margin-left: -0.2em;
+}
+
 .jslider {
 	font-family: Helvetica,freesans,sans-serif;
 }
@@ -2740,9 +2745,6 @@ section#region_2 {
 		height: 60px !important;
 	}
 
-span.item.app {
-	font-weight: bold !important;
-}
 
 	.comment .wall-item-photo {
 		width: 32px !important;
