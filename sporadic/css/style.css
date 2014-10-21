@@ -2054,6 +2054,7 @@ img.mail-list-sender-photo {
 .wall-item-content-wrapper {
 	background-color: #FFF;
 	border: none;
+	border-bottom: 1px solid #D7D7D7;
 }
 
 .comment .wall-item-body {
@@ -2120,9 +2121,9 @@ img.mail-list-sender-photo {
 }
 
 .wall-item-photo {
-    border-radius: $radiuspx;
-    -moz-border-radius: $radiuspx;
-    box-shadow: $shadowpx $shadowpx $shadowpx 0 #444444;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	box-shadow: none
 }
 
 .wall-item-ago .icon-ok {
@@ -2581,7 +2582,8 @@ span.wall-item-name {
 }
 
 section#region_2 {
-	width: 60em;
+	width: 65em;
+	padding-left: 4em;
 }
 
 aside#region_1 {
