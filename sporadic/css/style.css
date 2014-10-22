@@ -2495,7 +2495,8 @@ span.wall-item-name {
 }
 
 .navbar-inverse .navbar-toggle {
-	border-color: $nav_bd;
+	border-color: #000000;
+	box-shadow: 1px 1px 2px #fff inset;
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
