@@ -2489,9 +2489,9 @@ span.wall-item-name {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-	background-image: -webkit-linear-gradient(to bottom, #263555 0%, #44619D 100%);
-	background-image: linear-gradient(to bottom, #263555 0%, #44619D 100%);
+	background-image: -webkit-linear-gradient(to bottom, #000000 0%, #525252 100%);
 	color: white;
+	background-image: linear-gradient(to bottom, #000000 0%, #525252 100%);
 }
 
 .navbar-inverse .navbar-toggle {
