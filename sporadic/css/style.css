@@ -460,9 +460,10 @@ aside li {
 
 
 .fn {
-	font-weight: bold;
-	font-size: 16px;
+	font-weight: normal;
+	font-size: 23px;
 	color: #444444;
+	text-align: center;
 }
 
 .vcard {
