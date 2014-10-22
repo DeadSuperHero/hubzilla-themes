@@ -1333,7 +1333,7 @@ brain is weird like that */
 .notif-image {
 	height: 80px;
 	width: 80px;
-	margin-right: 15px;
+	margin-right: 2px;
 }
 .notification-listing-end {
 	clear: both;
@@ -1703,19 +1703,40 @@ header {
   color: #fff;
 }
 
+span.notif-when {
+	float: right;
+	margin-top: 0.5em;
+	margin-right: 1em;
+	font-weight: bold;
+}
+
+.notif-network-wrapper {
+	background-color: #39485F;
+	border-radius: 0.4em;
+	padding: 0;
+	border: 1px solid #7C92E8;
+}
+
+.notif-item {
+	background: #39485F;
+	padding: 0.5em;
+	border-bottom: 1px solid #24244A;
+	padding-bottom: 0.8em;
+}
+
 .notif-item a {
-	color: $notif_itemcolour;
+	color: #7C92E8;
 }
 
 .notif-item a:hover {
 	text-decoration: underline;
-	color: $notif_itemhovercolour;
+	color: #fff;
 }
 
 .notif-image {
 	width: 32px;
 	height: 32px;
-	padding: 7px 7px 0px 0px;
+	padding: 5px 5px 0px 0px;
 }
 
 .notify-seen a {
