@@ -27,6 +27,12 @@ body {
     height: 100%;
 }
 
+main {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 iframe {
 	width: 100% !important;
 }
@@ -460,13 +466,11 @@ aside li {
 }
 
 .vcard {
-    padding: 10px;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    margin-bottom: 10px;
-    background-color: #FFF;
-    border: 1px solid #CFCFCF;
+	padding: 0;
+	margin-bottom: 10px;
+	background-color: #FFF;
+	border: none;
+	font-size: 1.2em;
 }
 
 .vcard .title {
@@ -533,9 +537,11 @@ aside li {
 
 
 #profile-photo-wrapper img {
-    width: 197px;
-    height: 197px;
-    padding: 3px;
+	width: 200px;
+	height: auto;
+	padding: 0;
+	border-radius: 0;
+	border: none;
 }
 
 #profile-in-dir-yes-label,
@@ -665,9 +671,8 @@ aside li {
 }
 
 .photo, .contact-block-img {
-    border-radius: $radiuspx;
-    -moz-border-radius: $radiuspx;
-    box-shadow: $shadowpx $shadowpx $shadowpx 0 #444444;
+    border-radius: 0;
+    -moz-border-radius: 0;
 }
 
 #side-bar-photos-albums {
@@ -830,13 +835,13 @@ aside li {
 }
 
 #contact-block {
-    width: 100%;
-    float: left;
-    background-color: #FFF;
-    border-radius: 4px;
-    padding: 9px;
-    margin-bottom: 10px;
-    border: 1px solid #C9C9C9;
+	width: 100%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 4px;
+	padding: 7px;
+	margin-bottom: 10px;
+	border: none;
 }
 
 #contact-block-numcontacts {
@@ -2582,7 +2587,7 @@ span.wall-item-name {
 }
 
 section#region_2 {
-	width: 65em;
+	width: 72em;
 	padding-left: 4em;
 }
 
@@ -2610,6 +2615,7 @@ aside#region_1 {
 		-webkit-transition: all 0.25s ease-out;
 		-moz-transition: all 0.25s ease-out;
 		transition: all 0.25s ease-out;
+		width: 100%;
 	}
 
 	main {
