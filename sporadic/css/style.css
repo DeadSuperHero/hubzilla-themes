@@ -2544,7 +2544,7 @@ span.wall-item-name {
 	$navtabs_linkchover
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1010px) {
   .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid $navtabs_borderc;
   }
@@ -2604,7 +2604,7 @@ aside#region_1 {
 	background-image: linear-gradient(to bottom, $advperm_gradientcol 0px, $advperm_bgcolour 100%);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1009px) {
 	aside#region_1 {
 		background: rgba(0, 0, 0, .1);
 		border-right: 1px solid $nav_bd;
