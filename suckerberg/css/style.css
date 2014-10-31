@@ -90,6 +90,30 @@ a:hover, .fakelink:hover { color: $link_colour; text-decoration: underline; }
 }
 
 
+.section-title-wrapper {
+	padding: 7px 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	margin-bottom: 0px;
+	border: 1px solid #CCC;
+	border-bottom: none;
+}
+
+#photo-view-wrapper, #photo-edit-edit {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #CCC;
+    border-top: none;
+}
+
+.wall-item-comment-wrapper {
+    padding: 7px 10px;
+    border-radius: 0px;
+    margin-top: 0px;
+    border: 1px solid #CCC;
+    border-top: none;
+}
+
 input[type="text"],
 input[type="password"],
 input[type="submit"],
@@ -195,6 +219,14 @@ header {
 	-moz-border-radius: $radiuspx;
 	border-radius: $radiuspx;	
 
+}
+
+form#profile-jot-form {
+	padding: 1em;
+	background-color: #FFF;
+	border-radius: 0.4em;
+	margin-bottom: 1em;
+	border: 1px solid #CCC;
 }
 
 .widget .nav>li>a {
