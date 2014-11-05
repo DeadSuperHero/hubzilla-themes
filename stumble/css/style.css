@@ -475,12 +475,12 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
 }
 
 .vcard {
-    padding: 10px;
-    border-radius: 0.5em;
-    margin-bottom: 10px;
-    background-color: #2C4762;
-    border: none;
-    text-align: center;
+	padding: 10px;
+	border-radius: 0.5em;
+	margin-bottom: 10px;
+	border: medium none;
+	text-align: center;
+	background: none repeat scroll 0% 0% transparent;
 }
 
 .vcard .title {
@@ -854,14 +854,14 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
 }
 
 #contact-block {
-    width: 100%;
-    float: left;
-    background-color: #2C4762;
-    border-radius: 4px;
-    padding: 9px;
-    margin-bottom: 10px;
-    border: none;
-    text-align: center;
+	width: 100%;
+	float: left;
+	background: none;
+	border-radius: 4px;
+	padding: 9px;
+	margin-bottom: 10px;
+	border: medium none;
+	text-align: center;
 }
 
 #contact-block-numcontacts {
