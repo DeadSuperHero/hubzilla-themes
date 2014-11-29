@@ -936,16 +936,15 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
 }
 
 #nav-search-text {
-	height: 29px;
-	margin: 1em 0px 0px;
+	height: 2em;
+	margin: 1em 0em 0em;
 	padding: 0px 5px;
 	transition: background-color 300ms ease 0s;
 	width: 23em;
-	background-color: #36465D;
-	border: 2px solid #ADADAD;
-	opacity: 3em;
+	background-color: rgba(0, 0, 0, 1);
+	border: 1px solid #ADADAD;
 	color: #FFF;
-	border-radius: 3em;
+	border-radius: 0;
 }
 
 #nav-search-text::-webkit-input-placeholder {
@@ -2076,10 +2075,17 @@ img.mframe.mail-conv-sender-photo {
 }
 
 #profile-jot-text {
-	color:#000;
-	border: 1px solid #cccccc;
-	-moz-border-radius: $radiuspx;
-	border-radius: $radiuspx;
+	color: #000;
+	border: 1px solid rgba(255, 255, 255, 1);
+	background-color: #fff;
+	font-family: monospace;
+}
+
+. {
+	height: 200px;
+	color: #000;
+	background-color: #FFF;
+	border: 1px solid rgba(209, 209, 209, 1);
 }
 
 #profile-jot-text::-webkit-input-placeholder {
@@ -2307,7 +2313,7 @@ img.mframe.mail-conv-sender-photo {
 }
 
 .widget h3 {
-    color: #475F76;
+    color: #000;
     text-align: center;
     border-bottom: 2px solid;
     padding-bottom: 0.4em;
@@ -2372,8 +2378,8 @@ img.mframe.mail-conv-sender-photo {
 /* nav bootstrap */
 
 nav i {
-	font-size: 1.7em;
-	color: rgba(255, 255, 255, 1);
+	color: #000;
+	font-size: 1.1em;
 }
 
 nav a:active {
@@ -2385,10 +2391,10 @@ nav i:hover {
 }
 
 nav img {
-	height: 47px;
-	width: 47px;
-	margin-top: 0px;
-	border-radius: 0.9em;
+	height: 3em;
+	width: auto;
+	margin-top: 0.3em;
+	border-radius: 3em;
 	padding: 0.3em;
 }
 
@@ -2397,21 +2403,21 @@ nav ul li {
 }
 
 nav .badge {
-	min-width: 10px;
-	padding: 0px 8px 2px;
-	font-size: 10px;
-	font-weight: normal;
-	line-height: 1.2;
-	color: #303D50;
-	text-align: right;
-	white-space: nowrap;
-	vertical-align: baseline;
-	background-color: #FFF;
-	border-radius: 4px;
-	position: relative;
-	left: 2em;
-	z-index: 5;
-	border: 2px solid #303D50;
+    min-width: 10px;
+    padding: 0px 8px 2px;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 1.2;
+    color: rgba(0, 0, 0, 1);
+    text-align: right;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #FFF;
+    border-radius: 4px;
+    position: relative;
+    left: 2em;
+    z-index: 5;
+    border: 1px solid rgba(0, 0, 0, 1);
 }
 
 nav .dropdown-menu {
@@ -2539,21 +2545,32 @@ span.wall-item-name {
     box-shadow: none;
 }
 
+.btn-primary {
+	color: #FFF;
+	background-color: #000;
+	border: none;
+}
+
 .open .dropdown-toggle.btn-default {
     color: $dropdown_togglecol; 
     background-color: $dropdown_togglebgcol; 
     border-color: $dropdown_bordercol; 
 }
 
+.navbar {
+	min-height: 3.6em;
+}
+
 .navbar-inverse {
-	background: none repeat scroll 0% 0% #36465D;
-	height: 4.5em;
-	border-bottom: 0.1em solid rgba(79, 103, 137, 1);
+	height: 1.5em;
+	background: none repeat scroll 0% 0% #F5F5F5;
+	border: medium none;
 }
 
 .navbar-inverse .navbar-collapse {
-    border: none;
-    background: none;
+	border: medium none;
+	background: #F5F5F5;
+}
 }
 
 .navbar-collapse.collapse {
@@ -2587,6 +2604,19 @@ span.wall-item-name {
 	color: white;
 }
 
+.navbar-toggle {
+	position: relative;
+	float: right;
+	padding: 7px 4px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
 .navbar-inverse .navbar-toggle {
 	border: medium none;
 	background-color: #303D50;
@@ -2602,10 +2632,14 @@ span.wall-item-name {
 	background-color: #fff;
 }
 
-#expand-aside,
-#expand-tabs {
-	color: $nav_active_icon_colour;
-	padding: 7px 10px;
+#expand-aside, #expand-tabs {
+    padding: 5px 8px;
+    background-color: #000;
+    border-radius: 3em;
+}
+
+#expand-aside, #expand-tabs nav i {
+	color: #fff;
 }
 
 #tabs-collapse-1 {
@@ -2641,20 +2675,34 @@ span.wall-item-name {
 
 
 .nav-stacked > li + li {
-    margin-top: 2px;
+    margin-top: 0px;
     margin-left: 0px;
-    border-bottom: 2px solid #475F76;
-    color: #475F76;
+    color: #FFF;
+    border-bottom: 2px solid #000;
 }
 
 .nav-stacked > li + li a {
     font-weight: bold;
-    color: #475F76;
+    color: #000;
 }
 
 .nav-stacked > li + li a.group-selected {
     color: #FFF !important;
     font-weight: bold;
+}
+
+
+aside .nav > li > a:hover, aside .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 0;
+}
+
+#posted-date-selector {
+	width: 100%;
+	text-align: center;
+	color: #000;
 }
 
 @media (min-width: 768px) {
@@ -2678,10 +2726,17 @@ span.wall-item-name {
 
 .widget .btn-default {
 	border: medium none;
-	color: rgba(80, 104, 138, 1);
+	color: #FFF;
 	text-shadow: none;
 	box-shadow: none;
-	background-color: #2C384B;
+	background-color: #000;
+	padding: 0.5em;
+	border-radius: 0;
+	max-width: 35%;
+}
+
+.widget .btn-default a {
+	color: #fff;
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default:active .btn-default.active {
@@ -2701,19 +2756,17 @@ span.wall-item-name {
 }
 
 aside#region_1 {
-    width: 231px;
-    min-width: 231px;
-    max-width: 231px;
     display: table-cell;
     vertical-align: top;
-    padding: 0px 7px 0px;
+    padding: 0px 7px;
+    width: 29%;
 }
 
 section#region_2 {
-    background: none;
-    border-radius: 1.6em;
-    padding: 20px !important;
-    width: 65em;
+	background: none repeat scroll 0% 0% transparent;
+	border-radius: 1.6em;
+	padding: 20px !important;
+	width: 75%;
 }
 
 .well {
