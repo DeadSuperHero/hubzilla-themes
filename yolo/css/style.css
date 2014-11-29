@@ -155,11 +155,12 @@ pre {
 }
 
 blockquote {
-	background-color: $blockquote_bgcolour;
-	border-left: 4px solid $blockquote_bordercolour;
+	font-size: 0.9rem;
+	font-style: italic;
+	border-left: 3px solid #CCC;
 	padding: 0.4em;
-	color: #D0D0D0;
-	margin-left: 20px;
+	color: #4D4D4D;
+	margin: 0px 0px 0px 20px;
 }
 
 .ccollapse-wrapper {
@@ -544,11 +545,12 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
 
 
 #profile-photo-wrapper img {
-    width: 197px;
-    height: 197px;
-    padding: 3px;
-    border: none;
-    border-radius: 0.7em;
+	width: 197px;
+	height: 197px;
+	padding: 3px;
+	border: none;
+	border-radius: 12em;
+	box-shadow: none;
 }
 
 #profile-in-dir-yes-label,
@@ -678,9 +680,8 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
 }
 
 .photo, .contact-block-img {
-    border-radius: $radiuspx;
-    -moz-border-radius: $radiuspx;
-    box-shadow: $shadowpx $shadowpx $shadowpx 0 #444444;
+	border-radius: 3em;
+	box-shadow: none;
 }
 
 #side-bar-photos-albums {
@@ -937,7 +938,7 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
 
 #nav-search-text {
 	height: 2em;
-	margin: 1em 0em 0em;
+	margin: 0.8em 0em 0em;
 	padding: 0px 5px;
 	transition: background-color 300ms ease 0s;
 	width: 23em;
@@ -2123,8 +2124,7 @@ img.mframe.mail-conv-sender-photo {
 .hide-comments-outer,
 .thread-wrapper .wall-item-comment-wrapper,
 .wall-item-content-wrapper.comment {
-	background: #39485F;
-	border: 1px solid #24244A;
+    color: #000;
 }
 
 .wall-item-content-wrapper.comment button {
@@ -2153,7 +2153,7 @@ img.mframe.mail-conv-sender-photo {
 }
 
 .comment .wall-item-body {
-	padding-left: $comment_padding;
+    color: #000;
 }
 
 .wall-item-content-wrapper.comment {
@@ -2380,6 +2380,8 @@ img.mframe.mail-conv-sender-photo {
 nav i {
 	color: #000;
 	font-size: 1.1em;
+	position: relative;
+	top: -3px;
 }
 
 nav a:active {
@@ -2399,7 +2401,7 @@ nav img {
 }
 
 nav ul li {
-	max-height: 50px
+    max-height: 3.4em;
 }
 
 nav .badge {
@@ -2571,14 +2573,14 @@ span.wall-item-name {
 	border: medium none;
 	background: #F5F5F5;
 }
-}
 
 .navbar-collapse.collapse {
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	color: #FFF;
-	background: #303D50;
+    color: #FFF;
+    background-color: #D7D7D7;
+    max-height: 3.4em;
 }
 
 
