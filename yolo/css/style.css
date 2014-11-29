@@ -6,6 +6,8 @@
  */
 
 
+
+
 /* generals */
 html {
 	height: 100%;
@@ -22,11 +24,11 @@ main {
 body {
     font-family: Helvetica,arial,freesans,sans-serif;
     font-size: 0.75rem;
-    background-color: #36465D;
+    background-color: rgba(255, 255, 255, 1);
     background-image: url('');
     background-attachment: fixed;
     background-size: cover;
-    color: #52789E;
+    color: none;
     margin: 0px;
     height: 100%;
 }
@@ -475,12 +477,7 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
 }
 
 .vcard {
-	padding: 10px;
-	border-radius: 0.5em;
-	margin-bottom: 10px;
-	border: medium none;
-	text-align: center;
-	background: none repeat scroll 0% 0% transparent;
+	border: none;
 }
 
 .vcard .title {
@@ -2552,7 +2549,8 @@ span.wall-item-name {
 }
 
 .navbar-inverse .navbar-collapse {
-	background: none repeat scroll 0% 0% #36465D;
+    border: none;
+    background: none;
 }
 
 .navbar-collapse.collapse {
@@ -2756,6 +2754,8 @@ section#region_2 {
 	.wall-item-photo {
 		width: 60px !important;
 		height: 60px !important;
+		border-radius: 3em;
+    	box-shadow: none;
 	}
 
 
