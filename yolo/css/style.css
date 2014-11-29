@@ -2214,11 +2214,6 @@ img.mframe.mail-conv-sender-photo {
     margin-bottom: 20px;
 }
 
-.comment .wall-item-photo {
-	width: $reply_photo !important;
-	height: $reply_photo !important;
-}
-
 .wall-item-ago .icon-ok {
 	color: darkgreen;
 }
@@ -2405,21 +2400,22 @@ nav ul li {
 }
 
 nav .badge {
-    min-width: 10px;
-    padding: 0px 8px 2px;
-    font-size: 10px;
-    font-weight: normal;
-    line-height: 1.2;
-    color: rgba(0, 0, 0, 1);
-    text-align: right;
-    white-space: nowrap;
-    vertical-align: baseline;
-    background-color: #FFF;
-    border-radius: 4px;
-    position: relative;
-    left: 2em;
-    z-index: 5;
-    border: 1px solid rgba(0, 0, 0, 1);
+	min-width: 10px;
+	padding: 0px 8px 2px;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 1.2;
+	color: #000;
+	text-align: right;
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-color: #FFF;
+	border-radius: 4px;
+	position: relative;
+	left: 2em;
+	z-index: 5;
+	border: 1px solid #000;
+	top: -3.9em;
 }
 
 nav .dropdown-menu {
@@ -2707,6 +2703,20 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
 	color: #000;
 }
 
+	.wall-item-photo {
+		width: 60px !important;
+		height: 60px !important;
+		border-radius: 3em !important;
+    	box-shadow: none !important;
+    	border: none !important;
+	}
+
+
+	.comment .wall-item-photo {
+		width: 32px !important;
+		height: 32px !important;
+	}
+
 @media (min-width: 768px) {
   .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid $navtabs_borderc;
@@ -2805,20 +2815,6 @@ section#region_2 {
 	.thread-wrapper.toplevel_item {
 		width: 100%;
 		border:1px;
-	}
-
-	.wall-item-photo {
-		width: 60px !important;
-		height: 60px !important;
-		border-radius: 3em !important;
-    	box-shadow: none !important;
-    	border: none !important;
-	}
-
-
-	.comment .wall-item-photo {
-		width: 32px !important;
-		height: 32px !important;
 	}
 
 	.acl-list-item {
