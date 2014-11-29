@@ -9,7 +9,7 @@
  *
  */
 
-function stumble_init(&$a) {
+function yolo_init(&$a) {
 
     $a->theme_info['extends'] = 'redbasic';
 
