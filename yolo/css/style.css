@@ -22,7 +22,7 @@ main {
 }
 
 body {
-    font-family: Helvetica,arial,freesans,sans-serif;
+    font-family: monospace;
     font-size: 0.75rem;
     background-color: rgba(255, 255, 255, 1);
     background-image: url('');
@@ -2121,6 +2121,11 @@ img.mframe.mail-conv-sender-photo {
 	border: 1px solid #24244A;
 }
 
+.wall-item-content-wrapper.comment button {
+    color: #000;
+    border: none;
+}
+
 .thread-wrapper.toplevel_item {
     width: 100%;
 }
@@ -2133,18 +2138,12 @@ img.mframe.mail-conv-sender-photo {
 	margin-left: 0em;
 }
 
-.wall-item-content-wrapper.comment button {
-	color: #7C92E8;
-	border: 1px solid #7C92E8;
-}
 
 .wall-item-content-wrapper {
-	border-top-right-radius: 8px;
-	border-top-left-radius: 8px;
-    background-color: #FFF;
-    border: 1px solid rgba(191, 191, 191, 1);
-    border-bottom: none;
+    border: none;
     margin-bottom: -3px;
+    background-color: #FFF;
+    padding: 10px;
 }
 
 .comment .wall-item-body {
@@ -2179,6 +2178,13 @@ img.mframe.mail-conv-sender-photo {
 	border-top: 1px dashed #adadad;
 }
 
+
+.hide-comments-outer, .thread-wrapper .wall-item-comment-wrapper, .wall-item-content-wrapper.comment {
+    background: none;
+    border: none;
+    margin-left: 2em;
+}
+
 .wall-item-comment-wrapper {
 	padding: 7px 10px;
 	background-color: $item_colour;
@@ -2197,12 +2203,6 @@ img.mframe.mail-conv-sender-photo {
 	font-size: 11px;
 }
 
-.wall-item-photo {
-    border: none;
-    width: 60px !important;
-    height: 60px !important;
-}
-
 .wall-item-photo-wrapper {
     margin-top: 0px;
     margin-bottom: 20px;
@@ -2211,12 +2211,6 @@ img.mframe.mail-conv-sender-photo {
 .comment .wall-item-photo {
 	width: $reply_photo !important;
 	height: $reply_photo !important;
-}
-
-.wall-item-photo {
-    border-radius: $radiuspx;
-    -moz-border-radius: $radiuspx;
-    box-shadow: $shadowpx $shadowpx $shadowpx 0 #444444;
 }
 
 .wall-item-ago .icon-ok {
@@ -2536,6 +2530,15 @@ span.wall-item-name {
 	border-radius: $radiuspx;
 }
 
+
+.btn-default {
+    background-color: #FFF;
+    border: none;
+    color: #000;
+    text-shadow: none;
+    box-shadow: none;
+}
+
 .open .dropdown-toggle.btn-default {
     color: $dropdown_togglecol; 
     background-color: $dropdown_togglebgcol; 
@@ -2682,10 +2685,8 @@ span.wall-item-name {
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default:active .btn-default.active {
-    	background-color: $editbuttons_bghover;
-		border-color: $editbuttons_bordercolourhover;
-		color: $input_colourhover;
-		text-decoration: $input_decohover;
+    	background-color: #000
+		color: #FFF;
 }
 
 .btn-default.btn-sm:hover, .btn-default.btn-sm:focus, .btn-default.btn-sm:active .btn-default.btn-sm.active {
@@ -2754,8 +2755,9 @@ section#region_2 {
 	.wall-item-photo {
 		width: 60px !important;
 		height: 60px !important;
-		border-radius: 3em;
-    	box-shadow: none;
+		border-radius: 3em !important;
+    	box-shadow: none !important;
+    	border: none !important;
 	}
 
 
