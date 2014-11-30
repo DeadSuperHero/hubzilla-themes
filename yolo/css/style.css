@@ -35,7 +35,7 @@ body {
 
 .generic-content-wrapper-styled {
 	background-color: #FFF !important;
-	border: 1px solid #cecece;
+	border: none;
 }
 
 .generic-content-wrapper {
@@ -44,6 +44,7 @@ body {
     border-radius: 0.5em;
 
 }
+
 
 img.smiley {
 	width: 20px !important;
@@ -137,15 +138,15 @@ pre code {
 }
 
 code {
-	font-family: Courier, monospace;
-	font-size: 1em;
-	display: block;
-	overflow: auto;
-	color: white;
-	padding: 10px;
-	margin-top: 20px;
-	background: linear-gradient(to bottom, #393A3C 0%, #5A5A5A 100%);
-	box-shadow: 1px 1px 5px rgb(161, 161, 161) inset;
+    font-family: monospace;
+    font-size: 1em;
+    display: block;
+    overflow: auto;
+    color: #FFF;
+    padding: 8px;
+    margin-top: 20px;
+    background: #000;
+    border-radius: 0;
 }
 
 pre {
@@ -479,6 +480,7 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
 
 .vcard {
 	border: none;
+	text-align: center;
 }
 
 .vcard .title {
@@ -532,6 +534,41 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
 	width: 150px;
 	height: 150px;
 	overflow: auto;
+}
+
+.contact-entry-wrapper {
+    float: left;
+    width: 120px;
+    height: 150px;
+    padding: 10px;
+    margin: 8px 0px 0px 0px;
+    text-align: center;
+}
+
+.contact-entry-name {
+	float: left;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 101px;
+	height: 36px;
+	overflow: hidden;
+}
+
+.contact-entry-photo-wrapper .contact-block-img {
+    width: 80px;
+    height: 80px;
+}
+
+#contact-entry-edit.btn.btn-default {
+	margin-top: -3em;
+	text-align: center;
+	background-color: #000;
+	border-radius: 0px;
+}
+
+#contact-entry-edit.btn.btn-default a {
+	color: #fff;
 }
 
 #view-contact-end {
@@ -852,14 +889,14 @@ aside .nav > li > a:hover, aside .nav > li > a:focus {
 }
 
 #contact-block {
-	width: 100%;
-	float: left;
-	background: none;
-	border-radius: 4px;
-	padding: 9px;
-	margin-bottom: 10px;
-	border: medium none;
-	text-align: center;
+    width: 100%;
+    float: left;
+    background: none repeat scroll 0% 0% transparent;
+    border-radius: 4px;
+    padding: 0px 0px 0px 20px;
+    margin-bottom: 10px;
+    border: medium none;
+    text-align: center;
 }
 
 #contact-block-numcontacts {
@@ -1864,6 +1901,7 @@ span.notif-when {
 .shared_header img { 
 	margin-right: 10px;
 	width: 2em !important;
+	border-radius: 4em;
 }
 
 .tag1 {
@@ -2391,7 +2429,7 @@ nav img {
 	height: 3em;
 	width: auto;
 	margin-top: 0.3em;
-	border-radius: 3em;
+	border-radius: 4em;
 	padding: 0.3em;
 }
 
@@ -2400,22 +2438,21 @@ nav ul li {
 }
 
 nav .badge {
-	min-width: 10px;
-	padding: 0px 8px 2px;
-	font-size: 10px;
-	font-weight: normal;
-	line-height: 1.2;
-	color: #000;
-	text-align: right;
-	white-space: nowrap;
-	vertical-align: baseline;
-	background-color: #FFF;
-	border-radius: 4px;
-	position: relative;
-	left: 2em;
-	z-index: 5;
-	border: 1px solid #000;
-	top: -3.9em;
+    min-width: 10px;
+    padding: 0px 8px 2px;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #000;
+    text-align: right;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #FFF;
+    border-radius: 4px;
+    left: 2em;
+    z-index: 5;
+    border: 1px solid #000;
+    margin-top: 1em;
 }
 
 nav .dropdown-menu {
@@ -2631,13 +2668,14 @@ span.wall-item-name {
 }
 
 #expand-aside, #expand-tabs {
-    padding: 5px 8px;
+	padding: 4px 6px;
     background-color: #000;
     border-radius: 3em;
 }
 
-#expand-aside, #expand-tabs nav i {
+#expand-aside nav i {
 	color: #fff;
+    font-size: 1.5em;
 }
 
 #tabs-collapse-1 {
@@ -2791,10 +2829,11 @@ section#region_2 {
 	aside#region_1 {
 		background: rgba(0, 0, 0, .1);
 		border-right: 1px solid $nav_bd;
+		width: 41%;
 	}
 
 	section#region_2 {
-	width: 100%;
+	width: 71%;
 }
 
 	main {
