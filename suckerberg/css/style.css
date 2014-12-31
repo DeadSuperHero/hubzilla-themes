@@ -345,13 +345,17 @@ aside li {
 }
 
 #main-login {
-	margin-top: 50px;
+    margin-top: 4em;
+    background: white;
+    padding: 2em;
+    border-radius: 0.3em;
+    border: 0.1em solid rgba(198, 197, 197, 1);
 }
 
 #main-login #id_username, #main-login #id_password {
-	width: 200px;
-	padding: 10px;
-	float: left;
+    padding: 10px;
+    float: left;
+    width: 80%;
 }
 
 #main-login #id_remember {
@@ -376,8 +380,10 @@ aside li {
 }
 
 #main-login .field.input label, #main-login .field.password label {
-	float: left;
-	width: 100px;
+    float: left;
+    width: 100px;
+    top: 1em;
+    position: relative;
 }
 
 #login_standard {
@@ -409,9 +415,9 @@ aside li {
 }
 
 #login-submit-button {
-
-	margin-left: 100px;
-	margin-top: 10px;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 80%;
 }
 
 
