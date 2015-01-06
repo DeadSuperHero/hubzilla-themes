@@ -19,12 +19,12 @@ body {
     font-family: Helvetica,arial,freesans,sans-serif;
     font-size: 0.75rem;
     background-color: #F2FAFC;
-    background-image: url('');
     background-attachment: fixed;
-    background-size: cover;
     color: #4D4D4D;
     margin: 0px;
     height: 100%;
+    background-size: 4px auto;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNIa3v7n4EogFMlAPsqBbFhZZOjAAAAAElFTkSuQmCC");
 }
 
 iframe {
@@ -2345,11 +2345,11 @@ nav i:hover {
 }
 
 nav img {
-	height: 47px;
-	width: 47px;
-	margin-top: 0px;
-	border-radius: 0.9em;
-	padding: 0.3em;
+    height: 47px;
+    width: 47px;
+    margin-top: 0px;
+    border-radius: 5em;
+    padding: 0.3em;
 }
 
 nav ul li {
@@ -2564,6 +2564,19 @@ span.wall-item-name {
 
 .nav-tabs{
 	border-bottom:1px solid $navtabs_borderc;
+}
+
+li#status-tab.active {
+    background-color: #F2F2F2;
+    box-shadow: 1px 2px 5px #A5A5A5 inset;
+}
+
+.nav-tabs.nav-justified {
+    width: 100%;
+    border-bottom: 0px none;
+    background-color: white;
+    border-radius: 0.4em;
+    border: 1px solid #C8C5C5;
 }
 
 .nav-tabs>li.active>a,.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:focus{
