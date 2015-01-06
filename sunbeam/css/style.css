@@ -43,7 +43,7 @@ span.oembed.video a {
 	width: 35%;
 }
 
-span.item.app {
+span.item.app, span .item.app {
 	font-weight: bold;
 	position: relative;
 	right: 0.2em;
@@ -2370,6 +2370,7 @@ nav .badge {
 	border-radius: 5px 5px 5px 0px;
 	right: -15px;
 	position: relative;
+	z-index: 20;
 }
 
 nav .dropdown-menu {
@@ -2495,11 +2496,9 @@ span.wall-item-name {
 }
 
 .navbar-inverse {
-    background-color: #F8F8F8;
-    border-color: #FFF;
-    background-image: #FFF;
-    height: 3.9em;
-    box-shadow: 0px 0px 3px #848484;
+	background-color: #F8F8F8;
+	border-bottom: 3px solid #3CAFCE;
+	box-shadow: 0px 0px 3px #848484;
 }
 
 .navbar-inverse .navbar-collapse {
@@ -2534,7 +2533,7 @@ span.wall-item-name {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-	color: $nav_active_icon_colour;
+	background-color: #7D7D7D;
 }
 
 .navbar-inverse .navbar-nav > .open > a,
