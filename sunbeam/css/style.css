@@ -2496,10 +2496,10 @@ span.wall-item-name {
 
 .navbar-inverse {
     background-color: #F8F8F8;
-    border-color: #232D44;
+    border-color: #FFF;
     background-image: #FFF;
     height: 3.9em;
-    box-shadow: 0px 0px 6px rgba(101, 100, 100, 1);
+    box-shadow: 0px 0px 3px #848484;
 }
 
 .navbar-inverse .navbar-collapse {
