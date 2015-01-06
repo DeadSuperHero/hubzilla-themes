@@ -2505,7 +2505,7 @@ span.wall-item-name {
 .navbar-inverse .navbar-collapse {
 	border-color: black;
 	background: #FFF;
-	background-image: linear-gradient(to bottom, #4D69A2 0%, #3B5998 100%);
+	background-image: none;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
