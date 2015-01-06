@@ -916,7 +916,13 @@ aside li {
 #nav-search-text:hover,
 #nav-search-text:focus {
 	background-color: #fff;
-	color: #000; 
+	color: #000;
+}
+
+#nav-search-text:focus {
+	outline: none;
+	box-shadow: none;
+	width: 23em;
 }
 
 #nav-search-text {
@@ -927,7 +933,6 @@ aside li {
 	border-color: #1B1B1B;
 	background-color: #565656;
 	transition: background-color 300ms ease 0s;
-	width: 23em;
 	box-shadow: 1px 1px 8px #000 inset;
 	color: white;
 }
@@ -2010,6 +2015,10 @@ img.mail-list-sender-photo {
 	border: 1px solid #cccccc;
 	-moz-border-radius: $radiuspx;
 	border-radius: $radiuspx;
+	height: 7em;
+	padding: 8px;
+	width: 100%;
+	min-height: 7em;
 }
 
 #profile-jot-text::-webkit-input-placeholder {

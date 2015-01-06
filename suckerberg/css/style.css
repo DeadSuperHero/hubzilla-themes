@@ -43,6 +43,12 @@ span.oembed.video a {
 	width: 35%;
 }
 
+span.item.app {
+	font-weight: bold;
+	position: relative;
+	right: 0.2em;
+}
+
 .generic-content-wrapper-styled {
 	background-color: #FFF !important;
 	border: 1px solid #cecece;
@@ -2662,10 +2668,6 @@ section#region_2 {
 		width: 48px !important;
 		height: 48px !important;
 	}
-
-span.item.app {
-	font-weight: bold;
-}
 
 	.comment .wall-item-photo {
 		width: 32px !important;
