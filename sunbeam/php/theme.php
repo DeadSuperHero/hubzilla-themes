@@ -1,8 +1,8 @@
 <?php
 
 /**
- *   * Name: Suckerberg
- *   * Description: A Facebook-like theme based on redbasic
+ *   * Name: Sunbeam
+ *   * Description: A fresh theme based on redbasic
  *   * Version: 1.0
  *   * Author: Sean Tilley
  *   * Compat: Red [*]
