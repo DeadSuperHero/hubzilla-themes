@@ -498,6 +498,7 @@ aside li {
 	color: black;
 	font-size: 2em;
 	font-weight: 100;
+	text-shadow: 1px 1px 0px #FFF;
 }
 
 .vcard {
@@ -507,6 +508,7 @@ aside li {
 	background-color: transparent;
 	border: none;
 	text-align: center;
+	text-shadow: 1px 1px 0px #FFF;
 }
 
 .vcard .title {
@@ -871,13 +873,13 @@ aside li {
 }
 
 #contact-block {
-    width: 100%;
-    float: left;
-    background-color: #FFF;
-    border-radius: 4px;
-    padding: 9px;
-    margin-bottom: 10px;
-    border: 1px solid #C9C9C9;
+	width: 100%;
+	float: left;
+	background-color: transparent;
+	padding: 9px;
+	margin-bottom: 10px;
+	border: none;
+	text-align: center;
 }
 
 #contact-block-numcontacts {
@@ -905,6 +907,7 @@ aside li {
 .contact-block-img {
     width: 40px;
     height: 40px;
+    border-radius: 7em;
 }
 
 #tag-remove {
@@ -1995,6 +1998,12 @@ img.mail-list-sender-photo {
 
 #profile-jot-wrapper {
 	max-width: $converse_width;
+	-webkit-transition-property: height;
+	-moz-transition-property: height;
+	-webkit-transition-duration: 0.05s;
+	-moz-transition-duration: 0.05s;
+	-webkit-transition-timing-function: linear;
+	-moz-transition-timing-function: linear;
 }
 
 #jot-title,
@@ -2043,6 +2052,12 @@ img.mail-list-sender-photo {
 	border: 1px solid #cccccc;
 	-moz-border-radius: $radiuspx;
 	border-radius: $radiuspx;
+	-webkit-transition-property: height;
+	-moz-transition-property: height;
+	-webkit-transition-duration: 0.05s;
+	-moz-transition-duration: 0.05s;
+	-webkit-transition-timing-function: linear;
+	-moz-transition-timing-function: linear;
 }
 
 #profile-jot-text::-webkit-input-placeholder {
@@ -2521,13 +2536,13 @@ span.wall-item-name {
 
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #FFF;
+    color: #111;
     text-shadow: 0px 0px 0px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-	color: white;
+	color: #888;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
