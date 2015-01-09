@@ -2305,6 +2305,11 @@ img.mail-list-sender-photo {
 	border-radius: $radiuspx;
 	-moz-border-radius: $radiuspx;
 }
+
+.container-fluid {
+	background-color: #FEFCFC;
+}
+
 /*
 .categories-ul {
 	list-style-type: none;
