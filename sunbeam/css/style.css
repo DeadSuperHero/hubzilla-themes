@@ -54,6 +54,15 @@ span.item.app, span .item.app {
 	border: 1px solid #cecece;
 }
 
+.generic-content-wrapper {
+	background: #fff;
+	border: 1px solid #BDBBBB;
+	padding: 1em;
+	border-top: 3px solid #71C571;
+	border-top-left-radius: 1.5em;
+	border-top-right-radius: 1.5em;
+}
+
 img.smiley {
 	width: 20px !important;
 }
