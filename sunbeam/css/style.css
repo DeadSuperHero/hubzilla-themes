@@ -254,15 +254,22 @@ nav {
 }
 
 form#profile-jot-form {
-	padding: 1em;
-	background-color: #FFF;
-	border-radius: 0.4em;
-	margin-bottom: 1em;
-	border: 1px solid #CCC;
+    padding: 1em;
+    background-color: #FFF;
+    border-radius: 0.4em;
+    margin-bottom: 1em;
+    border: 1px solid #CCC;
+    height: 6em;
 }
 
 .widget .nav>li>a {
 	display: inline-block !important;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #EEE;
+    border-radius: 8em;
 }
 
 
@@ -2467,6 +2474,20 @@ a.zrl {
 	font-weight: normal; !important
 }
 
+a.profile-match-ignore {
+	position: relative;
+	bottom: 7em;
+	font-size: 0.7em;
+}
+
+a .drop-icons {
+	text-decoration: none;
+	font-size: 0.6em;
+	padding: 0.9em 0.9em 0.8em;
+	border: 2px solid #DDD;
+	border-radius: 8em;
+}
+
 nav .dropdown-menu>li>a:hover,nav .dropdown-menu>li>a:focus{
 	color: $notify_linkcolour;
 	background-color: $navmenu_bgchover;
@@ -2700,11 +2721,9 @@ li#status-tab.active {
 }
 
 .btn-default {
-    	background-color: $editbuttons_bgcolour;
-    	border-color: $editbuttons_bordercolour;
-		color: $editbuttons_colour;
-    	text-shadow: none;
-    	box-shadow: none;
+	text-shadow: none;
+	box-shadow: none;
+	border-radius: 8em;
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default:active .btn-default.active {
