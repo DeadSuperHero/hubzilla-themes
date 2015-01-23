@@ -2022,8 +2022,28 @@ text-decoration: none;
 /* message */
 
 img.mail-list-sender-photo {
-	-moz-border-radius: $radiuspx;
-	border-radius: $radiuspx;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10em;
+}
+
+#mail-list-wrapper {
+	border-top: 1px solid #CCC;
+	padding: 5px;
+	border-top-left-radius: 0em;
+	border-top-right-radius: 0em;
+	border-bottom: medium none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+span.mail-list {
+    float: left;
+    width: 28%;
+    padding-left: 1%;
+    margin-top: 1em;
 }
 
 /* jot */
