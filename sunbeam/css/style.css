@@ -765,9 +765,7 @@ aside li {
 }
 
 .profile-match-photo img, #photo-photo img, .directory-photo-img, .photo-album-photo, .photo-top-photo {
-    border-radius: $radiuspx;
-    -moz-border-radius: $radiuspx;
-    box-shadow: $shadowpx $shadowpx $shadowpx 0 #444444;
+        border-radius: 8em;
 }
 
 .profile-match-photo img {
