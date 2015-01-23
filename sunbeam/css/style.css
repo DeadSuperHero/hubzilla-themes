@@ -1229,7 +1229,7 @@ aside li {
 
 .profile-match-wrapper {
     float: none;
-    width: 120px;
+    width: 100%;
     height: 150px;
     padding: 10px;
     margin: 8px 10px 0 0;
