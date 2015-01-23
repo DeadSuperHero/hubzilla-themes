@@ -259,7 +259,10 @@ form#profile-jot-form {
     border-radius: 0.4em;
     margin-bottom: 1em;
     border: 1px solid #CCC;
-    height: 6em;
+}
+
+.jothidden .bootstrap-tagsinput {
+	width: 100%;
 }
 
 .widget .nav>li>a {
@@ -2068,6 +2071,7 @@ span.mail-list {
 	-moz-transition-duration: 0.05s;
 	-webkit-transition-timing-function: linear;
 	-moz-transition-timing-function: linear;
+	height: 6em;
 }
 
 #jot-title,
@@ -2076,6 +2080,7 @@ span.mail-list {
 	font-weight: bold;
 	border: solid 1px #ffffff;
 	border-radius: $radiuspx;
+	width: 100%;
 }
 
 #jot-category::-webkit-input-placeholder {
