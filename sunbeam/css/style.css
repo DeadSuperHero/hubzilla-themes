@@ -179,15 +179,16 @@ pre code {
 }
 
 code {
-	font-family: Courier, monospace;
+	font-family: Courier,monospace;
 	font-size: 1em;
 	display: block;
 	overflow: auto;
-	color: white;
+	color: #FFF;
 	padding: 10px;
 	margin-top: 20px;
-	background: linear-gradient(to bottom, #393A3C 0%, #5A5A5A 100%);
-	box-shadow: 1px 1px 5px rgb(161, 161, 161) inset;
+	background: #539CB9;
+	box-shadow: 1px 1px 5px #0A478D inset;
+	border-radius: 0.3em;
 }
 
 pre {
@@ -1890,6 +1891,7 @@ header {
 .shared_header img { 
 	margin-right: 10px;
 	width: 2em !important;
+	border-radius: 8em;
 }
 
 .tag1 {
