@@ -1,8 +1,8 @@
 <?php
 
 /**
- *   * Name: Sunbeam
- *   * Description: A fresh theme based on redbasic
+ *   * Name: Occupant
+ *   * Description: An Occupy theme.
  *   * Version: 1.0
  *   * Author: Sean Tilley
  *   * Compat: Red [*]

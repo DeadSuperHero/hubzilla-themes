@@ -18,14 +18,13 @@ video {
 body {
     font-family: Helvetica,arial,freesans,sans-serif;
     font-size: 0.75rem;
-    background-color: #F2FAFC;
     background-attachment: fixed;
     color: #4D4D4D;
     margin: 0px;
     height: 100%;
-    background-color: #DEDEDE;
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGAwZiAWYFcJABFmAGeceo4VAAAAAElFTkSuQmCC");
- }
+    background-color: #E3E1E1;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGAwZiAWYFcJABFmAGeceo4VAAAAAElFTkSuQmCC");
+}
 
 iframe {
 	width: 100% !important;
@@ -2189,14 +2188,15 @@ span.mail-list {
 }
 
 .wall-item-content-wrapper {
-	border-top-right-radius: 0.8em;
-	border-top-left-radius: 0.8em;
+    border-top-left-radius: 0.6em;
     background-color: #FFF;
-    border-width: 4px 1px medium;
+    border-width: 1px 1px medium;
     border-style: solid solid none;
-    border-color: #72A86A #BFBFBF;
     border-image: none;
     margin-bottom: -3px;
+    border-color: rgb(245, 245, 245) rgb(191, 191, 191);
+    border-top-right-radius: 0.6em;
+    border-top: 1px solid #B6B6B6;
 }
 
 .comment .wall-item-body {
@@ -2204,9 +2204,9 @@ span.mail-list {
 }
 
 .wall-item-content-wrapper.comment {
-    background-color: #E1E1E1;
-    border-left: 0px solid rgba(238, 238, 238, 0.8);
-    border-right: 0px solid rgba(238, 238, 238, 0.8);
+    background-color: rgb(237, 237, 237);
+    border-left: 1px solid rgb(182, 175, 175);
+    border-right: 1px solid rgb(176, 176, 176);
     border-bottom: 0px solid rgba(238, 238, 238, 0.8);
     border-radius: 0px;
     padding: 7px 10px 7px 7px;
@@ -2218,12 +2218,10 @@ span.mail-list {
 }
 
 .hide-comments-outer {
-    background-color: #E4E4E4;
-    border-left: 3px solid rgba(238, 238, 238, 0.8);
-    border-right: 0px solid rgba(238, 238, 238, 0.8);
-    border-width: 1px 0px 0px 3px;
+    background-color: #EDEDED;
+    border-width: 1px 1px 0px 1px;
     border-style: dashed solid solid;
-    border-color: #CCC rgba(238, 238, 238, 0.8) rgba(238, 238, 238, 0.8);
+    border-color: #C6C6C6;
     text-align: center;
     border-radius: 0px;
 }
@@ -2262,9 +2260,8 @@ span.mail-list {
 }
 
 .wall-item-photo {
-    border-radius: $radiuspx;
-    -moz-border-radius: $radiuspx;
-    box-shadow: $shadowpx $shadowpx $shadowpx 0 #444444;
+    border-radius: 4em;
+    box-shadow: none;
 }
 
 .wall-item-ago .icon-ok {
@@ -2391,7 +2388,7 @@ span.mail-list {
 }
 
 .container-fluid {
-	background-color: #FEFCFC;
+    background-color: #000;
 }
 
 /*
@@ -2434,8 +2431,9 @@ span.mail-list {
 /* nav bootstrap */
 
 nav i {
-    font-size: 1.4em;
-    text-shadow: none;
+    font-size: 14px;
+    color: white;
+    text-shadow: none !important;
 }
 
 nav a:active {
@@ -2613,17 +2611,16 @@ span.wall-item-name {
 
 .navbar-inverse {
     background-image: none;
-    background-color: rgb(0, 0, 0);
-    border-color: -moz-use-text-color -moz-use-text-color rgb(255, 255, 255);
+    background-color: #000;
+    border-color: #FFF;
     border-style: none none double;
     border-width: medium medium 0.4em;
     padding: 0.2em;
 }
 
 .navbar-inverse .navbar-collapse {
-	border-color: black;
-	background: #FFF;
-	background-image: none;
+    border-color: #000;
+    background: none repeat scroll 0% 0% #000;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
@@ -2631,6 +2628,8 @@ span.wall-item-name {
 	color: #FFF;
 	background-color: #F0F0F0;
 	box-shadow: none;
+	background-color: #232323;
+	border-radius: 0;
 }
 
 .nav-tabs.li.active, .nav-tabs li.active {
@@ -2774,12 +2773,10 @@ li#status-tab.active {
 }
 
 section#region_2 {
-    width: 75%;
+    width: 85%;
     display: table-cell;
     vertical-align: top;
-    background-color: rgba(53, 53, 53, 0.44);
-    padding: 66px 3em 0px;
-    padding-left: 2em;
+    padding: 66px 3em 0px 2em;
 }
 
 .well {
