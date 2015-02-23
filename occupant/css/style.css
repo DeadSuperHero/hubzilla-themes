@@ -2430,7 +2430,7 @@ span.mail-list {
 /* nav bootstrap */
 
 nav i {
-    font-size: 14px;
+    font-size: 1.5em;
     color: white;
     text-shadow: none !important;
 }
@@ -2625,9 +2625,8 @@ span.wall-item-name {
 .navbar-inverse .navbar-nav > .active > a {
 	background-image: none;
 	color: #FFF;
-	background-color: #F0F0F0;
+	background-color: #2F2F2F;
 	box-shadow: none;
-	background-color: #232323;
 	border-radius: 0;
 }
 
