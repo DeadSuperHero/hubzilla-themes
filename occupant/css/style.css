@@ -2630,6 +2630,10 @@ span.wall-item-name {
 	border-radius: 0;
 }
 
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #232323;
+}
+
 .nav-tabs.li.active, .nav-tabs li.active {
 	box-shadow: 0px 0px 3px #787878 inset;
 	background-color: #F6F4F4;
