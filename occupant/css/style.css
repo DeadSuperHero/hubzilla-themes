@@ -15,6 +15,11 @@ video {
 	max-width: none !important;
 }
 
+@font-face {
+	font-family: Oswald;
+	src: url('../fonts/Oswald.ttf');
+}
+
 body {
     font-family: Helvetica,arial,freesans,sans-serif;
     font-size: 0.75rem;
@@ -293,11 +298,12 @@ nav #banner #logo-text a:hover { text-decoration: none; }
 
 header #banner {
     text-align: center;
-    font-family: tahoma,"Lucida Sans",sans;
+    font-family: Oswald;
     color: #FFF;
     font-weight: bold;
-    margin-top: 8px;
+    margin-top: 5px;
     font-size: 2em;
+    text-transform: uppercase;
 }
 
 header #banner a,
@@ -316,6 +322,13 @@ header #banner #logo-img {
 }
 header #banner #logo-text {
   font-size: 22px;
+}
+
+#banner img {
+	height: 1.8em;
+	margin-bottom: -0.2em;
+	margin-left: -0.2em;
+	margin-right: -0.2em;
 }
 
 /* footer */
