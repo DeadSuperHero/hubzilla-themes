@@ -18,12 +18,11 @@ video {
 body {
     font-family: Helvetica,arial,freesans,sans-serif;
     font-size: 0.75rem;
-    background-attachment: fixed;
     color: #4D4D4D;
     margin: 0px;
     height: 100%;
-    background-color: #E3E1E1;
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGAwZiAWYFcJABFmAGeceo4VAAAAAElFTkSuQmCC");
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGAwZiAWYFcJABFmAGeceo4VAAAAAElFTkSuQmCC") repeat scroll 0% 0% #D2D2D2;
+    background-color: #E4E4E4;
 }
 
 iframe {
