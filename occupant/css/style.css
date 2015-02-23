@@ -2631,7 +2631,7 @@ span.wall-item-name {
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #232323;
+    background-color: #232323 !important;
 }
 
 .nav-tabs.li.active, .nav-tabs li.active {
