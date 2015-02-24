@@ -667,10 +667,11 @@ aside li {
 
 
 #profile-photo-wrapper img {
-	width: 197px;
-	height: 197px;
-	padding: 0px;
-	border-radius: 13em;
+    width: 197px;
+    height: 197px;
+    padding: 0px;
+    border-radius: 13em;
+    box-shadow: 0px 2px 2px 0px #5D5D5D;
 }
 
 #profile-in-dir-yes-label,
