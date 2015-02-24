@@ -262,11 +262,10 @@ nav {
 
 .info-message {
 	font-size: 1.1em;
-	border: 1px solid #444;
-	background-color: $infomess_bgcolour;
+	border: none;
 	padding: 10px;
-	-moz-border-radius: $radiuspx;
-	border-radius: $radiuspx;	
+	color: white;
+	box-shadow: 1px 1px 4px #272727 inset;
 
 }
 
@@ -474,7 +473,7 @@ aside li {
 .onoffswitch-switch {
     display: block;
     width: 25px;
-    margin: 21% 9px;
+    margin: 0% 6px;
     background: none repeat scroll 0% 0% #A1A1A1;
     border: 2px solid #999;
     border-radius: 20px;
