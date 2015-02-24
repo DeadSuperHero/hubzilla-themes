@@ -453,6 +453,11 @@ aside li {
     position: relative;
 }
 
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+    margin-left: -1px;
+    height: 2.2em;
+}
+
 #login_standard {
 	width: 350px;
 	float: left;
