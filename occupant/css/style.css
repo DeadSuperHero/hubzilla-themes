@@ -68,12 +68,15 @@ span.item.app, span .item.app {
 }
 
 .generic-content-wrapper {
-	background: #fff;
-	border: 1px solid #BDBBBB;
-	padding: 1em;
-	border-top: 3px solid #71C571;
-	border-top-left-radius: 1.5em;
-	border-top-right-radius: 1.5em;
+    background: none repeat scroll 0% 0% #FFF;
+    border-right: 1px solid #BDBBBB;
+    border-width: 1px 1px 1px;
+    border-style: solid;
+    border-color: #BDBBBB #BDBBBB #BDBBBB;
+    border-image: none;
+    padding: 1em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
 }
 
 .mail-conv-detail {
@@ -413,10 +416,12 @@ aside li {
 
 #main-login {
     margin-top: 4em;
-    background: white;
+    background: none repeat scroll 0% 0% #FFF;
     padding: 2em;
     border-radius: 0.3em;
-    border: 0.1em solid rgba(198, 197, 197, 1);
+    border: 0.1em solid #C6C5C5;
+    max-width: 58em;
+    box-shadow: 1px 1px 3px #8C8C8C;
 }
 
 #main-login #id_username, #main-login #id_password {
@@ -442,6 +447,12 @@ aside li {
 	padding-left: 0;
 }
 
+.div.field.checkbox {
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
 #main-login .field_end {
 	clear: both;
 }
@@ -456,6 +467,21 @@ aside li {
 .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
     margin-left: -1px;
     height: 2.2em;
+}
+
+.onoffswitch-switch {
+    display: block;
+    width: 25px;
+    margin: 21% 9px;
+    background: none repeat scroll 0% 0% #A1A1A1;
+    border: 2px solid #999;
+    border-radius: 20px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 36px;
+    transition: all 0.3s ease-in 0s;
+    height: 2em;
 }
 
 #login_standard {
@@ -2684,7 +2710,7 @@ span.wall-item-name {
 
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #111;
+    color: #FFF;
     text-shadow: 0px 0px 0px;
 }
 
@@ -2702,9 +2728,9 @@ span.wall-item-name {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-	background-image: -webkit-linear-gradient(to bottom, #263555 0%, #44619D 100%);
-	background-image: linear-gradient(to bottom, #263555 0%, #44619D 100%);
-	color: white;
+	color: #FFF;
+	background-image: none;
+	border-radius: 0px;
 }
 
 .navbar-inverse .navbar-toggle {
