@@ -421,13 +421,15 @@ aside li {
     border-radius: 0.3em;
     border: 0.1em solid #C6C5C5;
     max-width: 58em;
-    box-shadow: 1px 1px 3px #8C8C8C;
+    box-shadow: 1px 1px 3px rgb(140, 140, 140);
 }
 
 #main-login #id_username, #main-login #id_password {
     padding: 10px;
     float: left;
     width: 80%;
+    border-radius: 8em;
+    height: 2.9em;
 }
 
 #main-login #id_remember {
@@ -504,6 +506,45 @@ aside li {
 	float: left;
 	margin-left: 100px;
 }
+
+
+#register-form {
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    background-color: #fff;
+    padding: 1em;
+    border: 1px solid #9C9A9A;
+    border-radius: 0.3em;
+    box-shadow: 0px 0px 3px #535353;
+}
+
+.register-input {
+    float: left;
+    width: 275px;
+    padding: 5px;
+    border-radius: 6em;
+}
+
+#register-desc, #register-text, #register-sites {
+    font-weight: normal;
+    margin-bottom: 1em;
+    line-height: 0.3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
+}
+
+input#register-submit-button {
+	width: 100%;
+}
+
+input#register-password-2.register_input {
+	border-radius: 8em;
+}
+
+
 #lost-password-link {
 	float: right;
 }
@@ -2849,6 +2890,11 @@ section#region_2 {
     display: table-cell;
     vertical-align: top;
     padding: 66px 3em 0px 2em;
+}
+
+section h2 {
+	text-align: center;
+	width: 90%;
 }
 
 .well {
