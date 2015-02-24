@@ -857,8 +857,12 @@ input#register-password-2.register_input {
 	list-style: none;
 }
 
-.profile-match-photo img, #photo-photo img, .directory-photo-img, .photo-album-photo, .photo-top-photo {
+.profile-match-photo img, .directory-photo-img, .photo-album-photo, .photo-top-photo {
         border-radius: 8em;
+}
+
+#photo-photo img {
+	border-radius: 0;
 }
 
 .profile-match-photo img {
