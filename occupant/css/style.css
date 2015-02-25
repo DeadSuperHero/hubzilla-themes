@@ -16,12 +16,21 @@ video {
 }
 
 @font-face {
-	font-family: Oswald;
+	font-family: 'Oswald';
 	src: url('../fonts/Oswald.ttf');
 }
+
 @font-face {
-	font-family: Occupy;
-	src: url('../fonts/Occupy.otf');
+    font-family: 'Occupy';
+    src: url('../fonts/Occupy-webfont.eot');
+    src: url('../fonts/Occupy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Occupy-webfont.woff2') format('woff2'),
+         url('../fonts/Occupy-webfont.woff') format('woff'),
+         url('../fonts/Occupy-webfont.ttf') format('truetype'),
+         url('../fonts/Occupy-webfont.svg#occupyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 /* Home Page Section */
