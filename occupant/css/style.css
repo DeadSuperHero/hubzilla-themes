@@ -18,7 +18,8 @@ video {
 @font-face {
 	font-family: Oswald;
 	src: url('../fonts/Oswald.ttf');
-
+}
+@font-face {
 	font-family: Occupy;
 	src: url('../fonts/Occupy.otf');
 }
