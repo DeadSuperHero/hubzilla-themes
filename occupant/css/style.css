@@ -41,6 +41,7 @@ video {
     color: inherit;
     background-color: rgba(0, 0, 0, 0.41);
     border-bottom: 8px double #FFF;
+    margin-bottom: 0;
 }
 
 .jumbotron h1, .jumbotron .h1 {
@@ -61,10 +62,22 @@ video {
     max-height: 48em;
 }
 
+#home.screen-2 {
+	text-align: center;
+}
+
 #features {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+}
+
+#features h1 {
+	text-align: center;
+	font-weight: lighter;
+	font-size: 3em;
+	margin: 0;
+	padding-top: 0.5em;
 }
 
 #box-inner {
@@ -73,7 +86,7 @@ video {
     box-shadow: 0px 0px 2px rgb(0, 0, 0);
 }
 
-#box-inner h2 {
+#box-outer h2 {
 	width: 100%;
 	text-align: center;
 }
