@@ -81,9 +81,18 @@ video {
 }
 
 #box-inner {
-    height: 20em;
+    height: 17em;
     background-color: white;
     box-shadow: 0px 0px 2px rgb(0, 0, 0);
+    background-size: contain;
+}
+
+#box-inner .featurette {
+	position: absolute;
+}
+
+#box-inner.channels {
+	background: url("https://i.imgur.com/6LaNNB6.png");
 }
 
 #box-outer h2 {
