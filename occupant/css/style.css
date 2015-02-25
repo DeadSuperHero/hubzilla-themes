@@ -23,10 +23,33 @@ video {
 	src: url('../fonts/Occupy.otf');
 }
 
+/* Home Page Section */
+
+.jumbotron {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: rgba(0, 0, 0, 0.41);
+    border-bottom: 8px double #FFF;
+}
+
 .jumbotron h1, .jumbotron .h1 {
     font-size: 63px;
-    font-family: Occupy, sans-serif;
+    font-family: Occupy;
+    color: #FFF;
+    text-align: center;
 }
+
+#home.screen-1 {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url("http://upload.wikimedia.org/wikipedia/commons/5/50/Occupy_Wall_Street_Washington_Square_Park_2011_Shankbone.JPG");
+    height: 2000px;
+}
+
+/* Basics */
 
 body {
     font-family: Helvetica,arial,freesans,sans-serif;
