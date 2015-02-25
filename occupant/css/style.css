@@ -36,7 +36,7 @@ video {
 /* Home Page Section */
 
 .jumbotron {
-    padding: 30px 15px;
+    padding: 6em 15px;
     margin-bottom: 30px;
     color: inherit;
     background-color: rgba(0, 0, 0, 0.41);
@@ -57,7 +57,8 @@ video {
     background-position: 50% 50%;
     background-size: cover;
     background-image: url("http://upload.wikimedia.org/wikipedia/commons/5/50/Occupy_Wall_Street_Washington_Square_Park_2011_Shankbone.JPG");
-    height: 2000px;
+    height: auto;
+    max-height: 48em;
 }
 
 /* Basics */
