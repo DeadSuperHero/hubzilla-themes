@@ -76,23 +76,42 @@ video {
 	text-align: center;
 	font-weight: lighter;
 	font-size: 3em;
-	margin: 0;
+	margin: 0px;
 	padding-top: 0.5em;
+	margin-bottom: 0.3em;
+}
+
+#box-outer {
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #box-inner {
     height: 17em;
     background-color: white;
     box-shadow: 0px 0px 2px rgb(0, 0, 0);
-    background-size: contain;
 }
 
 #box-inner .featurette {
-	position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8em;
+    width: 6em;
+    position: relative;
+    border: 3px solid rgb(51, 51, 51);
+    top: 12.3em;
+    height: 6em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #box-inner.channels {
-	background: url("https://i.imgur.com/6LaNNB6.png");
+	box-shadow: none;
+	margin-bottom: -3em;
+	background-image: url("https://i.imgur.com/swkxTZt.png");
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 #box-outer h2 {
