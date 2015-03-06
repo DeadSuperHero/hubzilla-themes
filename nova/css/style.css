@@ -956,14 +956,16 @@ aside li {
 }
 
 #nav-search-text {
-	height: 29px;
-	margin: 10px 0px 0px 0px;
-	padding: 0px 5px;
-	border-radius: 6px;
-	border-color: #E7E7E7;
-	background-color: #EEE;
-	transition: background-color 300ms ease 0s;
-	width: 23em;
+    height: 29px;
+    margin: 10px 0px 0px;
+    padding: 0px 5px;
+    border-radius: 6px;
+    border-color: #E7E7E7;
+    background-color: #EEE;
+    transition: background-color 300ms ease 0s;
+    width: 23em;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: -1px -1px 0px #000 inset;
 }
 
 #nav-search-text::-webkit-input-placeholder {
@@ -2480,22 +2482,23 @@ span.wall-item-name {
 }
 
 .navbar-inverse {
-    background-color: #F8F8F8;
-    border-color: #232D44;
-    background-image: linear-gradient(to bottom, #4D69A2 0%, #3B5998 100%);
+    background: none repeat scroll 0% 0% #78437D;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAADklEQVQImWNgQAW+ZHAAJ14BNVd0PgAAAAAASUVORK5CYII=");
+    border-color: #000;
     height: 3.9em;
     box-shadow: 0px 0px 6px rgba(101, 100, 100, 1);
 }
 
 .navbar-inverse .navbar-collapse {
     border-color: #000;
-    background: linear-gradient(to bottom, #8FECDC -35%, #B78357 72%) repeat scroll 0% 0% #676767;
+    background: none repeat scroll 0% 0% #78437D;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAADklEQVQImWNgQAW+ZHAAJ14BNVd0PgAAAAAASUVORK5CYII=");
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background-image: -webkit-linear-gradient(to bottom, #263555 0%, #44619D 100%);
-	background-image: linear-gradient(to bottom, #263555 0%, #44619D 100%);
-	color: white;
+	background-image: linear-gradient(to bottom, rgb(111, 51, 122) 0%, rgb(107, 63, 98) 100%);
+	color: #FFF;
+	height: 4em;
 }
 
 
@@ -2586,7 +2589,7 @@ span.wall-item-name {
 
 .btn {
 	font-size: $body_font_size;
-	
+
 }
 
 .btn-xs {
