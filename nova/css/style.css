@@ -368,6 +368,25 @@ aside li {
     border: 0.1em solid rgba(198, 197, 197, 1);
 }
 
+#login-main {
+    max-width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login-extra-links {
+    clear: both;
+    width: 67%;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 #main-login #id_username, #main-login #id_password {
     padding: 10px;
     float: left;
@@ -664,6 +683,10 @@ aside li {
 
 .directory-details {
 	font-size: 0.7em;
+}
+
+img.directory-photo-img {
+	border-radius: 0px 20px 0px 20px;
 }
 
 #cboxContent {
@@ -1403,6 +1426,20 @@ brain is weird like that */
 	
 }
 
+
+.onoffswitch-switch {
+    display: block;
+    width: 15px;
+    margin: 0px 8px 0px 0px;
+    background: none repeat scroll 0% 0% #CCC;
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 36px;
+    transition: all 0.3s ease-in 0s;
+}
+
 .field input[type="checkbox"] {
 	width: 16px;
 }
@@ -2009,6 +2046,27 @@ text-decoration: none;
 
 #adminpage table tr:hover {
     background-color: $admintable_hoverbgcol;
+}
+
+/* Other Stuff */
+
+.jumbotron {
+    border-radius: 0px 10px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: rgb(255, 255, 255);
+    padding: 4em !important;
+    text-align: center;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+    color: inherit;
+    margin-bottom: 0em;
+}
+
+.jumbotron h2, .jumbotron .h2 {
+    color: inherit;
+	margin-top: -0.4em;
 }
 
 /* message */
