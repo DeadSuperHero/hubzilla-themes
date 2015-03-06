@@ -681,6 +681,20 @@ aside li {
 
 }
 
+#one.slide {
+    width: 100%;
+    background: url("http://i.imgur.com/5VfgQGu.jpg") no-repeat scroll 0% 0% / cover transparent;
+    margin: 0px;
+    padding: 0px;
+    height: 53em;
+}
+
+#one.slide h3 {
+	font-size: 2em;
+	text-decoration: underline;
+	text-align: center;
+}
+
 .directory-details {
 	font-size: 0.7em;
 }
@@ -2051,12 +2065,12 @@ text-decoration: none;
 /* Other Stuff */
 
 .jumbotron {
-    border-radius: 0px 10px;
-    margin-bottom: 30px;
-    color: inherit;
-    background-color: rgb(255, 255, 255);
-    padding: 4em !important;
-    text-align: center;
+	border-radius: 0px 10px;
+	margin-bottom: 0;
+	color: inherit;
+	background-color: #FFF;
+	padding: 4em !important;
+	text-align: center;
 }
 
 .jumbotron h1, .jumbotron .h1 {
