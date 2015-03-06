@@ -27,6 +27,16 @@ body {
     height: 100%;
 }
 
+main {
+    display: table;
+    table-layout: fixed;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGCQYiAWYFcJAAkAADUIx7G1AAAAAElFTkSuQmCC");
+    background-color: rgb(243, 243, 243);
+}
+
 iframe {
 	width: 100% !important;
 }
@@ -1680,10 +1690,23 @@ a.rconnect {
   color: $nav_active_icon_colour;
   text-decoration: none;
   outline: none;
+  text-align: center;
 }
 
 a.rconnect:hover {
 	color: #0080FF;
+}
+
+a.rateme, div.rateme {
+    display: block;
+    color: #FFF;
+    background-color: #222;
+    border-radius: 0px 10px 0px 10px;
+    border: 1px solid #222;
+    padding: 5px;
+    font-weight: bold;
+    clear: both;
+    text-align: center;
 }
 
 #profiles-menu li a {
@@ -2315,8 +2338,8 @@ img.mail-list-sender-photo {
 
 nav i {
 	font-size: 14px;
-	text-shadow: 1px 1px 0px #AAB3DB;
-	color: rgba(48, 46, 90, 1);
+	text-shadow: 1px 1px 0px #000;
+	color: #FFF;
 }
 
 nav a:active {
@@ -2324,7 +2347,7 @@ nav a:active {
 }
 
 nav i:hover {
-	color: #FFF;
+	color: #888;
 	text-shadow: 1px 1px 0px #000;
 }
 
@@ -2555,9 +2578,9 @@ span.wall-item-name {
 	border-bottom:1px solid $navtabs_borderc;
 }
 
-.nav-tabs>li.active>a,.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:focus{
-	color: $navtabs_fontcolour;
-	background-color: $navtabs_bgcolour; 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #555;
+    background-color: #FEFEFE;
 }
 
 .nav-tabs.nav-justified>.active>a,.nav-tabs.nav-justified>.active>a:hover,.nav-tabs.nav-justified>.active>a:focus{
@@ -2565,7 +2588,8 @@ span.wall-item-name {
 }
 
 .nav-tabs.nav-justified > li > a {
-	$navtabs_linkcolour
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-radius: 4px 4px 0px 0px;
 }
 
 .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
@@ -2589,6 +2613,7 @@ span.wall-item-name {
 
 .btn {
 	font-size: $body_font_size;
+    border-radius: 0px 10px 0px 10px;
 
 }
 
