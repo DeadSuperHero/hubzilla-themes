@@ -716,10 +716,11 @@ aside li {
 	color: #FF0000;
 }
 
-.photo, .contact-block-img {
-    border-radius: $radiuspx;
-    -moz-border-radius: $radiuspx;
-    box-shadow: $shadowpx $shadowpx $shadowpx 0 #444444;
+.contact-block-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 0px 10px 0px 10px;
+    border: 1px solid #AAA;
 }
 
 #side-bar-photos-albums {
@@ -2185,9 +2186,8 @@ img.mail-list-sender-photo {
 }
 
 .wall-item-photo {
-    border-radius: $radiuspx;
-    -moz-border-radius: $radiuspx;
-    box-shadow: $shadowpx $shadowpx $shadowpx 0 #444444;
+	border-radius: 0px 10px 0px 10px;
+	box-shadow: none;
 }
 
 .wall-item-ago .icon-ok {
@@ -2326,11 +2326,11 @@ img.mail-list-sender-photo {
 }
 
 .chat-item-photo {
-	border-radius: $radiuspx;
+	border-radius: 0px 10px 0px 10px;
 }
 
 .chat-item-text {
-	border-radius: $radiuspx;
+	border-radius: 0px 10px 0px 10px;
 	background-color: #eee;
 }
 
@@ -2454,10 +2454,11 @@ span.wall-item-name {
 }
 
 .wall-item-content img {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 39%;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
 }
 
 .wall-item-outside-wrapper, .wall-item-outside0-wrapper shiny {
