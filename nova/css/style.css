@@ -6,6 +6,20 @@
  */
 
 
+video#bgvid { 
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -100;
+	background: url(../images/peoria.jpg) no-repeat;
+	background-size: cover; 
+}
+
+
 /* generals */
 html {
 	height: 100%;
@@ -64,6 +78,13 @@ span.item.app {
 	border: 1px solid #cecece;
 }
 
+.generic-content-wrapper {
+	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	border: 1px solid #C5C5C5;
+	border-radius: 4px;
+	padding: 10px;
+}
+
 img.smiley {
 	width: 20px !important;
 }
@@ -109,11 +130,7 @@ a:hover, .fakelink:hover { color: $link_colour; text-decoration: underline; }
 .section-title-wrapper {
 	padding: 7px 10px;
 	background-color: rgba(255, 255, 255, 0.8);
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
 	margin-bottom: 0px;
-	border: 1px solid #CCC;
-	border-bottom: none;
 }
 
 #photo-view-wrapper, #photo-edit-edit {
@@ -269,7 +286,6 @@ header #banner {
 	font-weight: 100;
 	margin-top: 0.6em;
 	text-shadow: 1px 1px 5px #000;
-	display: none;
 }
 
 header #banner a,
@@ -686,7 +702,7 @@ aside li {
     background: url("http://i.imgur.com/5VfgQGu.jpg") no-repeat scroll 0% 0% / cover transparent;
     margin: 0px;
     padding: 0px;
-    height: 53em;
+    height: 85em;
 }
 
 #one.slide h3 {
@@ -2578,11 +2594,10 @@ span.wall-item-name {
 }
 
 .navbar-inverse {
-    background: none repeat scroll 0% 0% #78437D;
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAADklEQVQImWNgQAW+ZHAAJ14BNVd0PgAAAAAASUVORK5CYII=");
-    border-color: #000;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAADklEQVQImWNgQAW+ZHAAJ14BNVd0PgAAAAAASUVORK5CYII=") repeat scroll 0% 0% #78437D;
+    border: none;
     height: 3.9em;
-    box-shadow: 0px 0px 6px rgba(101, 100, 100, 1);
+    box-shadow: none;
 }
 
 .navbar-inverse .navbar-collapse {
