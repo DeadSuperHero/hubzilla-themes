@@ -48,7 +48,7 @@ video#bgvid, video #bgvid {
 	min-width: 100%; 
 	min-height: 100%;
 	width: auto; 
-	height: auto; 
+	height: 70em; 
 	z-index: -100;
 	background: url(assets/peoria.jpg) no-repeat;
 	background-size: cover; 
@@ -2095,9 +2095,9 @@ text-decoration: none;
 }
 
 .jumbotron h2, .jumbotron .h2 {
-    color: inherit;
-	margin-top: -0.4em;
-	color: #fff;
+	margin-top: -1.2em;
+	color: #FFF;
+	text-shadow: 1px 1px 4px #000;
 }
 
 /* message */
