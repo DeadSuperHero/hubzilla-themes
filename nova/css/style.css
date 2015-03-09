@@ -15,7 +15,7 @@ video#bgvid {
 	width: auto; 
 	height: auto; 
 	z-index: -100;
-	background: url(../images/peoria.jpg) no-repeat;
+	background: url(assets/peoria.jpg) no-repeat;
 	background-size: cover; 
 }
 
