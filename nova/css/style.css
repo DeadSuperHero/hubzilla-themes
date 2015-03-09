@@ -2089,13 +2089,15 @@ text-decoration: none;
 }
 
 .jumbotron h1, .jumbotron .h1 {
-    color: inherit;
-    margin-bottom: 0em;
+	font-size: 100px;
+	color: #fff;
+	text-shadow: 2px 2px 6px #000;
 }
 
 .jumbotron h2, .jumbotron .h2 {
     color: inherit;
 	margin-top: -0.4em;
+	color: #fff;
 }
 
 /* message */
