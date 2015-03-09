@@ -6,20 +6,6 @@
  */
 
 
-video#bgvid, video #bgvid { 
-	position: fixed; 
-	right: 0; 
-	bottom: 0;
-	min-width: 100%; 
-	min-height: 100%;
-	width: auto; 
-	height: auto; 
-	z-index: -100;
-	background: url(assets/peoria.jpg) no-repeat;
-	background-size: cover; 
-}
-
-
 /* generals */
 html {
 	height: 100%;
@@ -53,6 +39,19 @@ main {
 
 iframe {
 	width: 100% !important;
+}
+
+video#bgvid, video #bgvid { 
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -100;
+	background: url(assets/peoria.jpg) no-repeat;
+	background-size: cover; 
 }
 
 span.oembed.video {
