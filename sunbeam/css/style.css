@@ -80,7 +80,7 @@ img.smiley {
 	width: 20px !important;
 }
 
-.jslider {
+.jd {
 	font-family: Helvetica,freesans,sans-serif;
 }
 
@@ -1740,6 +1740,22 @@ div.jGrowl div.jGrowl-notification {
 	width: 90%;
 }
 
+#main-slider {
+	position: relative;
+	width: 100%;
+	background: none repeat scroll 0% 0% white;
+	border: 1px solid rgb(194, 194, 194);
+	padding: 2em 3em 3em;
+	border-radius: 0.3em;
+	margin-bottom: 1em;
+}
+
+.theme-green .back-bar .selected-bar {
+    background-color: #000;
+    background-image: none;
+    width: 100%;
+}
+
 a.rconnect {
   color: $nav_active_icon_colour;
   text-decoration: none;
@@ -2193,12 +2209,13 @@ span.mail-list {
 .wall-item-content-wrapper {
 	border-top-right-radius: 0.8em;
 	border-top-left-radius: 0.8em;
-    background-color: #FFF;
-    border-width: 4px 1px medium;
-    border-style: solid solid none;
-    border-color: #72A86A #BFBFBF;
-    border-image: none;
-    margin-bottom: -3px;
+	background-color: #FFF;
+	border-width: 4px 1px medium;
+	border-style: solid solid none;
+	border-color: #72A86A #BFBFBF;
+	border-image: none;
+	margin-bottom: -3px;
+	margin-top: 2em;
 }
 
 .comment .wall-item-body {
@@ -2206,11 +2223,19 @@ span.mail-list {
 }
 
 .wall-item-content-wrapper.comment {
-    background-color: #F6F7F8;
-    border-radius: 0px;
-    padding: 7px 10px 7px 7px;
-    border: 1px solid #CCC;
-    border-top: none;
+	background-color: #F6F7F8;
+	border-radius: 0px;
+	padding: 7px 10px 7px 7px;
+	border-right: 1px solid #CCC;
+	border-width: medium 1px 1px;
+	border-style: none solid solid;
+	border-color: -moz-use-text-color #CCC #CCC;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	margin-top: 0em;
 }
 
 .wall-item-body strong {

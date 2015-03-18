@@ -51,7 +51,8 @@ video#bgvid, video #bgvid {
 	height: 70em; 
 	z-index: -100;
 	background: url(assets/peoria.jpg) no-repeat;
-	background-size: cover; 
+	background-size: cover;
+	opacity: 0.6;
 }
 
 span.oembed.video {
