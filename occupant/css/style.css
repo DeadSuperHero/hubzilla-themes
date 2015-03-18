@@ -2414,6 +2414,7 @@ span.mail-list {
     border-color: rgb(245, 245, 245) rgb(191, 191, 191);
     border-top-right-radius: 0.6em;
     border-top: 1px solid #B6B6B6;
+    margin-top: 1em;
 }
 
 .comment .wall-item-body {
@@ -2427,6 +2428,7 @@ span.mail-list {
     border-bottom: 0px solid rgba(238, 238, 238, 0.8);
     border-radius: 0px;
     padding: 7px 10px 7px 7px;
+    margin-top: 0;
 }
 
 .wall-item-body strong {
