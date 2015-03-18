@@ -108,10 +108,13 @@ video {
 #box-inner.channels {
 	box-shadow: none;
 	margin-bottom: -3em;
-	background-image: url("https://i.imgur.com/swkxTZt.png");
 	background-color: transparent;
 	background-repeat: no-repeat;
 	background-size: contain;
+}
+
+#box-inner img {
+	max-width: 100%;
 }
 
 #box-outer h2 {
