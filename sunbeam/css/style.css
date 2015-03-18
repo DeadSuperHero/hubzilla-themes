@@ -1753,7 +1753,7 @@ div.jGrowl div.jGrowl-notification {
 .theme-green .back-bar .selected-bar {
     background-color: #000;
     background-image: none;
-    width: 100%;
+    width: 100% !important;
 }
 
 a.rconnect {
