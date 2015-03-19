@@ -1748,12 +1748,13 @@ div.jGrowl div.jGrowl-notification {
 	border-radius: 0.3em;
 	margin-bottom: 1em;
 	left: 0 !important;
+	width: 100%;
 }
 
 .theme-green .back-bar .selected-bar {
     background-color: #000;
     background-image: none;
-    width: 100% !important;
+    max-width: 100%;
 }
 
 a.rconnect {
