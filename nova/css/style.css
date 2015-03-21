@@ -406,7 +406,7 @@ aside li {
 #main-login #id_username, #main-login #id_password {
     padding: 10px;
     float: left;
-    width: 80%;
+    width: 84.6%;
 }
 
 #main-login #id_remember {
@@ -419,7 +419,6 @@ aside li {
 }
 
 #main-login .field.checkbox label {
-	margin-top: 15px;
 	margin-bottom: 0;
 	float: left;
 	width: 100px;
@@ -2268,6 +2267,7 @@ img.mail-list-sender-photo {
     border: 1px solid rgba(191, 191, 191, 1);
     border-bottom: none;
     margin-bottom: -3px;
+    margin-top: 1em;
 }
 
 .comment .wall-item-body {
@@ -2280,6 +2280,7 @@ img.mail-list-sender-photo {
     padding: 7px 10px 7px 7px;
     border: 1px solid #CCC;
     border-top: none;
+    margin-top: 0;
 }
 
 .wall-item-body strong {
@@ -2690,9 +2691,8 @@ span.wall-item-name {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-	background-image: -webkit-linear-gradient(to bottom, #263555 0%, #44619D 100%);
-	background-image: linear-gradient(to bottom, #263555 0%, #44619D 100%);
-	color: white;
+	background-image: linear-gradient(to bottom, #2E1236 0%, #723E80 100%);
+	color: #FFF;
 }
 
 .navbar-inverse .navbar-toggle {
