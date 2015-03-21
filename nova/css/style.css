@@ -457,6 +457,62 @@ aside li {
 	float: left;
 	margin-left: 100px;
 }
+
+#register-form {
+	font-size: 1.4em;
+	margin-left: auto;
+	margin-top: 5%;
+	background: #fff;
+	max-width: 60%;
+	margin-right: auto;
+	padding: 1em;
+	border: 1px solid #B3B3B3;
+	border-radius: 0em 0.5em 0em 0.5em;
+}
+
+#register-submit-button {
+	width: 100%;
+	background-color: #614077;
+	border: 1px solid #3A2047;
+	box-shadow: 1px 1px 1px #B446C0 inset;
+	color: #fff;
+	text-shadow: 1px 1px 0px #000;
+}
+
+label#label-register-tos {
+	font-size: 0.7em;
+	font-weight: 600;
+	color: #606060;
+}
+
+.register-label {
+    float: left;
+    width: 210px;
+    font-size: 0.8em;
+    font-weight: 600;
+    top: 0.4em;
+    position: relative;
+}
+
+.register-input {
+	width: 74.5%;
+	border-radius: 0;
+}
+
+#register-desc, #register-text, #register-sites {
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 8px;
+    border: none;
+    text-align: center;
+}
+
+#register-sites {
+	margin-top: -1.2em;
+	font-size: 0.7em;
+	padding-bottom: 1em;
+}
+
 #lost-password-link {
 	float: right;
 }
