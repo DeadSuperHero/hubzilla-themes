@@ -208,6 +208,10 @@ abbr {
 	border-bottom: none;
 }
 
+#help-content section h2 {
+	text-align: left !important;
+}
+
 /* icons */
 .icon {
   background-color: transparent ;
@@ -565,7 +569,7 @@ aside li {
 #main-login .field.input label, #main-login .field.password label {
     float: left;
     width: 100px;
-    top: 1em;
+    top: 0em;
     position: relative;
 }
 
@@ -576,17 +580,17 @@ aside li {
 
 .onoffswitch-switch {
     display: block;
-    width: 25px;
+    width: 20px;
     margin: 0% 6px;
     background: none repeat scroll 0% 0% #A1A1A1;
     border: 2px solid #999;
     border-radius: 20px;
     position: absolute;
-    top: 0px;
+    top: 1px;
     bottom: 0px;
     right: 36px;
     transition: all 0.3s ease-in 0s;
-    height: 2em;
+    height: 1.7em;
 }
 
 #login_standard {
@@ -628,6 +632,7 @@ aside li {
     width: 275px;
     padding: 5px;
     border-radius: 6em;
+    width: 65%;
 }
 
 #register-desc, #register-text, #register-sites {
@@ -650,6 +655,11 @@ input#register-password-2.register_input {
 
 #lost-password-link {
 	float: right;
+}
+
+#login-main {
+	max-width: 100% !important;
+	margin-top: 0;
 }
 
 #login-standard-end {

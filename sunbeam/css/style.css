@@ -1749,6 +1749,7 @@ div.jGrowl div.jGrowl-notification {
 	margin-bottom: 1em;
 	left: 0 !important;
 	width: 100%;
+	margin-left: 0;
 }
 
 .theme-green .back-bar .selected-bar {
