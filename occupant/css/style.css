@@ -360,12 +360,52 @@ nav {
 	text-align: left;
 }
 
+section {
+    display: block;
+    min-height: 112px;
+    margin: 0;
+}
+
 .error-message {
 	color: #FF0000;
 	font-size: 1.1em;
 	border: 1px solid #FF8888;
 	background-color: #FFEEEE;
 	padding: 10px;
+}
+
+#newchannel-form {
+    font-size: 1.4em;
+    margin-top: 20px;
+    width: 50%;
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+    padding: 1em;
+    margin-left: auto;
+    border-radius: 0.3em;
+    border: 1px solid rgb(195, 195, 195);
+    margin-right: auto;
+}
+
+input#newchannel-submit-button {
+	width: 100%;
+}
+
+#newchannel-form .descriptive-paragraph {
+    color: #888;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    font-size: 0.7em;
+}
+
+.tourbus-leg-inner {
+    padding: 20px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    border-radius: 0.3em;
+    box-shadow: 0px 0px 2px #000;
+    border: 1px solid #fff;
+    opacity: 1;
 }
 
 .info-message {
@@ -3013,7 +3053,9 @@ section#region_2 {
 
 section h2 {
 	text-align: center;
-	width: 90%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .well {
