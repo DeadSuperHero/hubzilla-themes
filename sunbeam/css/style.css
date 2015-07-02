@@ -55,12 +55,12 @@ span.item.app, span .item.app {
 }
 
 .generic-content-wrapper {
-	background: #fff;
-	border: 1px solid #BDBBBB;
-	padding: 1em;
-	border-top: 3px solid #71C571;
-	border-top-left-radius: 1.5em;
-	border-top-right-radius: 1.5em;
+  background: #fff;
+  border: 1px solid #BDBBBB;
+  padding: 1em 0em 0em 0em;
+  border-top: 3px solid #71C571;
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
 }
 
 .mail-conv-detail {
@@ -138,9 +138,11 @@ a:hover, .fakelink:hover { color: $link_colour; text-decoration: underline; }
     padding: 7px 10px;
     border-radius: 0px;
     margin-top: 0px;
-    border: 1px solid #CCC;
     border-top: none;
+    background: #F6F7F8;
+    border-bottom: 1px solid #ccc;
 }
+
 
 input[type="text"],
 input[type="password"],
@@ -2217,19 +2219,12 @@ span.mail-list {
 }
 
 .wall-item-content-wrapper.comment {
-	background-color: #F6F7F8;
-	border-radius: 0px;
-	padding: 7px 10px 7px 7px;
-	border-right: 1px solid #CCC;
-	border-width: medium 1px 1px;
-	border-style: none solid solid;
-	border-color: -moz-use-text-color #CCC #CCC;
-	-moz-border-top-colors: none;
-	-moz-border-right-colors: none;
-	-moz-border-bottom-colors: none;
-	-moz-border-left-colors: none;
-	border-image: none;
-	margin-top: 0em;
+  background-color: #F6F7F8;
+  border-radius: 0px;
+  padding: 7px 10px 8px 10px;
+  border-image: none;
+  margin-top: 0em;
+  width: 100%;
 }
 
 .wall-item-body strong {
@@ -2247,18 +2242,17 @@ span.mail-list {
 	border-radius: 0px;
 }
 
+.hide-comments-outer, .thread-wrapper .wall-item-comment-wrapper, .wall-item-content-wrapper.comment {
+  background: #F6F7F8;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
 .hide-comments-outer:hover {
 	border-top: 1px dashed #adadad;
 }
 
-.wall-item-comment-wrapper {
-	padding: 7px 10px;
-	background-color: $item_colour;
-	border-radius: 0px;
-	border-bottom-right-radius: $radiuspx;
-	border-bottom-left-radius: $radiuspx;
-	margin-top: 3px;
-}
 
 .wall-item-comment-wrapper-wc {
 	margin-top: 0px;
