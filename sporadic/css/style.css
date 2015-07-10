@@ -2147,9 +2147,6 @@ img.mail-list-sender-photo {
 	  white-space: nowrap;
 	  overflow: hidden;
 	  text-overflow: ellipsis;
-	  display: inline-block;
-	  float: left;
-	  margin-right: 1em;
 }
 
 .wall-item-ago .icon-ok {
@@ -2159,8 +2156,6 @@ img.mail-list-sender-photo {
 .wall-item-ago {
 	  color: #939393;
 	  font-size: 0.9em;
-	  display: inline-block;
-	  float: left;
 }
 
 .wall-item-ago i {
