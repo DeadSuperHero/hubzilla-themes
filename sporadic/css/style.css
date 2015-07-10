@@ -530,13 +530,15 @@ aside li {
 	margin-top: 15px;
 }
 
+#profile-photo-wrapper {
+	margin-top: 1px	;
+}
 
 #profile-photo-wrapper img {
-	width: 200px;
-	height: auto;
-	padding: 0;
-	border-radius: 0;
-	border: none;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #B2B2B2;
+  padding-bottom: 10px;
 }
 
 #profile-in-dir-yes-label,
@@ -2546,6 +2548,15 @@ span.wall-item-name {
 
 .nav-tabs.nav-justified>.active>a,.nav-tabs.nav-justified>.active>a:hover,.nav-tabs.nav-justified>.active>a:focus{
 	border:1px solid $navtabs_borderc;
+}
+
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+  border-bottom-color: rgb(6, 123, 255);
+  border-width: 4px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-radius: 0px
 }
 
 .nav-tabs.nav-justified > li > a {
