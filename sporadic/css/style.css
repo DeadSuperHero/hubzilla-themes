@@ -1,7 +1,7 @@
 **
  * Sporadic
  *
- * Based on redbasic
+ * A Diaspora imitation theme based on redbasic
  * by Sean Tilley <sean@deadsuperhero.com>
  */
 
@@ -25,12 +25,6 @@ body {
     color: #4D4D4D;
     margin: 0px;
     height: 100%;
-}
-
-main {
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 iframe {
@@ -207,7 +201,7 @@ header {
 	display: inline-block !important;
 	font-weight: bold;
 	color: #808080;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 
@@ -933,7 +927,7 @@ aside li {
 	border-color: #1B1B1B;
 	background-color: #565656;
 	transition: background-color 300ms ease 0s;
-	box-shadow: 1px 1px 8px #000 inset;
+	box-shadow: 0px 1px 1px #4D4C4C;
 	color: white;
 }
 
@@ -2122,8 +2116,8 @@ img.mail-list-sender-photo {
 
 .wall-item-photo {
 	border: none;
-	width: $top_photo !important;
-	height: $top_photo !important;
+	width: 50px !important;
+	height: 50px !important;
 
 }
 
@@ -2133,9 +2127,19 @@ img.mail-list-sender-photo {
 }
 
 .wall-item-photo {
-	border-radius: 0px;
-	-moz-border-radius: 0px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
 	box-shadow: none
+}
+
+
+.wall-item-author {
+	  white-space: nowrap;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  display: inline-block;
+	  float: left;
+	  margin-right: 1em;
 }
 
 .wall-item-ago .icon-ok {
@@ -2143,8 +2147,10 @@ img.mail-list-sender-photo {
 }
 
 .wall-item-ago {
-	color: #777;
-	font-size: 0.833em;
+	  color: #939393;
+	  font-size: 0.9em;
+	  display: inline-block;
+	  float: left;
 }
 
 .wall-item-ago i {
@@ -2463,13 +2469,13 @@ span.wall-item-name {
 	background-color: #F8F8F8;
 	border-color: #232D44;
 	height: 3.9em;
-	background-image: linear-gradient(to bottom, #4A4A4A 0%, #2D2D2D 30%);
+	background-image: linear-gradient(to bottom, #2D2D2D 0%, #2D2D2D 30%);
 }
 
 .navbar-inverse .navbar-collapse {
 	border-color: black;
 	background: rgb(103, 103, 103);
-	background-image: linear-gradient(to bottom, #4A4A4A 0%, #2D2D2D 30%);
+	background-image: linear-gradient(to bottom, #2D2D2D 0%, #2D2D2D 30%);
 }
 
 .navbar-inverse .navbar-nav > .active > a {
