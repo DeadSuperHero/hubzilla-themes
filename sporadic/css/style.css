@@ -2087,6 +2087,7 @@ img.mail-list-sender-photo {
 	border-left: none;
 	border-right: none;
 	border-top: none;
+	margin-left: 2em;
 }
 
 .wall-item-body strong {
@@ -2622,14 +2623,19 @@ span.wall-item-name {
 	background-image: linear-gradient(to bottom, $alert_bgcolour 0px, $alert_gradientcol 100%);
 }
 
-section#region_2 {
-	width: 85em;
-	padding-left: 2em;
-}
-
 aside#region_1 {
 	border-right: 1px solid #DDD;
 	background: rgb(240,240,240)
+}
+
+section#region_2 {
+	max-width: 85em;
+	padding-left: 2em;
+}
+
+aside#region_3 {
+	border-left: 1px solid #DDD;
+ 	background: rgb(240,240,240);
 }
 
 .well {
@@ -2642,6 +2648,7 @@ aside#region_1 {
 	aside#region_1 {
 		background: rgb(240, 240, 240);
 		border-right: 1px solid $nav_bd;
+		width: 30%;
 	}
 
 	section#region_2 {
