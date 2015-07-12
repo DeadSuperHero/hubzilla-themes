@@ -127,15 +127,16 @@ pre code {
 }
 
 code {
-	font-family: Courier, monospace;
-	font-size: 1em;
-	display: block;
-	overflow: auto;
-	color: white;
-	padding: 10px;
-	margin-top: 20px;
-	background: linear-gradient(to bottom, #393A3C 0%, #5A5A5A 100%);
-	box-shadow: 1px 1px 5px rgb(161, 161, 161) inset;
+  font-family: Courier, monospace;
+  font-size: 1em;
+  display: block;	
+  overflow: auto;
+  color: black;
+  padding: 10px;
+  margin-top: 20px;
+  background: #E4E4E4;
+  border-radius: 5px;
+  border: 2px solid #888;
 }
 
 pre {
@@ -531,9 +532,12 @@ aside li {
 }
 
 #profile-photo-wrapper {
-	margin-top: 1px	;
-	margin-bottom: 10px;
-    border-bottom: 1px dashed #B2B2B2;
+  width: 100%;
+  height: auto;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 #profile-photo-wrapper img {
@@ -2565,9 +2569,9 @@ span.wall-item-name {
 }
 
 .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
-  border-bottom-color: rgb(6, 123, 255);
-  border-width: 4px;
-  border-radius: 0px
+	border-bottom-color: transparent;
+	border-width: 1px;
+	border-radius: 0px;
 }
 
 .nav-tabs.nav-justified > li > a {
@@ -2575,8 +2579,8 @@ span.wall-item-name {
 }
 
 .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
-    	text-decoration: $navtabs_decohover;
-    	background-color: $navtabs_bgchover;
+    text-decoration: $navtabs_decohover;
+    background-color: $navtabs_bgchover;
 	border-color: transparent;
 	$navtabs_linkchover
 }
