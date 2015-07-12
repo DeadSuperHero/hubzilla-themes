@@ -218,14 +218,12 @@ nav #banner #logo-text a:hover { text-decoration: none; }
 .nav-channel-select { margin-left: 8px; }
 
 header #banner {
-	text-align: center;
-	font-size: 1.4em;
-	font-family: Helvetica, sans-serif;
-	color: white;
-	font-weight: 100;
-	margin-top: 0.6em;
-	text-shadow: 1px 1px 5px #000;
-	display: none;
+  text-align: center;
+  font-size: 1.6em;
+  color: white;
+  margin-top: 0.6em;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
 header #banner a,
