@@ -2651,11 +2651,24 @@ aside#region_3 {
 	background-image: linear-gradient(to bottom, $advperm_gradientcol 0px, $advperm_bgcolour 100%);
 }
 
+
+@media screen and (max-width: 430px) {
+	aside#region_1 {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 691px) {
+	aside#region_1 {
+		width: 30%;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	aside#region_1 {
 		background: rgb(240, 240, 240);
 		border-right: 1px solid $nav_bd;
-		width: 49%;
+		width: 50%;
 	}
 
 	section#region_2 {
