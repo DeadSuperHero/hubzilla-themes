@@ -2650,10 +2650,13 @@ aside#region_3 {
 	background-image: linear-gradient(to bottom, $advperm_gradientcol 0px, $advperm_bgcolour 100%);
 }
 
-
 @media screen and (max-width: 430px) {
 	aside#region_1 {
 		width: 50%;
+	}
+
+	section#region_2 {
+		width: 88%;
 	}
 }
 
