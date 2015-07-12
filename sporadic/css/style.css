@@ -2063,6 +2063,7 @@ img.mail-list-sender-photo {
 .wall-item-content-wrapper.comment {
 	background: none;
 	border: none;
+	margin-left: 2em;
 }
 
 .thread-wrapper.toplevel_item {
@@ -2650,7 +2651,7 @@ aside#region_3 {
 	aside#region_1 {
 		background: rgb(240, 240, 240);
 		border-right: 1px solid $nav_bd;
-		width: 30%;
+		width: 49%;
 	}
 
 	section#region_2 {
