@@ -545,6 +545,7 @@ aside li {
   border-radius: 7px;
   border: 1px solid #9D9D9D;
   box-shadow: 1px 1px 3px #FFF;
+  height: auto;
 }
 
 #profile-in-dir-yes-label,
