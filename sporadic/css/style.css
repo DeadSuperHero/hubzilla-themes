@@ -698,6 +698,10 @@ aside li {
 	height: $top_photo !important;
 }
 
+.profile-match-connect .btn-default {
+	width: 100%;
+}
+
 #sidebar-page-list .label {
     margin-left: 5px;
 }
@@ -1147,13 +1151,15 @@ aside li {
 }
 
 .profile-match-photo {
-	float: left;
+  float: none;
+  text-align: center;
 }
 
 .profile-match-name {
-	width: 120px;
-	height: 1.5em;
-	overflow: hidden !important;
+  width: 100%;
+  height: 1.5em;
+  overflow: hidden !important;
+  text-align: center;
 }
 
 .profile-match-note {
