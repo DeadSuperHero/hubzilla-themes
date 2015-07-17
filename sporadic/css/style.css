@@ -2104,7 +2104,6 @@ img.mail-list-sender-photo {
 .wall-item-content-wrapper {
 	background-color: #FFF;
 	border: none;
-	border-bottom: 1px solid #D7D7D7;
 }
 
 .comment .wall-item-body {
@@ -2134,14 +2133,18 @@ img.mail-list-sender-photo {
 }
 
 .hide-comments-outer {
-	border-bottom: 1px solid #ccc;
-	text-align: center;
-	border-radius: 0px;
-	padding: 0.5em;
-	color: #919191;
+  text-align: center;
+  border-radius: 0px;
+  padding: 0.5em;
+  color: #919191;
+  border-top: none;
+  border-left: none;
+  background: transparent;
+  border-bottom: 1px solid #EDEDED;
 }
 
 .hide-comments-outer:hover {
+	border-bottom: 1px solid #EDEDED;
 }
 
 .wall-item-comment-wrapper {
