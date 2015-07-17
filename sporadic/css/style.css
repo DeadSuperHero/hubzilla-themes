@@ -205,6 +205,13 @@ header {
 	font-size: 1.1em;
 }
 
+.widget .nav>li>a:hover {
+	display: inline-block !important;
+	font-weight: bold;
+	color: #fff;
+	background-color: #3F3F3F;
+	font-size: 1.1em;
+}
 
 nav #banner #logo-text a {
 	font-size: 40px;
@@ -826,8 +833,6 @@ aside li {
 	clear: both;
 	text-align: center;
 	font-weight: bold;
-	box-shadow: 2px 2px 6px #9C9BC5 inset;
-	background-image: linear-gradient(to bottom, #4D69A2 35%, #3B5998 78%);
 }
 
 #pause {
@@ -1177,14 +1182,15 @@ aside li {
 }
 
 .profile-match-wrapper {
-    float: left;
-    width: 120px;
-    height: 150px;
-    padding: 10px;
-    margin: 8px 10px 0 0;
-    border-top: 1px solid #eee;
-    border-left: 2px solid #eee;
+  float: left;
+  width: 120px;
+  height: 100px;
+  padding: 10px;
+  margin: 29px 10px 0 0;
+  border-top: none;
+  border-left: none;
 }
+
 .profile-match-ignore {
 	float: right;
 }
@@ -1666,6 +1672,11 @@ a.rconnect {
 a.rconnect:hover {
 	color: #0080FF;
 }
+
+a.rateme, div.rateme {
+  text-align: center;
+}
+
 
 #profiles-menu li a {
 	color: #ffffff;
