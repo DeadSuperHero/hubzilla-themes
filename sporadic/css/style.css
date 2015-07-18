@@ -2484,7 +2484,7 @@ nav .dropdown-menu>li>a:hover,nav .dropdown-menu>li>a:focus{
 blockquote {
   font-size: 1em;
   padding: 0 0 0 15px;
-  margin: 0px 0 -10px;
+  margin: 0px 0px 0px;
   border-left: 5px solid #eee;
   font-style: normal;
   font-weight: 400;
@@ -2721,6 +2721,7 @@ aside#region_1 {
 section#region_2 {
 	max-width: 85em;
 	padding-left: 2em;
+	padding-right: 2em;
 }
 
 aside#region_3 {
