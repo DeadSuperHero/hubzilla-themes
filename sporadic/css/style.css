@@ -27,6 +27,10 @@ body {
     height: 100%;
 }
 
+main {
+	max-width: none !important;
+}
+
 iframe {
 	width: 100% !important;
 }
@@ -1206,6 +1210,14 @@ aside li {
   border-top: none;
   border-left: none;
   text-align: center;
+}
+
+#remote-friends-in-common {
+	text-align: center;
+}
+
+#remote-friends-in-common .profile-match-wrapper {
+	  width: 20%;
 }
 
 .profile-match-ignore {
@@ -2712,8 +2724,9 @@ section#region_2 {
 }
 
 aside#region_3 {
-	border-left: 1px solid #DDD;
- 	background: rgb(240,240,240);
+  border-left: 1px solid #DDD;
+  background: rgb(240,240,240);
+  width: 25%;
 }
 
 .well {
