@@ -544,7 +544,11 @@ aside li {
   margin-bottom: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 0.04em 0.04em 0.08em 0.02em;
+  padding: 0.3em;
+}
+
+#profile-photo-wrapper img.photo {
+	border: 1px solid rgb(182, 182, 182);
 }
 
 #profile-photo-wrapper img {
