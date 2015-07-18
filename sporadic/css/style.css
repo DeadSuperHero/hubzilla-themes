@@ -206,11 +206,12 @@ header {
 }
 
 .widget .nav>li>a:hover {
-	display: inline-block !important;
-	font-weight: bold;
-	color: #fff;
-	background-color: #3F3F3F;
-	font-size: 1.1em;
+  display: inline-block !important;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3F3F3F;
+  font-size: 1.1em;
+  text-shadow: none;
 }
 
 nav #banner #logo-text a {
@@ -539,17 +540,14 @@ aside li {
 #profile-photo-wrapper {
   width: 100%;
   height: auto;
-  margin-top: -10px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 5px;
+  padding: 0.04em 0.2em 0.2em 0.02em;
 }
 
 #profile-photo-wrapper img {
-  margin-top: 1px;
-  border-radius: 7px;
-  border: 1px solid #9D9D9D;
-  box-shadow: 1px 1px 3px #FFF;
   height: auto;
 }
 
@@ -693,9 +691,10 @@ aside li {
 }
 
 #side-bar-photos-albums {
-	margin-top: 15px;
-	background-color: white;
-	border: 1px solid #CFCFCF;
+  margin-top: 15px;
+  background-color: transparent;
+  border: none;
+  text-shadow: 1px 1px 0px #fff;
 }
 
 #side-bar-photos-albums ul {
@@ -2111,14 +2110,14 @@ img.mail-list-sender-photo {
 }
 
 .wall-item-content-wrapper.comment {
-	background-color: #FFFFFF;
-	border-radius: 0px;
-	padding: 7px 10px 7px 7px;
-	border: 1px dotted #CCC;
-	border-left: none;
-	border-right: none;
-	border-top: none;
-	margin-left: 3em;
+  background-color: #FFFFFF;
+  border-radius: 0px;
+  padding: 7px 10px 7px 7px;
+  border: 1px solid #E2E2E2;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-left: 3em;
 }
 
 .wall-item-body strong {
@@ -2144,7 +2143,7 @@ img.mail-list-sender-photo {
 }
 
 .hide-comments-outer:hover {
-	border-bottom: 1px solid #EDEDED;
+	border: none;
 }
 
 .wall-item-comment-wrapper {
@@ -2277,7 +2276,7 @@ img.mail-list-sender-photo {
 }
 
 .divgrow-showmore:hover {
-	border-top: 1px dashed #adadad;
+	border-top: none;
 	text-decoration: underline;
 }
 
@@ -2290,6 +2289,7 @@ img.mail-list-sender-photo {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
+  text-shadow: 1px 1px 1px #fff;
 }
 
 .widget h3 {
@@ -2298,6 +2298,7 @@ img.mail-list-sender-photo {
 	font-size: 1.1em;
 	font-weight: bold;
 	color: #696969 !important;
+	text-shadow: 1px 1px 1px #fff;
 }
 
 #note-text {
@@ -2594,6 +2595,11 @@ span.wall-item-name {
 	margin-bottom: 25px;
 	border-top: none;
 	box-shadow: none;
+}
+
+.nav-pills>li>a>.badge {
+  margin-left: 3px;
+  text-shadow: none;
 }
 
 .nav-tabs{
