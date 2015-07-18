@@ -3,7 +3,7 @@
 /**
  *   * Name: Sporadic
  *   * Description: A Diaspora-like theme based on redbasic
- *   * Version: 1.9
+ *   * Version: 2.0
  *   * Author: Sean Tilley
  *   * Compat: Red [*]
  *
