@@ -544,7 +544,7 @@ aside li {
   margin-bottom: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 0.04em 0.2em 0.2em 0.02em;
+  padding: 0.04em 0.04em 0.08em 0.02em;
 }
 
 #profile-photo-wrapper img {
@@ -1072,8 +1072,13 @@ aside li {
 	margin-right: 10px;
 }
 
+#export-event-link {
+  display: inline-block;
+}
+
 #new-event-link {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
 }
 
 .edit-event-link, .plink-event-link {
@@ -1991,9 +1996,24 @@ text-decoration: none;
 
 /* message */
 
+.mail-conv-sender {
+	 text-align: center;
+}
+
 img.mail-list-sender-photo {
-	-moz-border-radius: $radiuspx;
-	border-radius: $radiuspx;
+  border-radius: 4px;
+}
+
+.mail-conv-detail {
+	  width: 100%;
+}
+
+input#prvmail-subject {
+	width: 100%;
+}
+
+textarea#prvmail-text {
+	width: 100%;
 }
 
 /* jot */
@@ -2143,7 +2163,7 @@ img.mail-list-sender-photo {
 }
 
 .hide-comments-outer:hover {
-	border: none;
+	border-top: none;
 }
 
 .wall-item-comment-wrapper {
