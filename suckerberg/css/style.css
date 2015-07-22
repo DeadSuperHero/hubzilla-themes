@@ -31,6 +31,11 @@ iframe {
 	width: 100% !important;
 }
 
+main {
+	margin-left: auto;
+    margin-right: auto;
+}
+
 span.oembed.video {
 	display: inline-block;
 	text-align: left;
@@ -572,11 +577,19 @@ aside li {
 	margin-top: 15px;
 }
 
+#profile-photo-wrapper {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.2em;
+}
+
 
 #profile-photo-wrapper img {
-    width: 197px;
-    height: 197px;
     padding: 3px;
+    border: none;
 }
 
 #profile-in-dir-yes-label,
@@ -2624,8 +2637,12 @@ span.wall-item-name {
 	background-image: linear-gradient(to bottom, $alert_bgcolour 0px, $alert_gradientcol 100%);
 }
 
+aside#region_1 {
+	width: 19em;
+}
+
 section#region_2 {
-	width: 50em;
+	width: 60%;
 }
 
 .well {
