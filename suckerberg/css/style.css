@@ -2267,18 +2267,18 @@ img.mail-list-sender-photo {
 .widget.rateme, .rconnect {
     margin-top: 15px;
     padding: 0;
-    width: 30%;
+    width: 20%;
     text-align: center;
     border: 1px solid #848484;
     display: inline-block;
     margin-right: 1em;
 }
 
-a.rateme, div.rateme, .rconnect {
+a.rateme, div.rateme {
     display: block;
     color: #000;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
     border-radius: 0px;
     border: none;
     padding: 5px;
@@ -2289,6 +2289,21 @@ a.rateme, div.rateme, .rconnect {
     font-weight: bold;
     display: inline-block;
     margin-right: 1em;
+}
+
+a.rconnect {
+	border: 1px solid #848484;
+	display: inline-block;
+    margin-right: 1em;
+    border-radius: 0px;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    clear: both;
+    background-image: linear-gradient(to bottom, #F1F1F1 0%, #EFEFEF 100%);
+    text-shadow: 1px 1px 0px #fff;
+    font-weight: bold;
+    color: #000;
 }
 
 #note-text {
