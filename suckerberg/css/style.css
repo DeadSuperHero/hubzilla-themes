@@ -580,6 +580,7 @@ aside li {
 #profile-photo-wrapper {
     width: 100%;
     height: auto;
+    margin-top: 0;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -2638,11 +2639,15 @@ span.wall-item-name {
 }
 
 aside#region_1 {
-	width: 19em;
+	width: 20%;
 }
 
 section#region_2 {
-	width: 60%;
+	width: 55%;
+}
+
+aside#region_3 {
+	width: 15%;
 }
 
 .well {
@@ -2654,7 +2659,8 @@ section#region_2 {
 @media screen and (max-width: 767px) {
 	aside#region_1 {
 		background: rgba(0, 0, 0, .1);
-		border-right: 1px solid $nav_bd;
+		width: 53%;
+
 	}
 
 	section#region_2 {
