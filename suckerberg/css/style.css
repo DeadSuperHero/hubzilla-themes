@@ -2321,6 +2321,10 @@ a.rconnect {
     color: #676767;
 }
 
+.widget img.zrl {
+	width: 100%;
+}
+
 .rconnect {
 	border: 1px solid #848484
 }
