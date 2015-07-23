@@ -2269,7 +2269,6 @@ img.mail-list-sender-photo {
     padding: 0;
     width: 20%;
     text-align: center;
-    border: 1px solid #848484;
     display: inline-block;
     margin-right: 1em;
 }
@@ -2292,7 +2291,6 @@ a.rateme, div.rateme {
 }
 
 a.rconnect {
-	border: 1px solid #848484;
 	display: inline-block;
     margin-right: 1em;
     border-radius: 0px;
@@ -2304,6 +2302,10 @@ a.rconnect {
     text-shadow: 1px 1px 0px #fff;
     font-weight: bold;
     color: #000;
+}
+
+.rconnect {
+	border: 1px solid #848484
 }
 
 #note-text {
