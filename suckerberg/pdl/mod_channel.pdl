@@ -1,6 +1,5 @@
 [region=aside]
-[h2]Random Photo[/h2]
-[widget=photo_rand][var=scale]2[/var][/widget]
+[widget=photo_rand][h2]Random Photo[/h2][var=scale]2[/var][/widget]
 [/region]
 
 [region=content]
