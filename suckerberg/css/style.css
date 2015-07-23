@@ -513,7 +513,7 @@ aside li {
     margin-bottom: 10px;
     background-color: #FFF;
     border: 1px solid #CFCFCF;
-    height: 22em;
+    min-height: 22em;
 }
 
 .vcard .title {
@@ -2272,6 +2272,7 @@ img.mail-list-sender-photo {
     text-align: center;
     display: inline-block;
     margin-right: 1em;
+	border: 1px solid #848484
 }
 
 a.rateme, div.rateme {
@@ -2303,6 +2304,21 @@ a.rconnect {
     text-shadow: 1px 1px 0px #fff;
     font-weight: bold;
     color: #000;
+}
+
+#categories-sidebar .widget, #databrowse-sidebar .widget {
+	background-color: transparent;
+    border: none;
+}
+
+#categories-sidebar .widget h3, #databrowse-sidebar .widget h3 {
+	text-align: center;
+}
+
+#categories-sidebar .widget .nav>li>a, #databrowse-sidebar .widget .nav>li>a {
+	display: inline-block !important;
+    font-weight: bold;
+    color: #676767;
 }
 
 .rconnect {
