@@ -2578,6 +2578,14 @@ span.wall-item-name {
 	background-color: $navtabs_bgcolour; 
 }
 
+.nav-tabs.nav-justified {
+	width: 100%;
+    border-bottom: 0;
+    background-color: #fff;
+    border: 1px solid #CACACA;
+    border-radius: 0.3em;
+}
+
 .nav-tabs.nav-justified>.active>a,.nav-tabs.nav-justified>.active>a:hover,.nav-tabs.nav-justified>.active>a:focus{
 	border:1px solid $navtabs_borderc;
 }
@@ -2639,7 +2647,7 @@ span.wall-item-name {
 }
 
 aside#region_1 {
-	width: 20%;
+	width: 19%;
 }
 
 section#region_2 {

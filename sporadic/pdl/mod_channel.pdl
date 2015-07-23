@@ -3,6 +3,7 @@
 [/region]
 
 [region=content]
+[widget=vcard][/widget]
 $content
 [/region]
 
