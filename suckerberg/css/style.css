@@ -860,23 +860,6 @@ aside li {
 	margin-right: 50px;
 }
 
-.rconnect {
-	display: block;
-	color: #fff;
-	margin-top: 15px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	border: 1px solid #383B81;
-	padding: 5px;
-	font-weight: bold;
-	clear: both;
-	text-align: center;
-	font-weight: bold;
-	box-shadow: 2px 2px 6px #9C9BC5 inset;
-	background-image: linear-gradient(to bottom, #4D69A2 35%, #3B5998 78%);
-}
-
 #pause {
   position: fixed;
   bottom: 5px;
@@ -2281,15 +2264,17 @@ img.mail-list-sender-photo {
 	color: $toolicon_colour;
 }
 
-.widget.rateme {
+.widget.rateme, .rconnect {
     margin-top: 15px;
     padding: 0;
     width: 30%;
     text-align: center;
     border: 1px solid #848484;
+    display: inline-block;
+    margin-right: 1em;
 }
 
-a.rateme, div.rateme {
+a.rateme, div.rateme, .rconnect {
     display: block;
     color: #000;
     -webkit-border-radius: 4px;
@@ -2302,6 +2287,8 @@ a.rateme, div.rateme {
     background-image: linear-gradient(to bottom, #F1F1F1 0%, #EFEFEF 100%);
     text-shadow: 1px 1px 0px #fff;
     font-weight: bold;
+    display: inline-block;
+    margin-right: 1em;
 }
 
 #note-text {
