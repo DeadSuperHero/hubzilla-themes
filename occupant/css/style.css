@@ -172,15 +172,12 @@ span.item.app, span .item.app {
 }
 
 .generic-content-wrapper {
-    background: none repeat scroll 0% 0% #FFF;
-    border-right: 1px solid #BDBBBB;
-    border-width: 1px 1px 1px;
-    border-style: solid;
-    border-color: #BDBBBB #BDBBBB #BDBBBB;
-    border-image: none;
-    padding: 1em;
+ 	background: transparent;
+    padding: 0em;
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
+    border: none;
+
 }
 
 .mail-conv-detail {
@@ -866,6 +863,14 @@ input#register-password-2.register_input {
     padding: 0px;
     border-radius: 13em;
     box-shadow: 0px 2px 2px 0px #5D5D5D;
+}
+
+#profile-photo-wrapper {
+	width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
 }
 
 #profile-in-dir-yes-label,
@@ -3049,6 +3054,10 @@ section#region_2 {
     display: table-cell;
     vertical-align: top;
     padding: 66px 3em 0px 2em;
+}
+
+aside#region_3 {
+	width: 20%;
 }
 
 section h2 {
