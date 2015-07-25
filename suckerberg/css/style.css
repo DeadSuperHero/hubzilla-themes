@@ -2306,16 +2306,16 @@ a.rconnect {
     color: #000;
 }
 
-#categories-sidebar .widget, #databrowse-sidebar .widget {
+#categories-sidebar .widget, #datebrowse-sidebar .widget {
 	background-color: transparent;
     border: none;
 }
 
-#categories-sidebar .widget h3, #databrowse-sidebar .widget h3 {
+#categories-sidebar .widget h3, #datebrowse-sidebar .widget h3 {
 	text-align: center;
 }
 
-#categories-sidebar .widget .nav>li>a, #databrowse-sidebar .widget .nav>li>a {
+#categories-sidebar .widget .nav>li>a, #datebrowse-sidebar .widget .nav>li>a {
 	display: inline-block !important;
     font-weight: bold;
     color: #676767;
