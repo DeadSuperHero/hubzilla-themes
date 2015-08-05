@@ -1802,6 +1802,7 @@ header {
 	-webkit-border-radius: $radiuspx ;
 	-moz-border-radius: $radiuspx;
 	border-radius: $radiuspx;
+	max-width: 48%;
 }
 
 .acl-list-item img{

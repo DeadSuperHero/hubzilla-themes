@@ -35,6 +35,7 @@ main {
     height: 100%;
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGCQYiAWYFcJAAkAADUIx7G1AAAAAElFTkSuQmCC");
     background-color: rgb(243, 243, 243);
+    max-width: none;
 }
 
 iframe {
@@ -79,10 +80,10 @@ span.item.app {
 }
 
 .generic-content-wrapper {
-	background: none repeat scroll 0% 0% rgb(255, 255, 255);
-	border: 1px solid #C5C5C5;
-	border-radius: 4px;
-	padding: 10px;
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+    border: 0;
+    border-radius: 4px;
+    padding: 0;
 }
 
 img.smiley {
@@ -161,6 +162,7 @@ input {
 	-moz-border-radius: $radiuspx;
 	border-radius: $radiuspx;	
 	padding: 3px;
+	line-height: 1.9;
 }
 
 input[type="submit"] {
@@ -672,11 +674,20 @@ label#label-register-tos {
 	margin-top: 15px;
 }
 
+#profile-photo-wrapper {
+	width: 251px;
+    height: 251px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 0;
+}
+
 
 #profile-photo-wrapper img {
     padding: 10px;
-    width: 197px;
-    height: 197px;
+    width: 100%;
+    height: 100%;
     border-radius: 0px 20px 0px 20px;
 }
 
@@ -2145,9 +2156,12 @@ text-decoration: none;
 }
 
 .jumbotron h1, .jumbotron .h1 {
-	font-size: 100px;
-	color: #fff;
-	text-shadow: 2px 2px 6px #000;
+    font-size: 6em;
+    color: #fff;
+    text-shadow: 2px 2px 6px #000;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .jumbotron h2, .jumbotron .h2 {
@@ -2761,6 +2775,15 @@ span.wall-item-name {
 	font-size: $body_font_size;
     border-radius: 0px 10px 0px 10px;
 
+}
+
+.btn-primary {
+	width: 100%;
+    background-color: #614077;
+    border: 1px solid #3A2047;
+    box-shadow: 1px 1px 1px #B446C0 inset;
+    color: #fff;
+    text-shadow: 1px 1px 0px #000;
 }
 
 .btn-xs {
