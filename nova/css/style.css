@@ -677,8 +677,8 @@ label#label-register-tos {
 }
 
 #profile-photo-wrapper {
-	width: 251px;
-    height: 251px;
+    width: 100%;
+    height: auto;
     margin-top: 0;
     margin-bottom: 10px;
     border: 0;
