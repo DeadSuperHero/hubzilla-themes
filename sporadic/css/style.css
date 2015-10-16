@@ -1726,8 +1726,8 @@ a.rateme, div.rateme {
 /* header */
 header {
     position: fixed;
-    left: 10%;
-    right: 0%;
+    left: 2%;
+    right: 43%;
     margin: 0px;
     padding: 0px;
     z-index: 1040;
