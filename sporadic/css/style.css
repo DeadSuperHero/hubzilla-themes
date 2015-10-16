@@ -2164,14 +2164,14 @@ textarea#prvmail-text {
 }
 
 .wall-item-content-wrapper.comment {
-  background-color: #FFFFFF;
-  border-radius: 0px;
-  padding: 7px 10px 7px 7px;
-  border: 1px solid #E2E2E2;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  margin-left: 3em;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    padding: 5px 0px 5px 5px;
+    border: 1px solid #E2E2E2;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-left: 0;
 }
 
 .wall-item-body strong {
@@ -2180,7 +2180,7 @@ textarea#prvmail-text {
 }
 
 .wall-item-body {
-  width: 88%;
+  width: 98%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2210,7 +2210,7 @@ textarea#prvmail-text {
 }
 
 .wall-item-tools {
-  width: 88%;
+  width: 98%;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -2226,7 +2226,7 @@ textarea#prvmail-text {
 }
 
 .wall-item-photo {
-	border: 1px solid #5F5F5F;
+	border: 1px solid #929292;
 	width: 50px !important;
 	height: 50px !important;
 
@@ -2791,7 +2791,7 @@ aside#region_3 {
 	aside#region_1 {
 		background: rgb(240, 240, 240);
 		border-right: 1px solid $nav_bd;
-		width: 50%;
+		width: 233px;
 	}
 
 	section#region_2 {
