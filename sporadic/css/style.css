@@ -52,6 +52,13 @@ span.oembed.video a {
 	border: 1px solid #cecece;
 }
 
+.generic-content-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: none;
+}
+
 img.smiley {
 	width: 20px !important;
 }
@@ -1718,13 +1725,13 @@ a.rateme, div.rateme {
 
 /* header */
 header {
-  position: fixed;
-  left: 43%;
-  right: 43%;
-  margin: 0px;
-  padding: 0px;
-  z-index: 1040;
-  color: #fff;
+    position: fixed;
+    left: 10%;
+    right: 0%;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1040;
+    color: #fff;
 }
 
 .notif-item a {

@@ -1,6 +1,7 @@
 [region=nav]$nav[/region]
 
 [region=aside]
+[widget=forums][/widget]
 [widget=collections][/widget]
 [widget=archive][/widget]
 [/region]
