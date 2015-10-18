@@ -2,10 +2,10 @@
 
 /**
  *   * Name: Sporadic
- *   * Description: A Diaspora-like theme based on redbasic
- *   * Version: 2.0
+ *   * Description: A Diaspora-inspired theme for Hubzilla. Extends the redbasic theme in a number of ways.
+ *   * Version: 3.0
  *   * Author: Sean Tilley
- *   * Compat: Red [*]
+ *   * Compat: Hubzilla [*]
  *
  */
 
