@@ -210,10 +210,11 @@ header {
 }
 
 .widget .nav>li>a {
-	display: inline-block !important;
-	font-weight: bold;
-	color: #808080;
-	font-size: 1.1em;
+    display: inline-block !important;
+    font-weight: 500;
+    color: #656565;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 0px #fff;
 }
 
 .widget .nav>li>a:hover {
@@ -1876,6 +1877,12 @@ header {
 	padding-left: 1em;
 }
 
+span.item.app {
+    border-bottom: 1px dotted;
+    font-weight: 500;
+    color: #676767;
+}
+
 .reshared-content { margin-left: 20px; }
 
 .reshared-content img {
@@ -2282,6 +2289,12 @@ textarea#prvmail-text {
 	color: $toolicon_colour;
 }
 
+form#comment-edit-form {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .comment-edit-text-empty,
 .comment-edit-text-full {
 	border: 1px solid #ccc;
@@ -2560,7 +2573,38 @@ span.wall-item-name {
 }
 
 .wall-item-head a {
-	color: #333;
+    color: #484848;
+    font-weight: 600;
+}
+
+.section-title-wrapper {
+    padding: 0px 0px 0px 0px;
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 1em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    border-bottom: 1px solid #B7B7B7;
+}
+
+.section-title-wrapper h2, .section-subtitle-wrapper h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px;
+    font-size: 15px;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+.section-title-wrapper a {
+	font-weight: 600;
+    color: #000;
+    font-size: 13px;
+    margin-left: 1%;
 }
 
 .wall-item-title {
@@ -2825,10 +2869,6 @@ aside#region_3 {
 		width: 48px !important;
 		height: 48px !important;
 	}
-
-span.item.app {
-	font-weight: bold;
-}
 
 	.comment .wall-item-photo {
 		width: 32px !important;
