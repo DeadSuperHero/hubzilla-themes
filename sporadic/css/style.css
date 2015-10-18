@@ -2577,14 +2577,14 @@ span.wall-item-name {
     font-weight: 600;
 }
 
-.profile-content-wrapper .section-title-wrapper {
+#live-photos .section-title-wrapper {
     padding: 10px 7px 10px 7px;
     background-color: rgb(230, 230, 230);
     margin-bottom: 1em;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    border: 0px solid #CCCCCC;
+    border: none;
     border-radius: 3px;
     border-bottom: 1px solid #B7B7B7;
     box-shadow: none;
