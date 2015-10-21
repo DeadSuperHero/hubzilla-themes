@@ -2590,10 +2590,6 @@ span.wall-item-name {
     border: none;
 }
 
-.section-title-wrapper .pull-right{
-	width: 12%;
-}
-
 
 .section-title-wrapper h2, .section-subtitle-wrapper h3 {
     margin-top: 0px;
@@ -2805,8 +2801,6 @@ aside#region_1 {
 
 section#region_2 {
 	max-width: 85em;
-	padding-left: 2em;
-	padding-right: 2em;
 }
 
 aside#region_3 {
@@ -2828,6 +2822,8 @@ aside#region_3 {
 
 	section#region_2 {
 		width: 88%;
+		padding-left: 2em;
+		padding-right: 2em;
 	}
 }
 
@@ -2844,8 +2840,17 @@ aside#region_3 {
 		width: 233px;
 	}
 
+	#profile-jot-wrapper {
+    margin-left: 2em;
+    margin-right: 2em;
+	}
+
 	section#region_2 {
-	width: 100%;
+    width: 100%;
+    padding-left: 0em;
+    padding-right: 0em;
+    max-width: none;
+
 }
 
 	main {
