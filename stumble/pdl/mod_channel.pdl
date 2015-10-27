@@ -2,7 +2,7 @@
 [/region]
 
 [region=content]
-[widget=fullprofile][/widget]
+[widget=vcard][/widget]
 $content
 [/region]
 
