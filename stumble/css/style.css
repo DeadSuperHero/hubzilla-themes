@@ -37,10 +37,10 @@ body {
 }
 
 .generic-content-wrapper {
-    background-color: #FFF;
-    padding: 2em;
+    background-color: transparent;
+    padding: 0em;
     border-radius: 0.5em;
-
+    border: none;
 }
 
 img.smiley {
