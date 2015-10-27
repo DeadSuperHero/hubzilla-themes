@@ -1,8 +1,8 @@
 [region=aside]
-[widget=fullprofile][/widget]
 [/region]
 
 [region=content]
+[widget=fullprofile][/widget]
 $content
 [/region]
 
