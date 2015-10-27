@@ -209,6 +209,14 @@ header {
 	display: inline-block !important;
 }
 
+.widget img.zrl {
+	width: 100%;
+    padding: 8px;
+    background-color: #2C384B;
+    border-radius: 5px;
+    border: 1px solid #45515E;
+}
+
 
 nav #banner #logo-text a {
 	font-size: 40px;

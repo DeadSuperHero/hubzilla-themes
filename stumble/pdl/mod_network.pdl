@@ -1,7 +1,6 @@
 [region=nav]$nav[/region]
 
 [region=aside]
-[widget=savedsearch][/widget]
 [/region]
 
 [region=content]
@@ -10,7 +9,7 @@ $content
 [/region]
 
 [region=right_aside]
-[widget=photo_rand][/widget]
 [widget=archive][/widget]
 [widget=suggestions][/widget]
+[widget=photo_rand][/widget]
 [/region]
