@@ -326,6 +326,23 @@ aside li {
 	/* margin-left: 10px; */
 }
 
+aside {
+	min-width: 230px;
+max-width: 285px;
+}
+
+#widget li span.pull-right {
+	background-color: rgb(228, 0, 0);
+	padding: 0px 7px;
+	border-radius: 10px;
+	color: rgb(255, 255, 255);
+	text-shadow: 1px 1px 0px rgb(0, 0, 0);
+	font-size: 10px;
+	font-weight: 800;
+	position: relative;
+	top: 5px;
+}
+
 /*TODO: we should use one class for all this. */
 .group-selected, .fileas-selected, .categories-selected, .search-selected, .active {
 	color: $selected_active_colour !important;
@@ -2658,9 +2675,10 @@ span.wall-item-name {
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background-image: -webkit-linear-gradient(to bottom, #000000 0%, #525252 100%);
-	background-image: linear-gradient(to bottom, #000000 0%, #525252 100%);
-	color: white;
+	background-image: linear-gradient(to bottom, #000 0%, #525252 100%);
+	color: #FFF;
+	height: 4em;
+	padding-bottom: 0;
 }
 
 
@@ -2801,6 +2819,7 @@ aside#region_1 {
 
 section#region_2 {
 	max-width: 85em;
+	padding: 80px 30px 200px;
 }
 
 aside#region_3 {
