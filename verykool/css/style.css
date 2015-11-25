@@ -2832,9 +2832,9 @@ section#region_2 {
 }
 
 aside#region_3 {
-  border-left: 1px solid #DDD;
-  background: rgb(240,240,240);
-  width: 25%;
+    border-right: 3px solid #D8D8D8;
+    background: rgb(240,240,240);
+    width: 25%;
 }
 
 .well {
