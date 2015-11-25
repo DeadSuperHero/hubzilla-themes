@@ -1,0 +1,10 @@
+[region=nav]$nav[/region]
+
+[region=content]
+$content
+[/region]
+
+[region=right_aside]
+[widget=vcard][/widget]
+[widget=collections]abook[/widget]
+[/region]
