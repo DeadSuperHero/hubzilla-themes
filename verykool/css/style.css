@@ -51,8 +51,8 @@ span.oembed.video a {
 }
 
 .generic-content-wrapper-styled {
-	background-color: #FFF !important;
-	border: 1px solid #cecece;
+    background-color: #FFF !important;
+    border: none;
 }
 
 .generic-content-wrapper {
@@ -2426,6 +2426,11 @@ form#comment-edit-form {
 
 
 /* widgets */
+
+.region_3 .saved_search_widget {
+	position: fixed;
+    width: 15%;
+}
 
 .widget {
   background-color: transparent;

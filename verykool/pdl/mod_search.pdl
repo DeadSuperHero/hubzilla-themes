@@ -1,6 +1,6 @@
 [region=nav]$nav[/region]
+
 [region=content]
-[widget=affinity][/widget]
 $content
 [/region]
 
