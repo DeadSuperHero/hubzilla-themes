@@ -2825,6 +2825,7 @@ span.wall-item-name {
 aside#region_1 {
     border-right: 1px solid #DDD;
     background: rgb(255, 255, 255);
+    width: 138px;
 }
 
 section#region_2 {
@@ -2846,7 +2847,7 @@ aside#region_3 {
 
 @media screen and (max-width: 430px) {
 	aside#region_1 {
-		width: 138px;
+		width: 233px;
 	}
 
 	section#region_2 {
