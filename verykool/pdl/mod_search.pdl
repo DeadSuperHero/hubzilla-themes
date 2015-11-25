@@ -1,0 +1,9 @@
+[region=nav]$nav[/region]
+[region=content]
+[widget=affinity][/widget]
+$content
+[/region]
+
+[region=right_aside]
+[widget=savedsearch][/widget]
+[/region]
