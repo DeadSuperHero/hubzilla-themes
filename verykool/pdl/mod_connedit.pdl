@@ -6,5 +6,5 @@ $content
 
 [region=right_aside]
 [widget=vcard][/widget]
-[widget=collections]abook[/widget]
+[widget=collections][var=mode]abook[/var][/widget]
 [/region]
