@@ -9,7 +9,7 @@
  *
  */
 
-function hivenet_init(&$a) {
+function verykool_init(&$a) {
 
     $a->theme_info['extends'] = 'redbasic';
 
