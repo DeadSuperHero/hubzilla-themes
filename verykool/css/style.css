@@ -23,8 +23,10 @@ body {
     background-attachment: fixed;
     background-size: cover;
     color: #4D4D4D;
-    margin: 0px;
     height: 100%;
+	width: 66%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main {
@@ -53,10 +55,11 @@ span.oembed.video a {
 }
 
 .generic-content-wrapper {
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 4px;
     background-color: #fff;
     box-shadow: none;
+    padding-top: 10px;
 }
 
 img.smiley {
@@ -2262,7 +2265,7 @@ textarea#prvmail-text {
 }
 
 .wall-item-photo {
-	border-radius: 4px;
+	border-radius: 0px;
 	-moz-border-radius: 4px;
 	box-shadow: none
 }
@@ -2583,10 +2586,7 @@ span.wall-item-name {
 }
 
 .wall-item-head {
-	padding: 10px 10px 10px 10px;
-    background-color: #E6E6E6;
-    border-bottom: 1px solid #B7B7B7;
-    text-shadow: 1px 1px 1px #FFF;
+    padding: 0px;
 }
 
 .wall-item-head a {
@@ -2662,16 +2662,25 @@ span.wall-item-name {
 }
 
 .navbar-inverse {
-	background-color: #F8F8F8;
-	border-color: #232D44;
-	height: 3.9em;
-	background-image: linear-gradient(to bottom, #2D2D2D 0%, #2D2D2D 30%);
+    border-color: #232D44;
+    height: 3.9em;
+    background-image: linear-gradient(to bottom, #45688E 0%, #45688E 30%);
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #45688E;
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #45688E;
 }
 
 .navbar-inverse .navbar-collapse {
-	border-color: black;
-	background: rgb(103, 103, 103);
-	background-image: linear-gradient(to bottom, #2D2D2D 0%, #2D2D2D 30%);
+    border-color: #45688E;
+    background: #45688E;
+    background-image: linear-gradient(to bottom, #45688E 0%, #45688E 30%);
 }
 
 .navbar-inverse .navbar-nav > .active > a {
