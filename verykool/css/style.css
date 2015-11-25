@@ -98,6 +98,27 @@ a, a:visited, a:link, .fakelink, .fakelink:visited, .fakelink:link {
 	text-decoration: none; 
 }
 
+dd {
+	margin-left: 0;
+    border: 1px solid #DEE3E9;
+    text-align: center;
+}
+
+dt {
+	font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #DEE3E9;
+    width: 100%;
+    margin: 0;
+    padding: 3px;
+    text-align: center;
+}
+
+.reddress {
+	text-align: center;
+    border: 1px solid #f1f1f1;
+}
+
 a:hover, .fakelink:hover { color: $link_colour; text-decoration: underline; }
 
 .fakelink {
@@ -519,8 +540,11 @@ max-width: 285px;
 }
 
 .vcard .title {
-	margin-bottom: 10px;
-
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    font-weight: bold;
+    background: #DEE3E9;
 }
 
 .vcard dl  {
@@ -581,13 +605,13 @@ max-width: 285px;
 }
 
 #profile-photo-wrapper {
-  width: 100%;
-  height: auto;
-  margin-top: 0px;
-  margin-bottom: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 0.3em;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3em;
 }
 
 #profile-photo-wrapper img.photo {
@@ -901,17 +925,24 @@ max-width: 285px;
 
 #contact-block {
 	width: 100%;
-	float: left;
-	background-color: #FFF;
-	border-radius: 4px;
-	padding: 7px;
-	margin-bottom: 10px;
-	border: none;
+    float: left;
+    background-color: #FFF;
+    border-radius: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+    border-left: 2px solid #F1F1F1;
+    border-bottom: none;
+
 }
 
 #contact-block-numcontacts {
-	font-weight: bold;
-	margin-bottom:10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #DEE3E9;
+    width: 100%;
+    margin: 0;
+    padding: 3px;
+    text-align: center;
 }
 
 .contact-block-div {
@@ -935,10 +966,11 @@ max-width: 285px;
 .contact-block-link {
 	float: left;
 }
+
 .contact-block-img {
     width: 40px;
     height: 40px;
-    border-radius: 4px;
+    border-radius: 0px;
 }
 
 #tag-remove {
@@ -989,21 +1021,21 @@ max-width: 285px;
 }
 
 #nav-search-text:focus {
-	outline: none;
-	box-shadow: none;
-	width: 23em;
+    outline: none;
+    box-shadow: none;
+    width: 19em;
 }
 
 #nav-search-text {
-	height: 30px;
-	margin: 9px 0px 0px 0px;
-	padding: 0px 5px;
-	border-radius: 2em;
-	border-color: #1B1B1B;
-	background-color: #565656;
-	transition: background-color 300ms ease 0s;
-	box-shadow: 0px 1px 1px #4D4C4C;
-	color: white;
+    height: 30px;
+    margin: 9px 0px 0px 0px;
+    padding: 0px 5px;
+    border-radius: 2em;
+    border: 2px solid #5A7A9C;
+    background-color: #FFFFFF;
+    transition: background-color 300ms ease 0s;
+    box-shadow: none;
+    color: white;
 }
 
 #nav-search-text::-webkit-input-placeholder {
@@ -1731,6 +1763,14 @@ div.jGrowl div.jGrowl-notification {
 	width: 90%;
 }
 
+a.allcontact-link {
+	text-align: center;
+    width: 100%;
+    background: #F1F1F1;
+    padding: 0em;
+    display: inline-block;
+}
+
 a.rconnect {
   color: $nav_active_icon_colour;
   text-decoration: none;
@@ -1742,7 +1782,18 @@ a.rconnect:hover {
 }
 
 a.rateme, div.rateme {
-  text-align: center;
+    display: block;
+    color: #fff;
+    background-color: #45688E;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    clear: both;
+    text-shadow: none;
+    font-weight: bold !important;
 }
 
 
@@ -1879,8 +1930,13 @@ header {
 }
 
 .contact-block-content {
-	margin-top: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
 }
+
 .contact-block-img.archived {
 	opacity: 0.3;
 	filter:alpha(opacity=30);
@@ -1910,10 +1966,10 @@ span.item.app {
 	width: 1em;
 }
 
-.shared_header img { 
-	margin-right: 10px;
-	width: 2em !important;
-	border-radius: 4px;
+.shared_header img {
+    margin-right: 10px;
+    width: 2em !important;
+    border-radius: 0px;
 }
 
 .tag1 {
@@ -2685,10 +2741,12 @@ span.wall-item-name {
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background-image: linear-gradient(to bottom, #000 0%, #525252 100%);
-	color: #FFF;
-	height: 4em;
-	padding-bottom: 0;
+    background-image: linear-gradient(to bottom, #273C54 0%, #45688E 100%);
+    color: #FFF;
+    height: 4em;
+    padding-bottom: 0;
+    border-left: 1px solid #5A7A9C;
+    border-right: 1px solid #5A7A9C;
 }
 
 
