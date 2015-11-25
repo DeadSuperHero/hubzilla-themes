@@ -1,0 +1,10 @@
+[region=aside]
+[/region]
+
+[region=content]
+$content
+[/region]
+
+[region=right_aside]
+[widget=fullprofile][/widget]
+[/region]
