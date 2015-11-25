@@ -31,6 +31,7 @@ body {
 
 main {
 	max-width: none !important;
+	width: 95%;
 }
 
 iframe {
@@ -253,10 +254,10 @@ header #banner {
 }
 
 header #banner img {
-	height: 4em;
-    width: 22em;
+    height: 3em;
+    width: auto;
     padding: 0;
-    margin-top: 0;
+    margin-top: 0.4em;
 }
 
 header #banner a,
@@ -2447,9 +2448,9 @@ form#comment-edit-form {
 /* nav bootstrap */
 
 nav i {
-	font-size: 17px;
-	color: rgba(182, 182, 182, 1);
-	text-shadow: 1px 1px 0px #373737;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0px #373737;
 }
 
 nav a:active {
@@ -2822,8 +2823,8 @@ span.wall-item-name {
 }
 
 aside#region_1 {
-	border-right: 1px solid #DDD;
-	background: rgb(240,240,240)
+    border-right: 1px solid #DDD;
+    background: rgb(255, 255, 255);
 }
 
 section#region_2 {
@@ -2833,8 +2834,8 @@ section#region_2 {
 
 aside#region_3 {
     border-right: 3px solid #D8D8D8;
-    background: rgb(240,240,240);
-    width: 25%;
+    background: rgb(255, 255, 255);
+    width: 40%;
 }
 
 .well {

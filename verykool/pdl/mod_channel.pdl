@@ -3,5 +3,5 @@ $content
 [/region]
 
 [region=right_aside]
-[widget=fullprofile][/widget]
+[widget=vcard][/widget]
 [/region]
