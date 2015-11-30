@@ -234,6 +234,16 @@ nav #banner #logo-text a {
 
 }
 
+ul li span.pull-right {
+	margin-top: 6px;
+    background: #AD2828;
+    color: #fff;
+    padding: 1px 5px 1px 5px;
+    border-radius: 14px;
+    text-shadow: none;
+    font-weight: bold;
+}
+
 
 nav #banner #logo-text a:hover { text-decoration: none; }
 
@@ -331,17 +341,6 @@ aside {
 max-width: 285px;
 }
 
-#widget li span.pull-right {
-	background-color: rgb(228, 0, 0);
-	padding: 0px 7px;
-	border-radius: 10px;
-	color: rgb(255, 255, 255);
-	text-shadow: 1px 1px 0px rgb(0, 0, 0);
-	font-size: 10px;
-	font-weight: 800;
-	position: relative;
-	top: 5px;
-}
 
 /*TODO: we should use one class for all this. */
 .group-selected, .fileas-selected, .categories-selected, .search-selected, .active {
