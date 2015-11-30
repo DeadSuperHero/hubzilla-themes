@@ -234,6 +234,11 @@ nav #banner #logo-text a {
 
 }
 
+/* 
+
+This technically works, but results in red dashes all over the widget. 
+Maybe I should talk to someone about creating a specific style for widget badges?
+
 ul li span.pull-right {
 	margin-top: 6px;
     background: #AD2828;
@@ -242,8 +247,9 @@ ul li span.pull-right {
     border-radius: 14px;
     text-shadow: none;
     font-weight: bold;
-}
 
+}
+*/
 
 nav #banner #logo-text a:hover { text-decoration: none; }
 
