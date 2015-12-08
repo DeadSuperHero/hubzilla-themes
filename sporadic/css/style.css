@@ -677,6 +677,16 @@ max-width: 285px;
 
 }
 
+.directory-item {
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.prep-details {
+    float: left;
+    max-width: 50%;
+}
+
 .directory-details {
 	font-size: 0.7em;
 }
