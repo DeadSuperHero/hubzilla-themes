@@ -22,7 +22,7 @@ A mutated clone of Diaspora's visual style.
   
 
 ### Sunbeam
-![]()
+![SunBeam-Preview](https://github.com/DeadSuperHero/redmatrix-themes/blob/master/sunbeam/img/screenshot.jpg)
 
 My second favorite theme. Fairly original style inspiration.
 
