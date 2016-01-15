@@ -4,7 +4,7 @@
 
 [region=content]
 [widget=cover_photo][/widget]
-[widget=fullprofile][var=class]fullprofile[/var][/widget]
+[widget=fullprofile][/widget]
 $content
 [/region]
 
