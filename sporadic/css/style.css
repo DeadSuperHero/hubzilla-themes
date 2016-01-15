@@ -6,6 +6,16 @@
  */
 
 
+/* Plugin Overrides */
+
+#chessboard {
+    width: 630.4px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /* generals */
 html {
 	height: 100%;
@@ -2923,4 +2933,3 @@ aside#region_3 {
 	}
 
 }
-
