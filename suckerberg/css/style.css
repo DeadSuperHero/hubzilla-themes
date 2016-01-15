@@ -59,6 +59,12 @@ span.item.app {
 	border: 1px solid #cecece;
 }
 
+.generic-content-wrapper {
+    border: none;
+    box-shadow: none;
+    border-radius: 4px;
+}
+
 img.smiley {
 	width: 20px !important;
 }
