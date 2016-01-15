@@ -3,6 +3,7 @@
 [/region]
 
 [region=content]
+[widget=cover_photo][/widget]
 [widget=fullprofile][/widget]
 $content
 [/region]
