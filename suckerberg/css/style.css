@@ -2280,7 +2280,7 @@ img.mail-list-sender-photo {
 	border: 1px solid #CFCFCF;
 }
 
-.widget .suggestions-widget {
+.widget.suggestions-widget {
 	padding: 1em 0em 1em 0em;
     text-align: center;
 }
