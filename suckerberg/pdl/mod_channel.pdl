@@ -3,8 +3,8 @@
 [/region]
 
 [region=content]
-[widget=fullprofile][/widget]
 [widget=cover_photo][/widget]
+[widget=fullprofile][style]padding:0[/style][/widget]
 $content
 [/region]
 
