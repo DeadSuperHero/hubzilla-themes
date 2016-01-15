@@ -2285,7 +2285,7 @@ div.widget.suggestions-widget {
     text-align: center;
 }
 
-.widget .profile-match-wrapper {
+div.widget.suggestions-widget .profile-match-wrapper {
     float: none;
     width: 100%;
     height: auto;
@@ -2296,7 +2296,7 @@ div.widget.suggestions-widget {
     border-left: none;
 }
 
-.widget .suggestions-widget .profile-match-photo {
+.widget.suggestions-widget .profile-match-photo {
     float: none;
     margin-left: auto;
     margin-right: auto;
