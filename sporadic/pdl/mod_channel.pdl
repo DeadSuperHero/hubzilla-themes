@@ -3,7 +3,7 @@
 [/region]
 
 [region=content]
-[widget=cover_photo][/widget]
+[widget=coverphoto][/widget]
 $content
 [/region]
 
