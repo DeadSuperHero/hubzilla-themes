@@ -511,9 +511,22 @@ aside li {
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     margin-bottom: 10px;
-    background-color: #FFF;
-    border: 1px solid #CFCFCF;
-    min-height: 22em;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 8em;
+    width: 753px;
+    margin-left: 1em;
+    height: 21em;
+    color: #FFF;
+    text-shadow: 1px 1px 0px #000;
+}
+
+.widget img.zrl {
+    width: 100%;
+    padding-right: 0px;
+    height: auto;
+    opacity: 0.8;
 }
 
 .vcard .title {
@@ -2266,13 +2279,14 @@ img.mail-list-sender-photo {
 }
 
 .widget.rateme, .rconnect {
-    margin-top: 15px;
+    margin-top: 0px;
     padding: 0;
     width: 20%;
     text-align: center;
     display: inline-block;
     margin-right: 1em;
-	border: 1px solid #848484
+    border: 1px solid #848484;
+    float: right;
 }
 
 a.rateme, div.rateme {
