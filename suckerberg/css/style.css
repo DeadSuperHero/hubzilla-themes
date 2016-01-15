@@ -2309,14 +2309,12 @@ div.widget.suggestions-widget .profile-match-wrapper {
 }
 
 .widget.rateme, .rconnect {
-    margin-top: 0px;
     padding: 0;
     width: 20%;
     text-align: center;
     display: inline-block;
     margin-right: 1em;
     border: 1px solid #848484;
-    float: right;
 }
 
 a.rateme, div.rateme {
