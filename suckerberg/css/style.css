@@ -2092,7 +2092,7 @@ img.mail-list-sender-photo {
 .wall-item-content-wrapper.comment {
 	margin-left: $comment_indent;
 	background: #F6F7F8;
-	border: 1px solid #BFBFBF;
+	border: none;
 }
 
 .thread-wrapper.toplevel_item {
@@ -2116,7 +2116,7 @@ img.mail-list-sender-photo {
     background-color: #F6F7F8;
     border-radius: 0px;
     padding: 7px 10px 7px 7px;
-    border: 1px solid #CCC;
+    border: none;
     border-top: none;
 }
 
