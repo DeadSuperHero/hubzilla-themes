@@ -2740,7 +2740,7 @@ span.wall-item-name {
 }
 
 aside#region_1 {
-	width: 19%;
+	width: 231px;
 }
 
 section#region_2 {
@@ -2760,7 +2760,7 @@ aside#region_3 {
 @media screen and (max-width: 767px) {
 	aside#region_1 {
 		background: rgba(0, 0, 0, .1);
-		width: 53%;
+		width: 231px;
 
 	}
 
