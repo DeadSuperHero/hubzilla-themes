@@ -3,9 +3,8 @@
 [/region]
 
 [region=content]
-[widget=cover_photo]
-[widget=fullprofile]
-[/widget]
+[widget=fullprofile][/widget]
+[widget=cover_photo][/widget]
 $content
 [/region]
 
