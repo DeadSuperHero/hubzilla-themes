@@ -9,11 +9,22 @@
 /* Plugin Overrides */
 
 #chessboard {
-    width: 630.4px;
+    width: 100%;
     position: relative;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+#chessboard .spare-pieces-top, #chessboard .spare-pieces-bottom {
+	margin-left: auto;
+    margin-right: auto;
+    width: 74%;
+}
+
+#chessboard .board {
+	width: 624px;
     margin-left: auto;
     margin-right: auto;
-    left: 0;
 }
 
 
