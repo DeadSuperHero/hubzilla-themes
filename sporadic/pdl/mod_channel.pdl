@@ -1,6 +1,6 @@
-[template]full[/template]
+[template=full]choklet[/template]
 
-[region=choklet-full]
+[region=header]
 [widget=cover_photo][/widget]
 [/region]
 
