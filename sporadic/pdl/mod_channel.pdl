@@ -1,9 +1,14 @@
+[template]full[/template]
+
+[region=header]
+[widget=cover_photo][/widget]
+[/region]
+
 [region=aside]
 [widget=fullprofile][/widget]
 [/region]
 
 [region=content]
-[widget=cover_photo][/widget]
 $content
 [/region]
 
