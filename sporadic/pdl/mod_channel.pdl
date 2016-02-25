@@ -3,10 +3,11 @@
 [/region]
 
 [region=aside]
-[widget=fullprofile][/widget]
+[widget=shortprofile][/widget]
 [/region]
 
 [region=content]
+[widget=zcard][/widget]
 $content
 [/region]
 
