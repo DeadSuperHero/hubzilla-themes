@@ -2118,6 +2118,7 @@ textarea#prvmail-text {
 
 #profile-jot-wrapper {
 	max-width: $converse_width;
+  padding: 2em;
 }
 
 #jot-title,
