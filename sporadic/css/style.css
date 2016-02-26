@@ -74,6 +74,16 @@ span.oembed.video a {
 	width: 35%;
 }
 
+.generic-content-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: none;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .generic-content-wrapper-styled {
 	background-color: #FFF !important;
 	border: 1px solid #cecece;
@@ -774,10 +784,10 @@ max-width: 285px;
 }
 
 #side-bar-photos-albums {
-  margin-top: 15px;
-  background-color: transparent;
-  border: none;
-  text-shadow: 1px 1px 0px #fff;
+    margin-top: 0px;
+    background-color: transparent;
+    border: none;
+    text-shadow: 1px 1px 0px #fff;
 }
 
 #side-bar-photos-albums ul {
@@ -2214,9 +2224,11 @@ textarea#prvmail-text {
 }
 
 .thread-wrapper.toplevel_item {
-	border-top: 1px solid #D7D7D7;
-	width: 100%;
-	margin-top: 2em;
+  border-top: 1px solid #D7D7D7;
+  width: 94%;
+  margin-top: 0em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .wall-item-content-wrapper {
@@ -2609,8 +2621,10 @@ span.wall-item-name {
 }
 
 .wall-item-outside-wrapper, .wall-item-outside0-wrapper shiny {
-	font-size: 12px;
-	font-weight: 100;
+  font-size: 12px;
+  font-weight: 100;
+  border: 1px solid #B4B4B4;
+  border-radius: 3px;
 }
 
 .wall-item-content h1,  .wall-item-content h2 {
@@ -2638,7 +2652,7 @@ span.wall-item-name {
 .section-title-wrapper {
     padding: 10px 7px 10px 7px;
     background-color: rgb(230, 230, 230);
-    margin-bottom: 1em;
+    margin-bottom: 0;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
