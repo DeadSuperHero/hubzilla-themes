@@ -104,6 +104,11 @@ img.smiley {
 	font-family: Helvetica,freesans,sans-serif;
 }
 
+#main-slider {
+  margin: 10px 7px 40px 7px;
+  padding: 2em;
+}
+
 abbr {
 	border-bottom: none;
 }
