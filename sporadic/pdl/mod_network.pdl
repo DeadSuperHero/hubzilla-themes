@@ -1,17 +1,14 @@
-[region=nav]$nav[/region]
-
 [region=aside]
-[widget=forums][/widget]
-[widget=suggestions][/widget]
+[widget=shortprofile][/widget]
 [/region]
 
 [region=content]
-[widget=affinity][/widget]
+[widget=zcard][/widget]
 $content
 [/region]
 
 [region=right_aside]
-[widget=archive][/widget]
-[widget=collections][/widget]
-[widget=savedsearch][/widget]
+[widget=archive][var=wall]1[/var][/widget]
+[widget=categories][/widget]
+[widget=tagcloud_wall][var=limit]24[/var][/widget]
 [/region]
