@@ -27,11 +27,17 @@
     margin-right: auto;
 }
 
-.hz_cover_photo img {
+  .hz_cover_photo img {
     width: 100% !important;
     max-width: 100%;
     background-attachment: fixed;
 }
+
+  .hz_card {
+    width: 100%;
+    overflow: initial;
+    height: 333px;
+  }
 
 /* generals */
 html {
@@ -2132,8 +2138,13 @@ textarea#prvmail-text {
 /* jot */
 
 #profile-jot-wrapper {
-	max-width: $converse_width;
-  padding: 2em;
+  max-width: $converse_width;
+  padding: 1em;
+  border: 1px solid #ccc;
+  margin: 1em;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #jot-title,
@@ -2786,10 +2797,10 @@ span.wall-item-name {
 }
 
 #tabs-collapse-1 {
-	padding: 0px;
-	margin-bottom: 25px;
-	border-top: none;
-	box-shadow: none;
+  padding: 0px;
+  margin-bottom: 25px;
+  border-top: none;
+  box-shadow: none;
 }
 
 .nav-pills>li>a>.badge {

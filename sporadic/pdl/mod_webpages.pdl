@@ -1,5 +1,4 @@
 [region=aside]
-[widget=design_tools][/widget]
 [widget=shortprofile][/widget]
 [/region]
 
@@ -9,4 +8,5 @@ $content
 [/region]
 
 [region=right_aside]
+[widget=design_tools][/widget]
 [/region]
