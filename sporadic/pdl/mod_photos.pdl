@@ -1,5 +1,5 @@
 [region=aside]
-[widget=photo_albums][/widget]
+[widget=shortprofile][/widget]
 [/region]
 
 [region=content]
@@ -8,4 +8,5 @@ $content
 [/region]
 
 [region=right_aside]
+[widget=photo_albums][/widget]
 [/region]
