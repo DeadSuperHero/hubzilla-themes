@@ -2143,8 +2143,6 @@ textarea#prvmail-text {
   border: 1px solid #ccc;
   margin: 1em;
   width: 94%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #jot-title,
@@ -2931,8 +2929,8 @@ aside#region_3 {
 	}
 
 	#profile-jot-wrapper {
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: auto;
+    margin-right: auto;
 	}
 
 	section#region_2 {
