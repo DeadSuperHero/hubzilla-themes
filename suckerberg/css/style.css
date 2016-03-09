@@ -2663,10 +2663,21 @@ span.wall-item-name {
 	box-shadow: none;
 }
 
+#tasklist-new-summary {
+    width: 100%;
+}
+
+#events-calendar {
+    margin-left: -1px;
+    margin-bottom: -1px;
+    padding: 2em;
+}
+
 .hz_card {
     width: 100%;
     overflow: hidden;
-    height: auto;
+    height: auto !important;
+    border-radius: 5px;
 }
 
 .hz_cover_photo img {
