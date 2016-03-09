@@ -2667,7 +2667,6 @@ span.wall-item-name {
     width: 100%;
     overflow: hidden;
     height: auto;
-    max-height: 32em;
 }
 
 .hz_cover_photo img {
