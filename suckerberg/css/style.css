@@ -94,10 +94,10 @@ abbr {
 	margin-right: 5px;
 }
 
-a, a:visited, a:link, .fakelink, .fakelink:visited, .fakelink:link { 
+a, a:visited, a:link, .fakelink, .fakelink:visited, .fakelink:link {
 	font-weight: 100;
-	color: $link_colour; 
-	text-decoration: none; 
+	color: $link_colour;
+	text-decoration: none;
 }
 
 a:hover, .fakelink:hover { color: $link_colour; text-decoration: underline; }
@@ -140,7 +140,7 @@ textarea {
 input {
 	border: 1px solid $input_border;
 	-moz-border-radius: $radiuspx;
-	border-radius: $radiuspx;	
+	border-radius: $radiuspx;
 	padding: 3px;
 }
 
@@ -231,7 +231,7 @@ header {
 	background-color: $infomess_bgcolour;
 	padding: 10px;
 	-moz-border-radius: $radiuspx;
-	border-radius: $radiuspx;	
+	border-radius: $radiuspx;
 
 }
 
@@ -295,7 +295,7 @@ footer {
 	bottom:1px;
 	text-align: right;
 	padding-bottom: 1em;
-	padding-right: 3em; 
+	padding-right: 3em;
 }
 
 .birthday-today, .event-today {
@@ -329,8 +329,8 @@ aside ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	/* border-left: 1px solid #eee; This and a 5px left border on the li is "interesting" 
-	   to delineate the list from the surrounding bits 
+	/* border-left: 1px solid #eee; This and a 5px left border on the li is "interesting"
+	   to delineate the list from the surrounding bits
 	*/
 }
 
@@ -709,7 +709,7 @@ aside li {
 .pager_next,
 .pager-prev,
 .pager-next,
-.pager_n { 
+.pager_n {
 	border: 1px solid $editbuttons_bordercolour;
 	background: $editbuttons_bgcolour;
 	padding: 4px;
@@ -961,7 +961,7 @@ aside li {
 #nav-search-text:hover,
 #nav-search-text:focus {
 	background-color: #fff;
-	color: #000; 
+	color: #000;
 }
 
 #nav-search-text {
@@ -1018,7 +1018,7 @@ aside li {
 }
 
 /* end from default */
-	
+
 
 #network-new-link {
 	margin-top: 15px;
@@ -1067,7 +1067,7 @@ aside li {
 }
 
 .vevent {
-	max-width: 100%; 
+	max-width: 100%;
 	margin-left: 10px;
 	margin-right: 10px;
 	border: 1px solid #CCCCCC;
@@ -1137,7 +1137,7 @@ aside li {
 	clear: both;
 }
 
- 
+
 .calendar {
 	font-family: Courier, monospace;
 }
@@ -1370,7 +1370,7 @@ brain is weird like that */
 .settings-heading {
 	border-bottom: 1px solid #babdb6;
 }
- 
+
 
 /**
  * Form fields
@@ -1396,7 +1396,7 @@ brain is weird like that */
 	display: block;
 	margin-left: 350px;
 	color: #666666;
-	
+
 }
 
 .field input[type="checkbox"] {
@@ -1442,7 +1442,7 @@ brain is weird like that */
 /*
  * UPDATE
  */
-.popup { 	
+.popup {
 	width: 100%; height: 100%;
 	top:0px; left:0px;
 	position: absolute;
@@ -1463,7 +1463,7 @@ brain is weird like that */
 	border: 4px solid #000000;
 	background-color: #FFFFFF;
 }
-.popup .panel .panel_text { display: block; overflow: auto; height: 80%; } 
+.popup .panel .panel_text { display: block; overflow: auto; height: 80%; }
 .popup .panel .panel_in { width: 100%; height: 100%;	position: relative; }
 .popup .panel .panel_actions {  width: 100%; bottom: 4px; left: 0px; position: absolute; }
 .panel_text .progress { width: 50%; overflow: hidden; height: auto; border: 1px solid #cccccc; margin-bottom: 5px}
@@ -1476,7 +1476,7 @@ brain is weird like that */
 	height: auto; overflow: auto;
 	border-bottom: 2px solid #cccccc;
 	padding-bottom: 1em;
-	margin-bottom: 1em;	
+	margin-bottom: 1em;
 }
 .oauthapp img {
 	float: left;
@@ -1678,8 +1678,8 @@ div.jGrowl div.jGrowl-notification {
 }
 
 #contact-slider {
-	position: relative; 
-	left: 5%; 
+	position: relative;
+	left: 5%;
 	width: 90%;
 }
 
@@ -1849,7 +1849,7 @@ header {
 	width: 1em;
 }
 
-.shared_header img { 
+.shared_header img {
 	margin-right: 10px;
 	width: 2em !important;
 }
@@ -1942,7 +1942,7 @@ a .drop-icons {
 	font-size: 1.2em;
 	text-decoration: none;
 }
- 
+
 a .drop-icons:hover {
 	color: #FF0000;
 }
@@ -1952,7 +1952,7 @@ a .drop-icons:hover {
 	margin-right: 10px;
 	color: #FF0000;
 }
- 
+
 .attachlink {
 	float: left;
 	border: 1px solid black;
@@ -1977,8 +1977,8 @@ a .drop-icons:hover {
 	margin-right: 10px;
 }
 
-.design-icons:hover { 
-text-decoration: none; 
+.design-icons:hover {
+text-decoration: none;
 }
 
 #menulist {
@@ -2251,7 +2251,7 @@ img.mail-list-sender-photo {
 	text-align: center;
 	font-weight: bold;
 	color: $link_colour;
-	cursor: pointer;	
+	cursor: pointer;
 }
 
 .divgrow-showmore:hover {
@@ -2528,7 +2528,7 @@ h3, h4 {
 }
 
 h5, h6 {
-   font-size: 0.75rem; 
+   font-size: 0.75rem;
 }
 
 
@@ -2568,17 +2568,17 @@ span.wall-item-name {
 .dropdown-menu {
 	font-size: $body_font_size;
 	border-radius: $radiuspx;
-	background-color: $dropdown_bgcolour; 
+	background-color: $dropdown_bgcolour;
 }
 
 .dropdown-menu >li > a {
-	color: $dropdown_textcolour; 
+	color: $dropdown_textcolour;
 }
 
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-    	color: $dropdown_txtcolhover; 
-    	background-color: $dropdown_bgcolhover; 
+    	color: $dropdown_txtcolhover;
+    	background-color: $dropdown_bgcolhover;
 	$dropdown_bgimghover
 }
 
@@ -2587,9 +2587,9 @@ span.wall-item-name {
 }
 
 .open .dropdown-toggle.btn-default {
-    color: $dropdown_togglecol; 
-    background-color: $dropdown_togglebgcol; 
-    border-color: $dropdown_bordercol; 
+    color: $dropdown_togglecol;
+    background-color: $dropdown_togglebgcol;
+    border-color: $dropdown_bordercol;
 }
 
 .navbar-inverse {
@@ -2662,13 +2662,24 @@ span.wall-item-name {
 	box-shadow: none;
 }
 
+.hz_card {
+    width: 100%;
+    overflow: hidden;
+    height: 360px;
+    background-size: contain;
+}
+
+.hz_cover_photo img {
+    width: 100%;
+}
+
 .nav-tabs{
 	border-bottom:1px solid $navtabs_borderc;
 }
 
 .nav-tabs>li.active>a,.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:focus{
 	color: $navtabs_fontcolour;
-	background-color: $navtabs_bgcolour; 
+	background-color: $navtabs_bgcolour;
 }
 
 .nav-tabs.nav-justified {
@@ -2740,15 +2751,15 @@ span.wall-item-name {
 }
 
 aside#region_1 {
-	width: 231px;
+	width: 230px;
 }
 
 section#region_2 {
-	width: 55%;
+	width: 62%;
 }
 
 aside#region_3 {
-	width: 15%;
+	width: 230px;
 }
 
 .well {
@@ -2803,4 +2814,3 @@ aside#region_3 {
 	}
 
 }
-
