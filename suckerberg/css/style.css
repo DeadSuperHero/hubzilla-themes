@@ -2678,6 +2678,7 @@ span.wall-item-name {
     overflow: hidden;
     height: auto !important;
     border-radius: 5px;
+    max-height: 400px;
 }
 
 .hz_cover_photo img {
@@ -2797,6 +2798,7 @@ aside#region_3 {
   .hz_card {
     overflow: hidden;
     height: auto;
+    max-height: none;
   }
 
 	section#region_2 {
