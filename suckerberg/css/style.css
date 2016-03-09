@@ -2798,7 +2798,7 @@ aside#region_3 {
   .hz_card {
     overflow: hidden;
     height: auto;
-    max-height: none;
+    max-height: 400px;
   }
 
 	section#region_2 {
