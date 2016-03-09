@@ -1,0 +1,12 @@
+[region=aside]
+[widget=eventsmenu][/widget]
+[widget=eventstools][/widget]
+[/region]
+
+[region=content]
+$content
+[/region]
+
+[region=right_aside]
+[widget=tasklist][/widget]
+[/region]
