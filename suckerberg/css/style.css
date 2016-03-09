@@ -34,6 +34,7 @@ iframe {
 main {
 	margin-left: auto;
     margin-right: auto;
+    width: 95%;
 }
 
 span.oembed.video {
@@ -2665,11 +2666,15 @@ span.wall-item-name {
 .hz_card {
     width: 100%;
     overflow: hidden;
-    height: 360px;
-    background-size: contain;
+    height: auto;
+    max-height: 32em;
 }
 
 .hz_cover_photo img {
+    width: inherit !important;
+}
+
+.hz_cover_photo {
     width: 100%;
 }
 
@@ -2752,7 +2757,10 @@ span.wall-item-name {
 
 aside#region_1 {
 	width: 230px;
+  min-width: 230px;
+  max-width: 230px;
 }
+
 
 section#region_2 {
 	width: 62%;
@@ -2760,6 +2768,8 @@ section#region_2 {
 
 aside#region_3 {
 	width: 230px;
+  min-width: 230px;
+  max-width: 230px;
 }
 
 .well {
@@ -2774,6 +2784,12 @@ aside#region_3 {
 		width: 231px;
 
 	}
+
+  .hz_card {
+    overflow: hidden;
+    height: auto;
+    max-height: 15em;
+  }
 
 	section#region_2 {
 	width: 100%;
