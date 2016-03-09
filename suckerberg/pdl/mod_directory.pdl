@@ -1,9 +1,9 @@
 [region=nav]$nav[/region]
 
 [region=aside]
-[widget=dirtags][/widget]
 [widget=dirsort][/widget]
 [widget=dirsafe][/widget]
+[widget=dirtags][/widget]
 [/region]
 
 [region=content]
