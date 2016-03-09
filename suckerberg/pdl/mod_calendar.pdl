@@ -1,6 +1,6 @@
 [region=aside]
-[widget=events_menu][/widget]
-[widget=events_tools][/widget]
+[widget=eventsmenu][/widget]
+[widget=eventstools][/widget]
 [/region]
 
 [region=content]
