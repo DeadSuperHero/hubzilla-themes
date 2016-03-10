@@ -4,7 +4,7 @@ function headerboard ($args) {
 require_once('include/identity.php');
 $o = '';
 
-$channel_id = 0;
+$channel_id = (int)0;
 if(array_key_exists('channel_id', $arr) && intval($arr['channel_id']))
 $channel_id = intval($arr['channel_id']);
 if(! $channel_id)
