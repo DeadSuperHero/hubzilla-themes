@@ -2051,7 +2051,7 @@ img.mail-list-sender-photo {
 
 #profile-jot-text {
 	color:#000;
-	border: 1px solid #cccccc;
+	border: none;
 	-moz-border-radius: $radiuspx;
 	border-radius: $radiuspx;
 }
