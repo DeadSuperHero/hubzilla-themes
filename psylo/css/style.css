@@ -1,0 +1,64 @@
+/* This is Psylo. Psylo is an attempt at a new type of theme and UI
+Design in an attempt to show Hubzilla in a less social-network-centric
+kind of way. Psylo started as a mockup that I made for Friendica a long time
+ago, and evokes design elements from several different places */
+
+/* Let's temporarily reference the background-image asset from another site
+for now. Sorry, guy hosting picture of wood! */
+
+body {
+  font-family: Helvetica,arial,freesans,sans-serif;
+  font-size: 0.75rem;
+  background-image: url('http://www.texturezine.com/wp-content/uploads/2009/12/5wood-620x413.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color: #4D4D4D;
+  margin: 0px;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+/* So this is kind of weird. At some point, may end up having to manually
+override the template layouts for the nav part of the interface */
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: #232D44;
+    background-image: none;
+    height: 3.9em;
+    box-shadow: none;
+    width: 313px;
+    margin-left: auto;
+}
+
+/* Kind of a weird thought, what if the nav were actually turned into a fixed
+sidebar region? */
+
+.navbar-inverse .navbar-collapse {
+    background: rgba(32, 32, 32, 0.67);
+    background-image: none;
+    border: 3px double rgba(255, 255, 255, 0.36);
+}
+
+
+.wall-item-photo {
+  border-radius: 8em;
+  -moz-border-radius: 8em;
+  box-shadow: 0px 0px 3px #B1B1B1;
+  border: 3px solid white;
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.wall-item-content .wall-item-tools {
+    padding: 0.5em 10px 10px 10px;
+    background-color: #fff68e;
+}
+
+.wall-item-content .wall-item-tools .btn-default {
+    background-color: $editbuttons_bgcolour;
+    border-color: #c6be6a;
+    color: $editbuttons_colour;
+    text-shadow: none;
+    box-shadow: 1px 1px 1px #fff inset;
+}
