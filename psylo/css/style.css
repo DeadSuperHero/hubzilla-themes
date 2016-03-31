@@ -40,6 +40,10 @@ override the template layouts for the nav part of the interface */
     border: 3px double rgba(255, 255, 255, 0.36);
 }
 
+nav img {
+    border-radius: 4px;
+    width: 78%;
+  }
 
 /* This section will deal with stream content */
 
