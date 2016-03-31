@@ -50,15 +50,22 @@ sidebar region? */
   height: 60px !important;
 }
 
-.wall-item-content .wall-item-tools {
+.wall-item-content-wrapper .wall-item-tools {
     padding: 0.5em 10px 10px 10px;
     background-color: #fff68e;
+    margin-left: 5%;
+    border-radius: 0em 0em 1em 1em;
 }
 
-.wall-item-content .wall-item-tools .btn-default {
+.wall-item-content-wrapper .wall-item-tools .btn-default {
     background-color: $editbuttons_bgcolour;
     border-color: #c6be6a;
     color: $editbuttons_colour;
     text-shadow: none;
     box-shadow: 1px 1px 1px #fff inset;
+}
+
+.wall-item-content img {
+    max-width: 100%;
+    width: 100%;
 }
