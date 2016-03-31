@@ -1,6 +1,7 @@
 <div class="container-fluid">
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+      <div id="banner" class="hidden-sm hidden-xs">{{$banner}}</div>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
