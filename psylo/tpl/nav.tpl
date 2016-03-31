@@ -45,6 +45,7 @@
       {{/if}}
     {{/if}}
   </div>
+        <div id="banner" class="hidden-sm hidden-xs">{{$banner}}</div>
   <div class="collapse navbar-collapse" id="navbar-collapse-1">
     <ul class="nav navbar-nav navbar-left">
     {{if $nav.register}}<li class="{{$nav.register.2}}"><a href="{{$nav.register.0}}" title="{{$nav.register.3}}" id="{{$nav.register.4}}">{{$nav.register.1}}</a></li>{{/if}}
@@ -66,7 +67,6 @@
 
     {{if $nav.alogout}}<li class="{{$nav}}-alogout.2"><a href="{{$nav.alogout.0}}" title="{{$nav.alogout.3}}" id="{{$nav.alogout.4}}">{{$nav.alogout.1}}</a></li>{{/if}}
 
-      <div id="banner" class="hidden-sm hidden-xs">{{$banner}}</div>
 
     {{if $nav.network}}
       <li class="{{$sel.network}} hidden-xs">
