@@ -50,14 +50,14 @@ sidebar region? */
   height: 60px !important;
 }
 
-.wall-item-content-wrapper .wall-item-tools {
+.thread-wrapper .wall-item-tools {
     padding: 0.5em 10px 10px 10px;
     background-color: #fff68e;
     margin-left: 5%;
     border-radius: 0em 0em 1em 1em;
 }
 
-.wall-item-content-wrapper .wall-item-tools .btn-default {
+.thread-wrapper .wall-item-tools .btn-default {
     background-color: $editbuttons_bgcolour;
     border-color: #c6be6a;
     color: $editbuttons_colour;
