@@ -58,11 +58,11 @@ override the template layouts for the nav part of the interface */
   height: 60px !important;
 }
 
-.shared-header {
+.shared_header {
   margin-left: 20px;
 }
 
-.shared-header img {
+.shared_header img {
   width: 35px;
 }
 
