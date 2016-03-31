@@ -71,14 +71,14 @@ override the template layouts for the nav part of the interface */
     width: 100%;
 }
 
-#wall-item-outside-wrapper .thread-wrapper.toplevel_item .wall-item-tools {
+.thread-wrapper.toplevel_item .wall-item-tools {
     padding: 0.5em 10px 10px 10px;
     background-color: #fff68e;
     margin-left: 5%;
     border-radius: 0em 0em 1em 1em;
 }
 
-#wall-item-outside-wrapper .thread-wrapper.toplevel_item .wall-item-tools .btn-default {
+.thread-wrapper.toplevel_item .wall-item-tools .btn-default {
     background-color: $editbuttons_bgcolour;
     border-color: #c6be6a;
     color: $editbuttons_colour;
