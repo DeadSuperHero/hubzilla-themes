@@ -58,19 +58,27 @@ override the template layouts for the nav part of the interface */
   height: 60px !important;
 }
 
+.shared-header {
+  margin-left: 20px;
+}
+
+.shared-header img {
+  width: 35px;
+}
+
 .wall-item-content img {
     max-width: 100%;
     width: 100%;
 }
 
-#thread-wrapper .thread-wrapper.toplevel_item .wall-item-tools {
+#wall-item-outside-wrapper .thread-wrapper.toplevel_item .wall-item-tools {
     padding: 0.5em 10px 10px 10px;
     background-color: #fff68e;
     margin-left: 5%;
     border-radius: 0em 0em 1em 1em;
 }
 
-#thread-wrapper .thread-wrapper.toplevel_item .wall-item-tools .btn-default {
+#wall-item-outside-wrapper .thread-wrapper.toplevel_item .wall-item-tools .btn-default {
     background-color: $editbuttons_bgcolour;
     border-color: #c6be6a;
     color: $editbuttons_colour;
