@@ -62,7 +62,7 @@ override the template layouts for the nav part of the interface */
   margin-left: 20px;
 }
 
-.shared_header img {
+.wall-item-content .shared_header img {
   width: 35px;
 }
 
