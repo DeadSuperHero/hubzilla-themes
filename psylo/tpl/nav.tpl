@@ -1,7 +1,6 @@
 <div class="container-fluid">
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-      <div id="banner" class="hidden-sm hidden-xs">{{$banner}}</div>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
@@ -66,6 +65,8 @@
     {{/if}}
 
     {{if $nav.alogout}}<li class="{{$nav}}-alogout.2"><a href="{{$nav.alogout.0}}" title="{{$nav.alogout.3}}" id="{{$nav.alogout.4}}">{{$nav.alogout.1}}</a></li>{{/if}}
+
+      <div id="banner" class="hidden-sm hidden-xs">{{$banner}}</div>
 
     {{if $nav.network}}
       <li class="{{$sel.network}} hidden-xs">
