@@ -73,6 +73,12 @@ override the template layouts for the nav part of the interface */
     width: 100%;
 }
 
+/* Save us from Emjoi Hell */
+
+img.smiley {
+    width: 14px;
+}
+
 .thread-wrapper.toplevel_item .wall-item-tools {
     padding: 0.5em 10px 10px 10px;
     background-color: #fff68e;
