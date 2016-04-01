@@ -9,9 +9,9 @@
  *
  */
 
-function sporadic_init(&App::$) {
+function sporadic_init(&$a) {
 
-    App::$>theme_info['extends'] = 'redbasic';
+    $a->theme_info['extends'] = 'redbasic';
 
 
 }
