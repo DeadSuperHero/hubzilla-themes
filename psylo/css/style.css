@@ -18,6 +18,20 @@ body {
   background-repeat: no-repeat;
 }
 
+main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: none;
+}
+
+/* Put Regions here. Regions are important for displaying widgets,
+which we'll need to learn how to make. */
+aside#region_3 {
+  background: rgb(50, 50, 50) none repeat scroll 0% 0%;
+  border: 4px double rgba(221, 221, 221, 0.58);
+  border-top: none;
+}
+
 /* Kind of a weird thought, what if the nav were actually turned into a fixed
 sidebar region?
 
@@ -53,6 +67,13 @@ nav img {
     border-top-left-radius: 4px;
 }
 
+.wall-item-content-wrapper.comment {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: #473a43;
+    color: #fff;
+}
+
 .wall-item-photo {
   border-radius: 8em;
   -moz-border-radius: 8em;
@@ -77,17 +98,54 @@ nav img {
     width: 100%;
 }
 
+.hide-comments-outer:hover {
+    border-top: 1px solid #2f272c;
+}
+
+.hide-comments-outer {
+    border-top-color: #2f272c;
+    border-style: solid;
+    border-top-style: solid;
+    border-width: 1px 0px 0px 0px;
+    text-align: center;
+    border-radius: 0px;
+    background-color: #473a43;
+}
+
 /* Save us from Emjoi Hell */
 
 img.smiley {
     width: 14px;
 }
 
+/* This is currently wonky. The top-level action toolbar is the only thing
+that needs to be styled like this. */
+
 .thread-wrapper.toplevel_item .wall-item-tools {
     padding: 0.5em 10px 10px 10px;
-    background-color: #fff68e;
-    margin-left: 5%;
-    border-radius: 0em 0em 1em 1em;
+    background-color: #473a43;
+}
+
+.thread-wrapper.toplevel_item .wall-item-tools .btn-default {
+    background-color: $editbuttons_bgcolour;
+    border-color: #262522;
+    color: $editbuttons_colour;
+    text-shadow: none;
+    box-shadow: 1px 1px 1px #fff inset;
+    border-radius: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* Bootstrap Enhancements */
+
+/* Buttons! */
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 16px;
+      border-top-left-radius: 16px;
 }
 
 .thread-wrapper.toplevel_item .wall-item-tools .btn-default {
@@ -96,4 +154,12 @@ img.smiley {
     color: $editbuttons_colour;
     text-shadow: none;
     box-shadow: 1px 1px 1px #fff inset;
+    border-radius: 16px;
+}
+
+.btn-group > .btn + .dropdown-toggle {
+    padding-right: 8px;
+    padding-left: 8px;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
 }
