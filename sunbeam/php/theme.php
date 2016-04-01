@@ -9,9 +9,9 @@
  *
  */
 
-function sunbeam_init(&$a) {
+function sunbeam_init(&$App) {
 
-    $a->theme_info['extends'] = 'redbasic';
+    App::$theme_info['extends'] = 'redbasic';
 
 
 }

@@ -9,9 +9,9 @@
  *
  */
 
-function verykool_init(&$a) {
+function verykool_init(&$App) {
 
-    $a->theme_info['extends'] = 'redbasic';
+    App::$theme_info['extends'] = 'redbasic';
 
 
 }

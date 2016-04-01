@@ -9,9 +9,9 @@
  *
  */
 
-function suckerberg_init(&$a) {
+function suckerberg_init(&$App) {
 
-    $a->theme_info['extends'] = 'redbasic';
+    App::$theme_info['extends'] = 'redbasic';
 
 
 }

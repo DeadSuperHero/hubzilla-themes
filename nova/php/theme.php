@@ -9,9 +9,9 @@
  *
  */
 
-function nova_init(&$a) {
+function nova_init(&$App) {
 
-    $a->theme_info['extends'] = 'redbasic';
+    App::$theme_info['extends'] = 'redbasic';
 
 
 }

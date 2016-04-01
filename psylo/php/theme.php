@@ -9,9 +9,9 @@
  *
  */
 
-function psylo_init(&$a) {
+function psylo_init(&$App) {
 
-    $a->theme_info['extends'] = 'redbasic';
+    App::$theme_info['extends'] = 'redbasic';
 
 
 }
