@@ -9,7 +9,7 @@
  *
  */
 
-function sporadic_init(&App::) {
+function sporadic_init(&App::$) {
 
     App::$theme_info['extends'] = 'redbasic';
 
