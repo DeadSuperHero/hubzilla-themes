@@ -11,7 +11,7 @@
 
 function sporadic_init(&App::$) {
 
-    App::$theme_info['extends'] = 'redbasic';
+    App::$ theme_info['extends'] = 'redbasic';
 
 
 }
