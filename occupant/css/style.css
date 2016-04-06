@@ -173,11 +173,11 @@ span.item.app, span .item.app {
 
 .generic-content-wrapper {
  	background: transparent;
-    padding: 0em;
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
-    border: none;
-
+  padding: 0em;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  border: none;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
 .mail-conv-detail {
