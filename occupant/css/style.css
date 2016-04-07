@@ -2411,15 +2411,6 @@ span.mail-list {
 
 #profile-jot-text {
 	color:#000;
-	border: 1px solid #cccccc;
-	-moz-border-radius: $radiuspx;
-	border-radius: $radiuspx;
-	-webkit-transition-property: height;
-	-moz-transition-property: height;
-	-webkit-transition-duration: 0.05s;
-	-moz-transition-duration: 0.05s;
-	-webkit-transition-timing-function: linear;
-	-moz-transition-timing-function: linear;
 }
 
 #profile-jot-text::-webkit-input-placeholder {
