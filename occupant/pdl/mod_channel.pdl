@@ -1,5 +1,6 @@
 [region=aside]
-[widget=fullprofile][/widget]
+[widget=profile][/widget]
+[widget=wiki_list][/widget]
 [/region]
 
 [region=content]
