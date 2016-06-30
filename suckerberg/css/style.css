@@ -760,6 +760,10 @@ aside li {
 	height: $top_photo !important;
 }
 
+#wiki-preview img {
+  max-width: 100%
+}
+
 #sidebar-page-list .label {
     margin-left: 5px;
 }
