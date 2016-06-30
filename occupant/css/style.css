@@ -872,6 +872,10 @@ input#register-password-2.register_input {
     box-shadow: 0px 2px 2px 0px #5D5D5D;
 }
 
+#wiki-preview img {
+  max-width: 100%
+}
+
 #profile-photo-wrapper {
 	width: 100%;
     height: auto;

@@ -645,6 +645,10 @@ max-width: 285px;
   height: auto;
 }
 
+#wiki-preview img {
+  max-width: 100%
+}
+
 #profile-in-dir-yes-label,
 #profile-in-dir-no-label,
 #profile-in-netdir-yes-label,
