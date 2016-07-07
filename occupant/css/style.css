@@ -872,9 +872,22 @@ input#register-password-2.register_input {
     box-shadow: 0px 2px 2px 0px #5D5D5D;
 }
 
+/* Wiki Section */
+
 #wiki-preview img {
   max-width: 100%
 }
+
+#wiki-toc {
+  background-color: #EFEFEF;
+  border: 1px solid #BDBDBD;
+  color: #447AB7;
+  font-weight: bold;
+  border-radius: 3px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 
 #profile-photo-wrapper {
 	width: 100%;
@@ -2545,8 +2558,8 @@ span.mail-list {
 }
 
 .wall-item-ago {
-	color: #777;
-	font-size: 0.833em;
+    color: #868686;
+    font-size: 0.833em;
 }
 
 .wall-item-ago i {
@@ -2695,6 +2708,11 @@ span.mail-list {
 	cursor: pointer;
 }
 
+#chatContainer {
+  border: 1px solid #CACACA;
+  border-top: none;
+}
+
 .chat-item-photo {
 	border-radius: $radiuspx;
 }
@@ -2703,6 +2721,21 @@ span.mail-list {
 	border-radius: $radiuspx;
 	background-color: #eee;
 }
+
+.chat-item-text-self {
+  background: #519FFF;
+  padding: 5px;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #75B3FF;
+}
+
+.chat-item-title, .chat-item-title-self {
+    border: none;
+    background-color: transparent;
+}
+
 
 /* nav bootstrap */
 
