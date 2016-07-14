@@ -63,7 +63,8 @@ section#region_2 {
     padding-top: 71px;
     padding-left: 1em;
     padding-right: 1em;
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAI0lEQ…IW2NkYGCoZ2Bg2MIABYwMDAzGMA6IRhbwAanEUAEAb/wC0R58VikAAAAASUVORK5CYII= ) repeat;
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAI0lEQVQIW2NkYGCoZ2Bg2MIABYwMDAzGMA6IRhbwAanEUAEAb/wC0R58VikAAAAASUVORK5CYII=
+    ) repeat;
 }
 
 .nav-tabs.nav-justified {
