@@ -37,6 +37,10 @@ aside#region_1 {
   text-align: center;
 }
 
+#datebrowse-sidebar .widget, #categories-sidebar .widget {
+  text-align: center;
+}
+
 .fn {
     font-weight: bold;
     font-size: 16px;
