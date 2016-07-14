@@ -1,0 +1,51 @@
+/* Navbar */
+
+header #banner {
+      margin-top: 5px;
+}
+
+header #banner img {
+  max-width: 60%;
+}
+
+/* Sidebar Haxx */
+
+aside#region_1 {
+  padding-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
+  border: 0px solid #000;
+  box-shadow: 1px 1px 4px #5d5d5d;
+  width: 260px;
+}
+
+/* There is probably a better way to do this */
+
+aside#region_3 {
+  padding-top: 71px;
+  display: none;
+}
+
+.vcard {
+  padding: 0;
+}
+
+#profile-photo-wrapper {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+/* Stream */
+
+section#region_2 {
+    padding-top: 71px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.generic-content-wrapper {
+    border: 1px solid #ccc;
+    box-shadow: none;
+    border-radius: 4px;
+}
