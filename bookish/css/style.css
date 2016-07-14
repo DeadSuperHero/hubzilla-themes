@@ -19,6 +19,19 @@ aside#region_1 {
   width: 260px;
 }
 
+#datebrowse-sidebar widget, #catagories-sidebar, #wiki-list {
+  text-align: center;
+  border: 1px solid #bfbfbf;
+  margin: 5px;
+}
+
+.fn {
+    font-weight: bold;
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+}
+
 /* There is probably a better way to do this */
 
 aside#region_3 {
