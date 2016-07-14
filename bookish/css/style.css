@@ -7,7 +7,7 @@ main {
 /* Navbar */
 
 header #banner {
-      margin-top: 5px;
+      margin-top: 0px;
 }
 
 header #banner img {
@@ -19,7 +19,38 @@ header #banner img {
     background-image: none;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3c3c3c, endColorstr=#222, GradientType=0);
     background-color: rgb(249, 249, 249);
-    border-color: #222;
+    border-color: #777;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-image: -webkit-linear-gradient(top, #222 0%, #282828 100%);
+    background-image: linear-gradient(to bottom, #777777 0%, #777777 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#222, endColorstr=#282828, GradientType=0);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #777;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #777;
+    color: #f9f9f9;
+}
+
+#nav-search-text {
+  font-size: 12px;
+  width: 200px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px 0px 0px 5px;
+  border-radius: 0;
+  border-color: transparent;
+  background-color: #e6e6e6;
+  transition: background-color 300ms ease 0s;
+}
+
+nav .badge {
+  background: #e41085;
 }
 
 /* Sidebar Haxx */
@@ -62,7 +93,7 @@ aside#region_3 {
 #profile-photo-wrapper {
     width: 100%;
     margin-bottom: 10px;
-    border-radius: 4px;
+    border-radius: 0px;
 }
 
 /* Stream */
