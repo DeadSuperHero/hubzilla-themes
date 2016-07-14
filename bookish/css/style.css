@@ -106,6 +106,38 @@ section#region_2 {
     ) repeat;
 }
 
+.slider-container .scale ins {
+    font-size: 9px;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    line-height: 1;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+.wall-item-body img {
+    border: 0;
+    width: 100%;
+}
+
+img.smiley {
+  width: 18px;
+}
+
+.shared_header img {
+  width: 35px;
+}
+
+.shared_container {
+  background: #ddd;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+}
+
 .nav-tabs.nav-justified {
     background-color: rgb(255, 255, 255);
     border-top-left-radius: 4px;
