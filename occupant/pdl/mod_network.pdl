@@ -11,6 +11,6 @@ $content
 [/region]
 
 [region=right_aside]
-[widget=savedsearch][/widget]
 [widget=forums][/widget]
+[widget=savedsearch][/widget]
 [/region]
