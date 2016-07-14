@@ -1,0 +1,10 @@
+[region=aside]
+[widget=vcard][/widget]
+[widget=archive][var=wall]1[/var][/widget]
+[widget=categories][/widget]
+[widget=wiki_list][/widget]
+[/region]
+
+[region=content]
+$content
+[/region]
