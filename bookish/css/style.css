@@ -8,6 +8,14 @@ header #banner img {
   max-width: 60%;
 }
 
+.navbar-inverse {
+    background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222 100%);
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3c3c3c, endColorstr=#222, GradientType=0);
+    background-color: rgb(249, 249, 249);
+    border-color: #222;
+}
+
 /* Sidebar Haxx */
 
 aside#region_1 {
@@ -55,10 +63,22 @@ section#region_2 {
     padding-top: 71px;
     padding-left: 1em;
     padding-right: 1em;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAI0lEQ…IW2NkYGCoZ2Bg2MIABYwMDAzGMA6IRhbwAanEUAEAb/wC0R58VikAAAAASUVORK5CYII= ) repeat;
+}
+
+.nav-tabs.nav-justified {
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid #afafaf;
 }
 
 .generic-content-wrapper {
-    border: 1px solid #ccc;
     box-shadow: none;
     border-radius: 4px;
+    border: 1px #929292 solid;
+}
+
+.wall-item-content-wrapper {
+    background-color: rgb(255, 255, 255);
 }
