@@ -1,0 +1,12 @@
+[region=nav]$nav[/region]
+
+[region=aside]
+[widget=collections][/widget]
+[widget=forums][/widget]
+[widget=savedsearch][/widget]
+[/region]
+
+[region=content]
+[widget=affinity][/widget]
+$content
+[/region]
