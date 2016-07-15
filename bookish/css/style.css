@@ -4,6 +4,10 @@ main {
     max-width: 1430px;
 }
 
+a, .fakelink {
+    color: #e41085;
+}
+
 /* Navbar */
 
 header #banner {
