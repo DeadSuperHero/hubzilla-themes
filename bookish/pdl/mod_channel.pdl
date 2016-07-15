@@ -1,3 +1,8 @@
+
+[region=banner]
+[widget=cover_photo][/widget]
+[/region]
+
 [region=aside]
 [widget=vcard][/widget]
 [widget=wiki_list][/widget]
@@ -6,6 +11,5 @@
 [/region]
 
 [region=content]
-[widget=cover_photo][/widget]
 $content
 [/region]
