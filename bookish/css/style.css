@@ -65,7 +65,7 @@ aside#region_1 {
   padding-right: 0;
   border: 0px solid #000;
   box-shadow: 1px 1px 4px #5d5d5d;
-  width: 260px;
+  width: 287px;
 }
 
 .widget h3 {
@@ -98,6 +98,7 @@ aside#region_3 {
     width: 100%;
     margin-bottom: 10px;
     border-radius: 0px;
+    height: auto;
 }
 
 /* Stream */
