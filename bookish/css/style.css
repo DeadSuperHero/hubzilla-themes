@@ -50,13 +50,13 @@ header #banner img {
   border-radius: 0;
   border-color: transparent;
   background-color: #e6e6e6;
+  font-weight: bold;
   transition: background-color 300ms ease 0s;
 }
 
 #nav-search-text:hover, #nav-search-text:focus {
     background-color: #777;
     color: #f9f9f9;
-    font-weight: bold;
 }
 
 nav .badge {
