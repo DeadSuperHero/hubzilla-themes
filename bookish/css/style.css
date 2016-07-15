@@ -63,6 +63,27 @@ nav .badge {
   background: #e41085;
 }
 
+#expand-aside, #expand-tabs, #context-help-btn {
+    color: #fff;
+    padding: 7px 10px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #222;
+    background-color: #e41085;
+    border: none;
+    border-radius: 20px;
+    padding: 9px 5px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #e41085;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
 /* Sidebar Haxx */
 
 aside#region_1 {
