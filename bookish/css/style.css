@@ -22,6 +22,10 @@ header #banner img {
     border-color: #777;
 }
 
+.navbar .container-fluid {
+      border-left: double 22px #e41085;
+}
+
 .navbar-inverse .navbar-nav > .active > a {
     background-image: -webkit-linear-gradient(top, #222 0%, #282828 100%);
     background-image: linear-gradient(to bottom, #777777 0%, #777777 100%);
