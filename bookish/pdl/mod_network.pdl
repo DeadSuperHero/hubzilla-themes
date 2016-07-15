@@ -1,9 +1,9 @@
 [region=nav]$nav[/region]
 
 [region=aside]
+[widget=savedsearch][/widget]
 [widget=collections][/widget]
 [widget=forums][/widget]
-[widget=savedsearch][/widget]
 [/region]
 
 [region=content]
