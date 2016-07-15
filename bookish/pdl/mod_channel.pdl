@@ -6,6 +6,6 @@
 [/region]
 
 [region=content]
-[widget=cover_photo][/widget]
 $content
+[widget=cover_photo][/widget]
 [/region]
