@@ -91,7 +91,7 @@ nav .badge {
 /* Sidebar Haxx */
 
 aside#region_1 {
-  padding-top: 50px;
+  padding-top: 50px !important;
   padding-left: 0;
   padding-right: 0;
   border: 0px solid #000;
