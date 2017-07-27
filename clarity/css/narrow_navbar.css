@@ -1,0 +1,30 @@
+@media screen and (min-width: 767px) {
+
+	nav.navbar {
+		padding-top: 1px;
+		padding-bottom: 1px
+	}
+
+	nav .badge {
+		top: 0px;
+		left: -0.25rem;
+	}
+
+	.contextual-help-content-open {
+		top: 2.5rem;
+	}
+
+	aside {
+		padding-top: 3.5rem;
+	}
+
+	section {
+		padding-top: 3.5rem;
+	}
+
+	#jGrowl.top-right {
+		top: 3.5rem;
+		right: 15px;
+	}
+
+}

@@ -1,0 +1,515 @@
+body 	{
+    background-size: auto;
+}
+
+.generic-content-wrapper-styled {
+    background-color: rgba(67,72,138,.8);
+	color: #FFF;
+}
+
+.generic-content-wrapper-styled .btn-default:hover, #profile-jot-wrapper .btn-default:hover {
+	border: 1px solid #FFF;
+}
+
+#profile-jot-wrapper {
+	background-color: inherit;
+	border: none;
+}
+
+.generic-content-wrapper-styled a:hover, .generic-content-wrapper-styled a:focus, .generic-content-wrapper-styled .field.checkbox:hover label, .generic-content-wrapper-styled .field.checkbox:focus label, .allcontact-link:hover, .allcontact-link:focus {
+	color: rgba(255,255,255,.8);
+}
+
+.generic-content-wrapper, .profile-jot-text, .comment-edit-text-empty, .comment-edit-text-full, input.widget-input, .wall-item-content-wrapper, .section-title-wrapper, .section-content-wrapper {
+	border-radius: 0px !important;
+}
+
+.generic-content-wrapper {
+	background-color: rgba(255,255,255,.8);
+	color: #4d4d4d;
+}
+
+.wall-item-content-wrapper {
+	background-color: #FFF;
+}
+
+.hide-comments-outer, .wall-item-content-wrapper.comment, .wall-item-comment-wrapper {
+	background-color: transparent;
+}
+
+.generic-content-wrapper-styled .generic-content-wrapper {
+		color: #4D4D4D;
+}
+
+.generic-content-wrapper-styled .generic-content-wrapper a {
+		color: #43488A;
+}
+
+.generic-content-wrapper #profile-jot-wrapper {
+    background-color: transparent;
+	color: #4D4D4D;
+}
+
+.generic-content-wrapper input#jot-title, .generic-content-wrapper input#jot-pagetitle {
+    color: #4D4D4D;
+}
+
+.generic-content-wrapper input#jot-title:hover, .generic-content-wrapper input#jot-title:focus {
+    color: #4D4D4D;
+    border-radius: 0px;
+}
+
+
+.fn, .widget h3, .nav-tabs a, .generic-content-wrapper-styled a, .dropdown-menu > li > a, #channels-desc, input#jot-title {
+    color: #fff;
+	border-radius: 0px
+}
+
+ul.dropdown-menu.acpopup > li.textcomplete-item > a {
+	color: #43488A;
+}
+
+ul.dropdown-menu.acpopup > li.textcomplete-item > a:hover, ul.dropdown-menu.acpopup > li.textcomplete-item > a:focus {
+	background-color: #43488A;
+	color: #FFF;
+	cursor: pointer;
+}
+
+input#jot-title:hover, input#jot-title:focus {
+	color: #43488A;
+	border-radius: 0px;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    background-image: none;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-image: none;
+	background: rgba(255,255,255,.5);
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	background: rgba(255,255,255,.5);
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+	color: #43488A;
+	background: rgba(255,255,255,.5);
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+	background-color: #43488A;
+	color: #fff;
+}
+
+#nav-search-text {
+    color: #fff;
+    background-color: #43488A;
+    border-radius: 0px;
+    border-color: transparent;
+}
+
+nav .dropdown-menu, .wall-item-tools .dropdown-menu, .section-title-wrapper .dropdown-menu, .section-content-wrapper .dropdown-menu {
+    background-color: #43488A;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0px 6px 12px rgba(45,48,92,.176);
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: #43488A;
+    background-color: rgba(255,255,255,.7);
+    text-decoration: underline;
+}
+
+.vcard .dropdown-menu {
+    background-color: rgba(255,255,255,.97);
+    border-radius: 0;
+    border: none;
+    box-shadow: 0px 6px 12px rgba(169,169,169,.176);
+}
+
+.vcard .dropdown-menu a, .fc-today {
+    color: #43488A;
+}
+
+.vcard .dropdown-menu > li > a:focus, .vcard .dropdown-menu > li > a:hover {
+    color: #43488A;
+    background-color: rgba(	255,255,255,.7);
+    text-decoration: underline;
+}
+
+nav .badge {
+    background-color: rgba(255,255,255,.8);
+	color: #43488A;
+	border-radius: 0px !important;
+}
+
+nav .badge:hover, nav .badge:focus {
+    background-color: rgba(67,72,138,.8);
+	color: #FFF;
+}
+
+.field.checkbox > div > input:checked + label .onoffswitch-switch {
+	background-color: #43488A;
+}
+
+.widget .field.checkbox:hover label {
+    color: rgba(255,255,255,.8);
+}
+
+.widget .conv-participants {
+	color: #BBB;
+}
+
+.widget .active:hover .conv-participants, .widget .active:focus .conv-participants {
+	color: inherit;
+}
+
+.help-block, .comment-icon, .jot-icons, .admin-icons {
+	color: inherit;
+}
+
+#adminpage table tr:hover, #adminpage table tr:hover a, #adminpage table tr td.tools a:hover, #adminpage table tr:focus, #adminpage table tr:focus a, #adminpage table tr td.tools a:focus {
+    color: #43488A;
+}
+
+#adminpage table tr:hover .tools a, #adminpage table tr:focus .tools a, .generic-content-wrapper-styled > .descriptive-text {
+	color: #FFF;
+}
+
+.generic-content-wrapper-styled > .sources-links {
+	font-weight: bold;
+}
+
+.wall-item-tools .btn {
+	border-color: #43488A;
+}
+
+.vcard, #contact-block, .widget {
+    background-color: rgba(67,72,138,.8);
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0px 6px 12px rgba(45,48,92,.176);
+}
+
+.tags a {
+	color: inherit;
+}
+
+#profile-photo-wrapper {
+    border: none;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #43488A;
+    text-decoration: none;
+	border: none;	
+}
+
+.nav-tabs > li.active {
+    background-color: rgba(255,255,255,.5);
+}
+
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover {
+    border-color: transparent;
+}
+
+.nav-tabs.nav-justified {
+    background-color: rgba(67,72,138,.8);
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    border-radius: 0px;
+}
+
+.nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid transparent;
+    border-radius: 0px;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: underline;
+    background-color: rgba(255,255,255,.5);
+    color: #43488A;
+	border-radius: 0;	
+	border-color: transparent;	
+}
+
+.nav > li > a {
+    color: #FFF;
+    border-radius: 0px;
+}
+
+.fc-event {
+    border: none !important;
+    background-color: rgba(255,255,255,.7) !important;
+    color: #43488A !important;
+    text-shadow: none !important;
+}
+
+div.rateme {
+	border-radius: 0px;
+    font-weight: 400;
+}
+
+div.rateme:hover, div.rateme:focus, a.rateme:hover, a.rateme:focus {
+	background-color: #43488A;
+	border-radius: 0px;
+	color: #FFF;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.info {
+	background: rgba(255,255,255,.7) url("/images/hz-32.png") no-repeat scroll 15px center !important;
+	color: #43488A !important;
+}
+
+.notice {
+	background: rgba(215,43,52,.7) url("/images/hz-white-32.png") no-repeat scroll 15px center !important;
+	color: #FFF !important;
+}
+
+#chatTopBar {
+	background-color: rgba(255,255,255,.8);
+	color: #4d4d4d;
+    height: 500px;
+    width: 596px;
+    overflow-y: auto;
+}
+
+.chat-item-text {
+    border-radius: 0px;
+	padding: 5px;
+    background-color: #FFF;
+}
+
+input {
+	border-radius: 0px;	
+}
+
+.home-welcome {
+	color: #FFF;
+	margin-bottom: 30px;
+} 
+
+#login-main {
+    margin-top: 0;
+    color: #EEE;
+}
+
+#remember_me_container label:hover, #remember_container label:hover {
+    color: #FFF;
+}
+
+#login-main #lost-password-link, #login-main #register-link {
+    color: #FFF;
+}
+
+#nav-login .modal-content {
+	background-color: #43488A;
+	background-image: url('/images/bggrid.png');
+	box-shadow: 0 5px 15px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 5px 15px rgba(0,0,0,.3);
+}
+
+#nav-login h3, #nav-login button.close {
+    color: #EEE;
+}
+
+#nav-login .modal-header {
+	border-bottom: none;
+}
+
+.directory-item {
+    margin-bottom: 0px;
+	padding-bottom: 20px;
+	background-color: #FFF;
+}
+
+.directory-item.lframe {
+	background-color: transparent !important;
+}
+
+.contact-entry-wrapper {
+	border: 1px solid rgba(255,255,255,.5);
+}
+
+.contact-entry-edit:hover a, .contact-entry-edit:focus	 a, .generic-content-wrapper-styled > p > span.btn.btn-default > a:hover,.generic-content-wrapper-styled > p > span.btn.btn-default > a:focus, div#profile-edit-links a:hover, div#profile-edit-links a:focus {
+	color: #43488A;
+}
+
+.profile-edit-side-link, input#profile-photo-upload, .allcontact-link, #newchannel-form .descriptive-paragraph	 {
+	color: #FFF;
+}
+
+.profile-edit-side-link:hover, .profile-edit-side-link:focus {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.section-content-info-wrapper {
+	color: #fff;
+	background-color: #43488A;
+}
+
+.section-content-info-wrapper a {
+	color: #fff;
+}
+
+.btn, #event-edit-form .btn, input.directory-rating-submit {
+    border: 1px solid #FFF;
+    color: #FFF; 
+    background-color: #43488A;
+    border-radius: 0;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover, .btn:focus, #event-edit-form .btn:hover, #event-edit-form .btn:focus {
+    border: 1px solid #FFF;
+    outline: 0;
+    color: #43488A;
+    background-color: #FFF;
+}
+
+.btn-default:hover, .btn-default:focus, .open > .dropdown-toggle.btn-default, input.directory-rating-submit:hover, input.directory-rating-submit:focus {
+    border: 1px solid #43488A;
+    outline: 0;
+    color: #43488A;
+    background-color: #FFF;
+}
+
+.btn-primary, input#event-submit, input#rmagic-submit-button, input#lostpass-submit-button, input#side-follow-submit, .profile-edit-submit-wrapper > input.profile-edit-submit-button, input#profile-photo-submit, form#chat-form > input, div#adminpage > form > div.submit > input, input.sources-submit, input.contact-edit-submit, input#dbtn-submit, input#newchannel-submit-button, input#contacts-search-submit, input#register-submit-button {
+    background-color: #FFF;
+    color: #43488A;
+	border-radius: 0px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-primary:hover, .btn-primary:focus, input#event-submit:hover, input#event-submit:focus, input#rmagic-submit-button:hover, input#rmagic-submit-button:focus, input#lostpass-submit-button:hover, input#lostpass-submit-button:focus, input#side-follow-submit:hover, input#side-follow-submit:focus, .profile-edit-submit-wrapper > input.profile-edit-submit-button:hover, .profile-edit-submit-wrapper > input.profile-edit-submit-button:focus, input#profile-photo-submit:hover, input#profile-photo-submit:focus, form#chat-form > input:hover, form#chat-form > input:focus, div#adminpage > form > div.submit > input:hover, div#adminpage > form > div.submit > input:focus, input.sources-submit:hover, input.sources-submit:focus, input.contact-edit-submit:focus, input.contact-edit-submit:hover, input#dbtn-submit:hover, input#dbtn-submit:focus, input#newchannel-submit-button:hover, input#newchannel-submit-button:focus, input#contacts-search-submit:hover, input#contacts-search-submit:focus, input#register-submit-button:hover, input#register-submit-button:focus {
+    border-color: #FFF;
+    background-color: #43488A;
+    color: #FFF;
+	border-radius: 0px;
+}
+
+.comment-tools .btn, #prvmail-tools .btn, .generic-content-wrapper .btn {
+    border: 1px solid #43488A;
+    color: #43488A; 
+    background-color: #FFF;
+}
+
+.comment-tools .btn:hover, .comment-tools .btn:focus, #prvmail-tools .btn:hover, #prvmail-tools .btn:focus, .generic-content-wrapper .btn:hover, .generic-content-wrapper .btn:focus {
+    border: 1px solid #43488A !important;
+    color: #FFF; 
+    background-color: #43488A;
+}
+
+.comment-tools .btn-primary, #prvmail-submit .btn-primary, .settings-submit-wrapper .btn-primary, .generic-content-wrapper .btn-primary {
+    background-color: #43488A;
+    color: #FFF;
+    border: 1px solid #43488A;
+}
+
+.comment-tools .btn-primary:hover, .comment-tools .btn-primary:focus, #prvmail-submit .btn-primary:hover, #prvmail-submit .btn-primary:focus, .settings-submit-wrapper .btn-primary:hover, .settings-submit-wrapper .btn-primary:focus, .generic-content-wrapper .btn-primary:hover, .generic-content-wrapper .btn-primary:focus {
+    border-color: #43488A;
+    background-color: #FFF;
+    color: #43488A;
+}
+
+.btn-success {
+    color: #FFF !important;
+    background-color: #5CB85C !important;
+    border-color: #4CAE4C !important;
+}
+
+.btn-success:hover, .btn-success:focus {
+    color: #FFF !important;
+    background-color: #449D44 !important;
+    border-color: #398439 !important;
+}
+
+.btn-warning {
+    color: #FFF !important;
+    background-color: #F0AD4E !important;
+    border-color: #EEA236 !important;
+}
+
+.btn-warning:hover, .btn-warning:focus {
+	color: #FFF !important;
+	background-color: #EC971F !important;
+	border-color: #D58512 !important;
+}
+
+.btn-danger, form#chat-destroy > input {
+    background-color: #D9534F !important;
+    border-color: #D43F3A !important;
+	color: #FFF !important;
+}
+.btn-danger:hover, .btn-danger:focus, form#chat-destroy > input:hover, form#chat-destroy > input:focus {
+	color: #FFF !important;
+    background-color: #C9302C !important;		
+    border-color: #AC2925 !important;
+}
+
+a:hover > .fa-trash-o {
+	color: #C9302C !important;	
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-inverse .navbar-collapse {
+    		background-color: #43488A;
+    		border: none;
+	}
+	.navbar-inverse .navbar-toggle {
+		border-color: #576295;
+		background-color: #43488A;
+		border-radius: 0px;
+	}
+	.navbar-inverse .navbar-toggle .icon-bar {
+		background-color: #FFF;
+	}
+	.navbar-inverse .navbar-toggle .fa-arrow-circle-down, .navbar-inverse .navbar-toggle .fa-arrow-circle-right, .navbar-inverse .navbar-toggle .fa-arrow-circle-up, .navbar-inverse .navbar-toggle .fa-arrow-circle-left, .navbar-inverse .navbar-toggle .fa-question-circle  {
+		color: #FFF;
+	}
+	.navbar-inverse .navbar-toggle:hover .fa-arrow-circle-down, .navbar-inverse .navbar-toggle:focus .fa-arrow-circle-down, .navbar-inverse .navbar-toggle:hover .fa-arrow-circle-right, .navbar-inverse .navbar-toggle:focus .fa-arrow-circle-right, .navbar-inverse .navbar-toggle:hover .fa-arrow-circle-up, .navbar-inverse .navbar-toggle:focus .fa-arrow-circle-up, .navbar-inverse .navbar-toggle:hover .fa-arrow-circle-left, .navbar-inverse .navbar-toggle:focus .fa-arrow-circle-left {
+		color: #43488A;
+	}
+	.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+		background-color: #FFF !important;
+	}
+	.navbar-toggle:hover .icon-bar , .navbar-toggle:focus .icon-bar 	{
+		background-color: #43488A !important;
+	}
+}
+
+.help-content {
+	color: #FFF;
+	border: none;
+}
+
+.help-content a {
+	color: #FFF;
+	font-weight: 600;
+}
+
+.help-content-open {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
