@@ -1,7 +1,7 @@
 <?php
 
 /**
- *   * Name: Redbasic
+ *   * Name: Clarity
  *   * Description: Hubzilla standard theme
  *   * Version: 2.1
  *   * MinVersion: 2.3.1
@@ -11,6 +11,6 @@
  *   * Maintainer: Mario Vavti
  */
 
-function redbasic_init(&$a) {
+function clarity_init(&$a) {
 
 }

@@ -22,13 +22,13 @@
 
 <script>
 	$(function(){
-		$('#id_redbasic_nav_bg, #id_redbasic_nav_icon_colour, #id_redbasic_nav_active_icon_colour, #id_redbasic_banner_colour').colorpicker({format: 'rgba'});
-		$('#id_redbasic_link_colour,#id_redbasic_background_colour').colorpicker();
-		$('#id_redbasic_toolicon_colour,#id_redbasic_toolicon_activecolour,#id_redbasic_font_colour').colorpicker();
-		$('#id_redbasic_item_colour,#id_redbasic_comment_item_colour,#id_redbasic_comment_border_colour').colorpicker({format: 'rgba'});
+		$('#id_clarity_nav_bg, #id_clarity_nav_icon_colour, #id_clarity_nav_active_icon_colour, #id_clarity_banner_colour').colorpicker({format: 'rgba'});
+		$('#id_clarity_link_colour,#id_clarity_background_colour').colorpicker();
+		$('#id_clarity_toolicon_colour,#id_clarity_toolicon_activecolour,#id_clarity_font_colour').colorpicker();
+		$('#id_clarity_item_colour,#id_clarity_comment_item_colour,#id_clarity_comment_border_colour').colorpicker({format: 'rgba'});
 	});
 </script>
 {{/if}}
 <div class="settings-submit-wrapper" >
-	<button type="submit" name="redbasic-settings-submit" class="btn btn-primary">{{$submit}}</button>
+	<button type="submit" name="clarity-settings-submit" class="btn btn-primary">{{$submit}}</button>
 </div>
