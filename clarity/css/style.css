@@ -12,6 +12,8 @@ html {
 }
 
 
+
+
 /* Overrides */
 
 body {
@@ -786,12 +788,11 @@ div.jGrowl div.jGrowl-notification {
 }
 
 .shared_container {
-  background: #d8d8d8;
-  padding: 10px;
-  border-radius: 3px;
-  border: 1px solid #8e8e8e;
-  width: 90%;
-  margin: auto;
+	border: 1px solid #59ccd0;
+	padding: 10px;
+	border-radius: 3px;
+	background: #cbebec;
+	color: #000;
 }
 
 .shared_header img {
@@ -1036,7 +1037,7 @@ img.mail-conv-sender-photo {
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     border-bottom: 1px solid #dadada;
-} 
+}
 
 .hide-comments-outer {
 	background-color: $comment_item_colour;

@@ -6,29 +6,29 @@ if(! App::$install) {
 	$uid = get_theme_uid();
 
 	if($uid) {
-		load_pconfig($uid,'redbasic');
+		load_pconfig($uid,'clarity');
 	}
 
 	// Load the owners pconfig
-	$nav_bg = get_pconfig($uid, 'redbasic', 'nav_bg');
-	$nav_icon_colour = get_pconfig($uid, 'redbasic', 'nav_icon_colour');
-	$nav_active_icon_colour = get_pconfig($uid, 'redbasic', 'nav_active_icon_colour');
-	$banner_colour = get_pconfig($uid,'redbasic','banner_colour');
-	$narrow_navbar = get_pconfig($uid,'redbasic','narrow_navbar');
-	$link_colour = get_pconfig($uid, 'redbasic', 'link_colour');
-	$schema = get_pconfig($uid,'redbasic','schema');
-	$bgcolour = get_pconfig($uid, 'redbasic', 'background_colour');
-	$background_image = get_pconfig($uid, 'redbasic', 'background_image');
-	$item_colour = get_pconfig($uid, 'redbasic', 'item_colour');
-	$comment_item_colour = get_pconfig($uid, 'redbasic', 'comment_item_colour');
-	$font_size = get_pconfig($uid, 'redbasic', 'font_size');
-	$font_colour = get_pconfig($uid, 'redbasic', 'font_colour');
-	$radius = get_pconfig($uid, 'redbasic', 'radius');
-	$shadow = get_pconfig($uid,'redbasic','photo_shadow');
-	$converse_width=get_pconfig($uid,'redbasic','converse_width');
-	$align_left=get_pconfig($uid,'redbasic','align_left');
-	$top_photo=get_pconfig($uid,'redbasic','top_photo');
-	$reply_photo=get_pconfig($uid,'redbasic','reply_photo');
+	$nav_bg = get_pconfig($uid, 'clarity', 'nav_bg');
+	$nav_icon_colour = get_pconfig($uid, 'clarity', 'nav_icon_colour');
+	$nav_active_icon_colour = get_pconfig($uid, 'clarity', 'nav_active_icon_colour');
+	$banner_colour = get_pconfig($uid,'clarity','banner_colour');
+	$narrow_navbar = get_pconfig($uid,'clarity','narrow_navbar');
+	$link_colour = get_pconfig($uid, 'clarity', 'link_colour');
+	$schema = get_pconfig($uid,'clarity','schema');
+	$bgcolour = get_pconfig($uid, 'clarity', 'background_colour');
+	$background_image = get_pconfig($uid, 'clarity', 'background_image');
+	$item_colour = get_pconfig($uid, 'clarity', 'item_colour');
+	$comment_item_colour = get_pconfig($uid, 'clarity', 'comment_item_colour');
+	$font_size = get_pconfig($uid, 'clarity', 'font_size');
+	$font_colour = get_pconfig($uid, 'clarity', 'font_colour');
+	$radius = get_pconfig($uid, 'clarity', 'radius');
+	$shadow = get_pconfig($uid,'clarity','photo_shadow');
+	$converse_width=get_pconfig($uid,'clarity','converse_width');
+	$align_left=get_pconfig($uid,'clarity','align_left');
+	$top_photo=get_pconfig($uid,'clarity','top_photo');
+	$reply_photo=get_pconfig($uid,'clarity','reply_photo');
 }
 
 // Now load the scheme.  If a value is changed above, we'll keep the settings
@@ -45,32 +45,32 @@ if($_REQUEST['schema']) {
 if (($schema) && ($schema != '---')) {
 
 	// Check it exists, because this setting gets distributed to clones
-	if(file_exists('view/theme/redbasic/schema/' . $schema . '.php')) {
-		$schemefile = 'view/theme/redbasic/schema/' . $schema . '.php';
+	if(file_exists('view/theme/clarity/schema/' . $schema . '.php')) {
+		$schemefile = 'view/theme/clarity/schema/' . $schema . '.php';
 		require_once ($schemefile);
 	}
 
-	if(file_exists('view/theme/redbasic/schema/' . $schema . '.css')) {
-		$schemecss = file_get_contents('view/theme/redbasic/schema/' . $schema . '.css');
+	if(file_exists('view/theme/clarity/schema/' . $schema . '.css')) {
+		$schemecss = file_get_contents('view/theme/clarity/schema/' . $schema . '.css');
 	}
 
 }
 
 // Allow admins to set a default schema for the hub.
-// default.php and default.css MUST be symlinks to existing schema files in view/theme/redbasic/schema
+// default.php and default.css MUST be symlinks to existing schema files in view/theme/clarity/schema
 if ((!$schema) || ($schema == '---')) {
 
-	if(file_exists('view/theme/redbasic/schema/default.php')) {
-		$schemefile = 'view/theme/redbasic/schema/default.php';
+	if(file_exists('view/theme/clarity/schema/default.php')) {
+		$schemefile = 'view/theme/clarity/schema/default.php';
 		require_once ($schemefile);
 	}
 
-	if(file_exists('view/theme/redbasic/schema/default.css')) {
-		$schemecss = file_get_contents('view/theme/redbasic/schema/default.css');
+	if(file_exists('view/theme/clarity/schema/default.css')) {
+		$schemecss = file_get_contents('view/theme/clarity/schema/default.css');
 	}
 
 }
-		
+
 //Set some defaults - we have to do this after pulling owner settings, and we have to check for each setting
 //individually.  If we don't, we'll have problems if a user has set one, but not all options.
 if (! $nav_bg)
@@ -109,16 +109,16 @@ if(! $reply_photo)
 	$reply_photo = '2.3rem';
 
 // Apply the settings
-if(file_exists('view/theme/redbasic/css/style.css')) {
+if(file_exists('view/theme/clarity/css/style.css')) {
 
-	$x = file_get_contents('view/theme/redbasic/css/style.css');
+	$x = file_get_contents('view/theme/clarity/css/style.css');
 
-	if($narrow_navbar && file_exists('view/theme/redbasic/css/narrow_navbar.css')) {
-		$x .= file_get_contents('view/theme/redbasic/css/narrow_navbar.css');
+	if($narrow_navbar && file_exists('view/theme/clarity/css/narrow_navbar.css')) {
+		$x .= file_get_contents('view/theme/clarity/css/narrow_navbar.css');
 	}
 
-	if($align_left && file_exists('view/theme/redbasic/css/align_left.css')) {
-		$x .= file_get_contents('view/theme/redbasic/css/align_left.css');
+	if($align_left && file_exists('view/theme/clarity/css/align_left.css')) {
+		$x .= file_get_contents('view/theme/clarity/css/align_left.css');
 	}
 
 	if($schemecss) {
@@ -166,7 +166,7 @@ if(file_exists('view/theme/redbasic/css/style.css')) {
 
 }
 
-// Set the schema to the default schema in derived themes. See the documentation for creating derived themes how to override this. 
+// Set the schema to the default schema in derived themes. See the documentation for creating derived themes how to override this.
 
-if(local_channel() && App::$channel && App::$channel['channel_theme'] != 'redbasic')
-	set_pconfig(local_channel(), 'redbasic', 'schema', '---');
+if(local_channel() && App::$channel && App::$channel['channel_theme'] != 'clarity')
+	set_pconfig(local_channel(), 'clarity', 'schema', '---');

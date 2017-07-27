@@ -1,5 +1,5 @@
 /**
- * redbasic theme specific JavaScript
+ * clarity theme specific JavaScript
  */
 $(document).ready(function() {
 
@@ -61,7 +61,7 @@ $(document).ready(function() {
 	var doctitle = document.title;
 	function checkNotify() {
 		var notifyUpdateElem = document.getElementById('notify-update');
-		if(notifyUpdateElem !== null) { 
+		if(notifyUpdateElem !== null) {
 			if(notifyUpdateElem.innerHTML !== "")
 				document.title = "(" + notifyUpdateElem.innerHTML + ") " + doctitle;
 			else
