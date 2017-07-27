@@ -1,0 +1,12 @@
+[region=aside]
+[widget=suggestions][/widget]
+[/region]
+
+[region=content]
+[widget=zcard][/widget]
+$content
+[/region]
+
+[region=right_aside]
+[widget=shortprofile][/widget]
+[/region]
