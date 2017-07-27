@@ -2,8 +2,7 @@
 
 [region=aside]
 [widget=collections][/widget]
-[widget=archive][/widget]
-[widget=savedsearch][/widget]
+[widget=forums][/widget]
 [/region]
 
 [region=content]
@@ -12,6 +11,6 @@ $content
 [/region]
 
 [region=right_aside]
-[widget=forums][/widget]
+[widget=savedsearch][/widget]
 [widget=suggestions][/widget]
 [/region]

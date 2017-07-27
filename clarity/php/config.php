@@ -11,7 +11,7 @@ class ClarityConfig {
 
 		if($files) {
 
-			if(in_array('view/theme/redbasic/schema/default.php', $files)) {
+			if(in_array('view/theme/clarity/schema/default.php', $files)) {
 				$scheme_choices['---'] = t('Default');
 				$scheme_choices['focus'] = t('Focus (Hubzilla default)');
 			}
