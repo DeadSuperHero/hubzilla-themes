@@ -12,5 +12,6 @@
  */
 
 function clarity_init(&$a) {
+  App::$theme_info['extends'] = 'redbasic';
 
 }
