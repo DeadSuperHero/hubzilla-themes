@@ -1041,6 +1041,10 @@ img.mail-conv-sender-photo {
 	border-bottom: 1px solid #b0b0b0;
 }
 
+.wall-item-content-wrapper.comment .wall-item-head {
+	background: #fff;
+}
+
 .hide-comments-outer {
 	background-color: $comment_item_colour;
 	border-top-color: #ccc;
