@@ -1004,6 +1004,10 @@ img.mail-conv-sender-photo {
 
 /* conversation */
 
+.wall-item-head {
+	border-bottom: 1px solid #000;
+}
+
 .top-radius {
 	border-top-right-radius: $radius;
 	border-top-left-radius: $radius;
@@ -1038,11 +1042,12 @@ img.mail-conv-sender-photo {
 	background-color: rgb(237, 237, 237);
 	border-top-right-radius: 0px;
 	border-top-left-radius: 0px;
-	border-bottom: 1px solid #b0b0b0;
+	border-top: 1px solid #dedede;
 }
 
 .wall-item-content-wrapper.comment .wall-item-head {
 	background: #fff;
+	border: none;
 }
 
 .hide-comments-outer {
