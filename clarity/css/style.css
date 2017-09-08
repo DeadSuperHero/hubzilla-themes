@@ -1105,6 +1105,7 @@ img.mail-conv-sender-photo {
 
 .wall-item-content {
 	background: #fff;
+	border-top: 1px solid #bdbdbd;
 }
 
 .wall-item-tools {
