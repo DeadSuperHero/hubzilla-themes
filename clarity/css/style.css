@@ -788,11 +788,13 @@ div.jGrowl div.jGrowl-notification {
 }
 
 .shared_container {
-	border: 1px solid #59ccd0;
+	border: 1px solid #50abd5;
 	padding: 10px;
 	border-radius: 3px;
-	background: #cbebec;
+	background: #c3e9e9;
 	color: #000;
+	margin: 5px;
+	padding: 15px;
 }
 
 .shared_header img {
@@ -1033,10 +1035,10 @@ img.mail-conv-sender-photo {
 }
 
 .wall-item-content-wrapper.comment {
-    background-color: rgb(255,255,255);
-    border-top-right-radius: 0px;
-    border-top-left-radius: 0px;
-    border-bottom: 1px solid #dadada;
+	background-color: rgb(237, 237, 237);
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-bottom: 1px solid #b0b0b0;
 }
 
 .hide-comments-outer {
@@ -1090,6 +1092,14 @@ img.mail-conv-sender-photo {
 .chat-item-text,
 .chat-item-text-self {
 	font-size: 1rem;
+}
+
+.wall-item-content {
+	background: #fff;
+}
+
+.wall-item-tools {
+	background: #fff;
 }
 
 
@@ -1223,8 +1233,9 @@ img.mail-conv-sender-photo {
 }
 
 .generic-content-wrapper {
-    border: 1px solid #ccc;
-    border-radius: 0.25rem;
+	border: 1px solid #b1afaf;
+	border-radius: 0.25rem;
+	box-shadow: none;
 }
 
 .wall-item-photo-wrapper {
