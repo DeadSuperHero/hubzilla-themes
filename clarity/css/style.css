@@ -1085,11 +1085,10 @@ img.mail-conv-sender-photo {
 }
 
 .wall-item-photo {
-	width: $top_photo;
-	height: $top_photo;
-	border: none;
-	border-radius: $radius;
-	box-shadow: $shadowpx $shadowpx $shadowpx 0 #444444;
+	width: 2.3rem;
+	height: 2.3rem;
+	border: 1px solid #000;
+	border-radius: 4px;
 }
 
 .comment .wall-item-photo {
@@ -1251,11 +1250,6 @@ img.mail-conv-sender-photo {
 	border: 1px solid #b1afaf;
 	border-radius: 0.25rem;
 	box-shadow: none;
-}
-
-.wall-item-photo-wrapper {
-  border: 1px solid #000;
-  border-radius: 2px;
 }
 
 .section-title-wrapper {
