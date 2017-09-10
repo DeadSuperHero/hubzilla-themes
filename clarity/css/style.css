@@ -1004,7 +1004,7 @@ img.mail-conv-sender-photo {
 
 /* conversation */
 
-div span.item.app {
+.item.app span {
 	font-weight: 800;
 	color: #696969;
 }
