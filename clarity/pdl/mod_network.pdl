@@ -13,4 +13,5 @@ $content
 [region=right_aside]
 [widget=savedsearch][/widget]
 [widget=archive][/widget]
+[widget=suggestions][/widget]
 [/region]
