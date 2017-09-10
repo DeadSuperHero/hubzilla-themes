@@ -1051,6 +1051,10 @@ img.mail-conv-sender-photo {
 	border: none;
 }
 
+.wall-item-head {
+	border-bottom: 1px solid #d2cfcf;
+}
+
 .hide-comments-outer {
 	background-color: $comment_item_colour;
 	border-top-color: #ccc;
@@ -1066,12 +1070,14 @@ img.mail-conv-sender-photo {
 }
 
 .wall-item-comment-wrapper {
-    padding: 7px 10px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 0px;
-    border-bottom-right-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
-    border-top: 3px solid rgb(255,255,255);
+	padding: 7px 10px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 0px;
+	    border-bottom-right-radius: 0px;
+	    border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0.25rem;
+	border-bottom-left-radius: 0.25rem;
+	border-top: 1px solid rgb(221, 221, 221);
 }
 
 .wall-item-comment-wrapper-wc {
@@ -1231,7 +1237,6 @@ img.mail-conv-sender-photo {
 .rounded-top {
     border-top-left-radius: 0.25rem !important;
     border-top-right-radius: 0.25rem !important;
-    border-bottom: 1px solid #d2cfcf;
     padding: 10px !important;
 }
 
@@ -1254,11 +1259,15 @@ img.mail-conv-sender-photo {
 }
 
 .section-title-wrapper {
-	padding: 7px 10px;
-	background-color: $item_colour;
-	border-top-left-radius: $radius;
-	border-top-right-radius: $radius;
-	border-bottom: 3px solid $comment_item_colour;
+	background-color: rgb(255, 255, 255);
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+}
+
+.section-title-wrapper img {
+	border: 1px solid #d1d1d1;
+	border-radius: 4px;
 }
 
 .section-title-wrapper h2,
