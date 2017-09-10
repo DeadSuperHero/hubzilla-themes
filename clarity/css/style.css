@@ -551,9 +551,10 @@ nav .acpopup {
 }
 
 .profile-match-name {
-	width: 120px;
 	height: 1.5em;
 	overflow: hidden !important;
+	display: inline-block;
+	margin-left: 5px;
 }
 
 .profile-match-note {
@@ -566,16 +567,19 @@ nav .acpopup {
 }
 
 .profile-match-wrapper {
-    float: left;
-    width: 120px;
-    height: 150px;
-    padding: 10px;
-    margin: 8px 10px 0 0;
-    border-top: 1px solid #eee;
-    border-left: 2px solid #eee;
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	margin: 8px 10px 0 0;
+	border: none;
 }
 .profile-match-ignore {
 	float: right;
+}
+
+.profile-match-ignore .btn-secondary {
+	border-color: #c5c1c1;
 }
 
 .side-link {
@@ -779,7 +783,11 @@ div.jGrowl div.jGrowl-notification {
 }
 
 
-.profile-match-connect { margin-top: 5px; }
+.profile-match-connect {
+	margin-top: 5px;
+	width: 100%;
+	border-color: #c5c1c1;
+}
 
 .reshared-content { margin-left: 20px; }
 .shared_header img {
