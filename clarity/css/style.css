@@ -1105,7 +1105,6 @@ img.mail-conv-sender-photo {
 
 .wall-item-content {
 	background: #fff;
-	border-top: 1px solid #bdbdbd;
 }
 
 .wall-item-tools {
@@ -1231,7 +1230,7 @@ img.mail-conv-sender-photo {
 .rounded-top {
     border-top-left-radius: 0.25rem !important;
     border-top-right-radius: 0.25rem !important;
-    border-bottom: 1px solid #e2e2e2;
+    border-bottom: 1px solid #d2cfcf;
     padding: 10px !important;
 }
 
