@@ -18,7 +18,7 @@ html {
 
 body {
   font-size: 0.9rem;
-  background-color: rgb(241, 241, 241);
+  background-color: rgb(245, 245, 245);
   background-image: url(style.pcss);
   background-attachment: fixed;
   background-size: cover;
