@@ -8,5 +8,6 @@ $content
 [/region]
 
 [region=right_aside]
+[widget=notifications][/widget]
 [widget=suggestions][/widget]
 [/region]
