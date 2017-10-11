@@ -1,5 +1,5 @@
 /**
- * clarity theme specific JavaScript
+ * Clarity theme specific JavaScript
  */
 $(document).ready(function() {
 
@@ -16,20 +16,26 @@ $(document).ready(function() {
 	}
 	$('#css3-calc').remove(); // Remove the test element
 
-
-
-	if($(window).width() > 767) {
+	if($(window).width() >= 767) {
 		$('#left_aside_wrapper').stick_in_parent({
-			offset_top: $('nav').outerHeight(true) + 10,
-			parent: '#region_1',
+			offset_top: parseInt($('aside').css('padding-top')),
+			parent: 'main',
 			spacer: '#left_aside_spacer'
 		});
 	}
 
-	if(($(window).width() < 767) && ($('#left_aside_wrapper .widget, #left_aside_wrapper .vcard').length > 0))
-		$('#expand-aside').show();
-	else
-		$('#expand-aside').hide();
+	if($(window).width() >= 1200) {
+		$('#right_aside_wrapper').stick_in_parent({
+			offset_top: parseInt($('aside').css('padding-top')),
+			parent: 'main',
+			spacer: '#right_aside_spacer'
+		});
+	}
+
+
+	$('#notifications_wrapper.fs #notifications').stick_in_parent({
+		parent: '#notifications_wrapper'
+	});
 
 	$('#expand-aside').on('click', toggleAside);
 
@@ -48,14 +54,49 @@ $(document).ready(function() {
 		}
 	});
 
+
+	var right_aside_height = $('#rightt_aside_wrapper').height();
+
+	$('#right_aside_wrapper').on('click', function() {
+		if(right_aside_height != $('#right_aside_wrapper').height()) {
+			$(document.body).trigger("sticky_kit:recalc");
+			right_aside_height = $('#right_aside_wrapper').height();
+		}
+	});
+
 	$('.usermenu').click(function() {
 		if($('#navbar-collapse-1, #navbar-collapse-2').hasClass('show')){
 			$('#navbar-collapse-1, #navbar-collapse-2').removeClass('show');
 		}
 	});
 
+	$('#menu-btn').click(function() {
+		if($('#navbar-collapse-1').hasClass('show')){
+			$('#navbar-collapse-1').removeClass('show');
+		}
+	});
+
+	$('#notifications-btn').click(function() {
+		if($('#navbar-collapse-2').hasClass('show')){
+			$('#navbar-collapse-2').removeClass('show');
+		}
+	});
+
+	var notifications_parent = $('#notifications_wrapper')[0].parentElement.id;
+	$('#notifications-btn-1').click(function() {
+		if($('#notifications_wrapper').hasClass('fs'))
+			$('#notifications_wrapper').prependTo('#' + notifications_parent);
+		else
+			$('#notifications_wrapper').prependTo('section');
+
+		$('#notifications_wrapper').toggleClass('fs');
+		if($('#navbar-collapse-2').hasClass('show')){
+			$('#navbar-collapse-2').removeClass('show');
+		}
+	});
+
 	$("input[data-role=cat-tagsinput]").tagsinput({
-		tagClass: 'badge badge-pill badge-warning'
+		tagClass: 'badge badge-pill badge-warning text-dark'
 	});
 
 	var doctitle = document.title;
