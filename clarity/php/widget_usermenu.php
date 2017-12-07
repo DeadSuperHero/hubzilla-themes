@@ -2,7 +2,7 @@
 
 function widget_usermenu($args) {
 
-<h1>User Menu</h1>
+<h3>User Menu</h3>
 <ul class="user_menu">
   <li>
     <a href="/">Home</a>
