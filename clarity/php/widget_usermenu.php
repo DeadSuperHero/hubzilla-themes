@@ -2,6 +2,6 @@
 
 function widget_usermenu($args) {
 
-echo '<h3>User Menu</h3>';
+$tpl = get_markup_template('user_menu.tpl');
 
 }
