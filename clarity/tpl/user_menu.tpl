@@ -1,4 +1,8 @@
 <div class="widget">
   <h3>{{$banner}}</h3>
-  <a class="navbar-app nav-link{{if $app.active}} active{{/if}}" href="{{$app.url}}" title="{{$app.name}}" >{{if $icon}}<i class="fa fa-fw fa-{{$icon}}"></i>{{else}}<img src="{{$app.photo}}" width="16" height="16" />{{/if}}<span class="d-lg-none">{{$app.name}}</span></a>
+  <a class="navbar-app nav-link" href="network"> <i class="fa fa-fw fa-th"></i> Network</a>
+  <a class="navbar-app nav-link" href="channel"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a class="navbar-app nav-link" href="mail/combned" ><i class="fa fa-fw fa-envelope"></i> Mail</a>
+  <a class="navbar-app nav-link" href="photos"> <i class="fa fa-fw fa-photo"></i> Photos</a>
+  <a class="navbar-app nav-link" href="cloud"> <i class="fa fa-fw fa-folder-open"></i> Files</a>
 </div>
