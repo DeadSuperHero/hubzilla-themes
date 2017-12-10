@@ -3,6 +3,7 @@
 [region=aside]
 [widget=usermenu][/widget]
 [widget=forums][/widget]
+[widget=collections][/widget]
 [/region]
 
 [region=content]
@@ -13,6 +14,5 @@ $content
 [region=right_aside]
 [widget=notifications][/widget]
 [widget=savedsearch][/widget]
-[widget=collections][/widget]
 [widget=suggestions][/widget]
 [/region]
