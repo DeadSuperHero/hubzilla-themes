@@ -1,7 +1,7 @@
 <div class="widget">
   <div class="user_details">
-    <img class="avatar_thumb" src="{{$avatar}}">
-    {{$banner}}
+    <img src="{{$avatar}}" class="avatar_thumb">
+    <b>{{$banner}}</b>
   </div>
   <ul class="nav nav-pills flex-column">
     <li class="nav-item">

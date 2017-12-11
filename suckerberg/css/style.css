@@ -2786,11 +2786,16 @@ aside#region_1 .widget {
   border: none;
 }
 
-aside#region_1 .widget li.nav-item:active {
+aside#region_1 .widget .nav > li > a:active {
   background: #f2f2f2;
   border-radius: 3px;
   border: 1px solid #b1afaf;
   box-shadow: 0px 0px 2px #bfbfbf;
+}
+
+.widget .nav > li > a
+  color: #4e4e4e;
+  text-shadow: 1px 1px 0px #fff;
 }
 
 
