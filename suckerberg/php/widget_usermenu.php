@@ -10,9 +10,9 @@ function widget_usermenu($args) {
   }
 
   $o = replace_macros(get_markup_template('user_menu.tpl'), array(
-    '$banner' => App::$profile['channel_name'],
+    '$banner' => $channel['channel_name'],
     '$user' => $channel['channel_address'],
-    '$avatar' => App::$profile['thumb'],
+    '$avatar' => $channel['thumb'],
   ));
   return $o;
 
