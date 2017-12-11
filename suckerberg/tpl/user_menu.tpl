@@ -2,13 +2,20 @@
 function toggle_nav_item() {
       $('a.nav-link[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
 });
+
+function hide_profile() {
+  if$('a.profile-link').attr('href') == mainhref){
+    $(this).hide();
+  }
+});
+
 </script>
 
 <div class="widget" id="user_menu">
   <ul class="nav nav-pills flex-column">
 
       <li class="user_details">
-        <a class="nav-link" href="channel/{{$user}}"><img src="{{$avatar}}" class="avatar_thumb">
+        <a class="nav-link profile-link" href="channel/{{$user}}"><img src="{{$avatar}}" class="avatar_thumb">
           <b>{{$banner}}</b></a>
       </li>
 
