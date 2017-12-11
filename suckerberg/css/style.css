@@ -2549,8 +2549,6 @@ span.wall-item-name {
 .wall-item-content img {
     padding: 0em;
     height: auto;
-    width: 100%;
-    max-width: none !important;
 }
 
 .wall-item-outside-wrapper, .wall-item-outside0-wrapper shiny {
@@ -2796,6 +2794,10 @@ aside#region_1 .widget .nav > li > a {
   color: #4e4e4e;
   text-shadow: 1px 1px 0px #fff;
   width: 100%;
+}
+
+.widget .badge {
+  text-shadow: none;
 }
 
 
