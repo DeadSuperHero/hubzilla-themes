@@ -2513,6 +2513,8 @@ nav .dropdown-menu>li>a:hover,nav .dropdown-menu>li>a:focus{
 .avatar_thumb {
   height: 20px;
   width: auto;
+  border-radius: 10px;
+  margin-right: 2px;
 }
 
 /* Files */

@@ -5,17 +5,15 @@ function toggle_nav_item() {
 </script>
 
 <div class="widget" id="user_menu">
-  <div class="user_details">
-    <img src="{{$avatar}}" class="avatar_thumb">
-    <b>{{$banner}}</b>
-  </div>
   <ul class="nav nav-pills flex-column">
-    <li class="nav-item">
-      <a class="nav-link" href="network"> <i class="fa fa-fw fa-th"></i> Network</a>
-    </li>
+
+      <li class="user_details">
+        <a class="nav-link" href="channel/{{$user}}"><img src="{{$avatar}}" class="avatar_thumb">
+          <b>{{$banner}}</b></a>
+      </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="channel/{{$user}}"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a class="nav-link" href="network"> <i class="fa fa-fw fa-th"></i> Network</a>
     </li>
 
     <li class="nav-item">
