@@ -1,16 +1,15 @@
 <script>
 function hideProfilelink() {
-  if(window.location.href.indexOf("channel/*") > -1) {
+  if(window.location.href.match("channel")) {
     $('li.user_details').hide();
   }
 });
-
 </script>
 
 <div class="widget" id="user_menu">
   <ul class="nav nav-pills flex-column">
 
-      <li class="user_details profile-link">
+      <li class="user_details">
         <a class="nav-link" href="channel/{{$user}}"><img src="{{$avatar}}" class="avatar_thumb">
           <b>{{$banner}}</b></a>
       </li>
