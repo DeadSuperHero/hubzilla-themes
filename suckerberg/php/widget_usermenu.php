@@ -7,7 +7,7 @@ $o = '';
 function widget_usermenu($args) {
 
   $o = replace_macros(get_markup_template('user_menu.tpl')
-  );
+  ));
   return vcard_from_xchan('', \App::get_observer());
   return $o;
 
