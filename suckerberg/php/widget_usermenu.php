@@ -11,7 +11,7 @@ function widget_usermenu($args) {
 
   $o = replace_macros(get_markup_template('user_menu.tpl'), array(
     '$photo' => $profile.photo
-    '$user' => $observer.channel_links.url
+    '$user' => $observer.url
   ));
   return $o;
 
