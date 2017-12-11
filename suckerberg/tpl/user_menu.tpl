@@ -1,9 +1,7 @@
 <script>
 function toggle_nav_item() {
-    $('li.nav-item').click(function() {
-      $('li.nav-item').addClass('active');
-    });
-}
+      $('li.nav-item a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+});
 </script>
 
 <div class="widget" id="user_menu">
