@@ -17,12 +17,13 @@
     </li>
 
     <li class="nav-item">
-      <a class="navbar-app nav-link" href="mail/combned" ><i class="fa fa-fw fa-envelope"></i> Mail</a>
+      <a class="navbar-app nav-link" href="mail/combined" ><i class="fa fa-fw fa-envelope"></i> Mail</a>
     </li>
 
     <li class="nav-item">
       <a class="navbar-app nav-link" href="photos"> <i class="fa fa-fw fa-photo"></i> Photos</a>
     </li>
+
     <li class="nav-item">
       <a class="navbar-app nav-link" href="cloud"> <i class="fa fa-fw fa-folder-open"></i> Files</a>
     </li>

@@ -1,9 +1,8 @@
 [region=nav]$nav[/region]
 
 [region=aside]
-[widget=usermenu][/widget]
-[widget=forums][/widget]
 [widget=collections][/widget]
+[widget=forums][/widget]
 [/region]
 
 [region=content]
