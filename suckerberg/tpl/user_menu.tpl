@@ -1,11 +1,7 @@
 <script>
-function toggle_nav_item() {
-      $('a.nav-link[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
-});
-
-function hide_profile() {
-  if$('a.profile-link').attr('href') == mainhref){
-    $('a.profile-link').hide();
+function hideProfilelink() {
+  if(window.location.href.indexOf("channel/*") > -1) {
+    $('li.user_details').hide();
   }
 });
 
@@ -14,8 +10,8 @@ function hide_profile() {
 <div class="widget" id="user_menu">
   <ul class="nav nav-pills flex-column">
 
-      <li class="user_details">
-        <a class="nav-link profile-link" href="channel/{{$user}}"><img src="{{$avatar}}" class="avatar_thumb">
+      <li class="user_details profile-link">
+        <a class="nav-link" href="channel/{{$user}}"><img src="{{$avatar}}" class="avatar_thumb">
           <b>{{$banner}}</b></a>
       </li>
 
