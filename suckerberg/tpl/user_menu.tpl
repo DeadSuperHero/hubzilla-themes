@@ -1,6 +1,6 @@
 <script>
-function hideProfilelink() {
-  if(window.location.href.match("channel")) {
+function() {
+  if(window.location.href.match('channel')) {
     $('li.user_details').hide();
   }
 });
