@@ -5,7 +5,7 @@ function toggle_nav_item() {
 
 function hide_profile() {
   if$('a.profile-link').attr('href') == mainhref){
-    $(this).hide();
+    $('a.profile-link').hide();
   }
 });
 
