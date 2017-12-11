@@ -7,7 +7,7 @@
     </li>
 
     <li class="nav-item">
-      <a class="navbar-app nav-link" href="channel"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a class="navbar-app nav-link" href="channel/{{$user}}"><i class="fa fa-fw fa-home"></i> Home</a>
     </li>
 
     <li class="nav-item">
@@ -15,11 +15,11 @@
     </li>
 
     <li class="nav-item">
-      <a class="navbar-app nav-link" href="photos"> <i class="fa fa-fw fa-photo"></i> Photos</a>
+      <a class="navbar-app nav-link" href="photos/{{$user}}"> <i class="fa fa-fw fa-photo"></i> Photos</a>
     </li>
 
     <li class="nav-item">
-      <a class="navbar-app nav-link" href="cloud"> <i class="fa fa-fw fa-folder-open"></i> Files</a>
+      <a class="navbar-app nav-link" href="cloud/{{$user}}"> <i class="fa fa-fw fa-folder-open"></i> Files</a>
     </li>
 
   </ul>
