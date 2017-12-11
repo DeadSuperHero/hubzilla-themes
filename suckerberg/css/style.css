@@ -2792,7 +2792,7 @@ aside#region_1 .widget .nav > li > a:active, aside#region_1 .widget .nav > li > 
   box-shadow: 0px 0px 2px #bfbfbf;
 }
 
-.widget .nav > li > a {
+aside#region_1 .widget .nav > li > a {
   color: #4e4e4e;
   text-shadow: 1px 1px 0px #fff;
   width: 100%;
