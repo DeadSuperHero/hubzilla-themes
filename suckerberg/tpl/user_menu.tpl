@@ -1,5 +1,6 @@
 <div class="widget">
-  <div class="menu_photo">
+  <div class="user_details">
+    {{$banner}}
   </div>
   <ul class="nav nav-pills flex-column">
     <li class="nav-item">
