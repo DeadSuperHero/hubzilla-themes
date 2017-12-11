@@ -1,7 +1,9 @@
 <div class="widget">
   <h3>{{$banner}}</h3>
   <div class="menu_photo">
-    	{{$photo}}
+    	<div class="photo-wrapper>
+        "<img class="photo" src="{{$photo}}?rev={{$profile.picdate}}" alt="{{$profile.fullname}}">
+      </div>
   </div>
   <ul>
     <a class="navbar-app nav-link" href="network"> <i class="fa fa-fw fa-th"></i> Network</a>
