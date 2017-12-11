@@ -2781,12 +2781,12 @@ aside#left_aside_wrapper {
   border-radius: 3px;
 }
 
-aside#left_aside_wrapper .widget {
+aside#region_1 .widget {
   background: none;
   border: none;
 }
 
-aside#left_aside_wrapper li.nav-item:active {
+aside#region_1 .widget li.nav-item:active {
   background: #f2f2f2;
   border-radius: 3px;
   border: 1px solid #b1afaf;
