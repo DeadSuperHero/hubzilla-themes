@@ -3,7 +3,7 @@ function hideProfile() {
   if($(window.location.href.match('channel')) {
     $('li.user_details').hide();
   }
-});
+}
 </script>
 
 <div class="widget" id="user_menu">
