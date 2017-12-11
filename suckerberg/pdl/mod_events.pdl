@@ -1,5 +1,5 @@
 [region=aside]
-[widget=usermenu]
+[widget=usermenu][/widget]
 [widget=eventsmenu][/widget]
 [widget=eventstools][/widget]
 [/region]

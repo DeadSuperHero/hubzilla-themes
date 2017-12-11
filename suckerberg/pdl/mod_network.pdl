@@ -1,7 +1,7 @@
 [region=nav]$nav[/region]
 
 [region=aside]
-[widget=usermenu]
+[widget=usermenu][/widget]
 [widget=forums][/widget]
 [/region]
 
