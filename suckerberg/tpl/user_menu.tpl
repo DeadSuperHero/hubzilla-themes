@@ -1,11 +1,5 @@
 <div class="widget">
-  <h3>{{$banner}}</h3>
   <div class="menu_photo">
-    {{if ! $zcard}}
-    	<div class="photo-wrapper">
-        <img class="photo" src="{{$photo}}?rev={{$profile.picdate}}" alt="{{$profile.fullname}}">
-      </div>
-      {{/if}}
   </div>
   <ul class="nav nav-pills flex-column">
     <li class="nav-item">
