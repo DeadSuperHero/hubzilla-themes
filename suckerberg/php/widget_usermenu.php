@@ -9,7 +9,7 @@ if(local_channel()) {
 
 function widget_usermenu($args) {
   $o = replace_macros(get_markup_template('user_menu.tpl'), array(
-    '$banner' => $channel_name
+    '$banner' => $channel.name
   ));
   return $o;
 
