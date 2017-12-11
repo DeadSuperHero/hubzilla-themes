@@ -25,14 +25,6 @@ if($('#tabs-collapse-1').length == 0) {
 
 
 $(document).ready(function(){
-
-if(window.location.href.match('channel')) {
-  $('li.user_details').hide();
-  }
-});
-
-
-$(document).ready(function(){
 	var doctitle = document.title;
 	function checkNotify() {
 		var notifyUpdateElem = document.getElementById('notify-update');
