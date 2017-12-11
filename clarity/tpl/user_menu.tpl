@@ -1,9 +1,11 @@
 <div class="widget">
   <h3>{{$banner}}</h3>
   <div class="menu_photo">
-    	<div class="photo-wrapper>
-        "<img class="photo" src="{{$photo}}?rev={{$profile.picdate}}" alt="{{$profile.fullname}}">
+    {{if ! $zcard}}
+    	<div class="photo-wrapper">
+        <img class="photo" src="{{$photo}}?rev={{$profile.picdate}}" alt="{{$profile.fullname}}">
       </div>
+      {{/if}}
   </div>
   <ul>
     <a class="navbar-app nav-link" href="network"> <i class="fa fa-fw fa-th"></i> Network</a>
