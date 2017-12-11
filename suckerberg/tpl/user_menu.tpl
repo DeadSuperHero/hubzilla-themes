@@ -1,4 +1,12 @@
-<div class="widget">
+<script>
+function toggle_nav_item() {
+    $('li.nav-item').click(function() {
+      $('li.nav-item').addClass('active');
+    });
+}
+</script>
+
+<div class="widget" id="user_menu">
   <div class="user_details">
     <img src="{{$avatar}}" class="avatar_thumb">
     <b>{{$banner}}</b>
