@@ -1,6 +1,6 @@
 <script>
 function toggle_nav_item() {
-      $('a.nav-link[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+      $('a.navbar-app.nav-link[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
 });
 </script>
 
