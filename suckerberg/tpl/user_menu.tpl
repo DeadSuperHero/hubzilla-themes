@@ -1,5 +1,6 @@
 <div class="widget">
   <div class="user_details">
+    {{$avatar}}
     {{$banner}}
   </div>
   <ul class="nav nav-pills flex-column">
