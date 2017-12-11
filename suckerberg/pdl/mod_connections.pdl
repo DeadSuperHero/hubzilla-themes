@@ -1,6 +1,7 @@
 [region=nav]$nav[/region]
 
 [region=aside]
+[widget=usermenu]
 [widget=collections][/widget]
 [/region]
 

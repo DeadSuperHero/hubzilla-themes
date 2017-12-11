@@ -1,8 +1,8 @@
 [region=nav]$nav[/region]
 
 [region=aside]
-[widget=collections][/widget]
-[widget=archive][/widget]
+[widget=usermenu]
+[widget=forums][/widget]
 [/region]
 
 [region=content]
@@ -12,6 +12,5 @@ $content
 
 [region=right_aside]
 [widget=savedsearch][/widget]
-[widget=forums][/widget]
-[widget=suggestions][/widget]
+[widget=collections][/widget]
 [/region]

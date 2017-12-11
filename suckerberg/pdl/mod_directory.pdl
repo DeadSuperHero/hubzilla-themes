@@ -1,6 +1,7 @@
 [region=nav]$nav[/region]
 
 [region=aside]
+[widget=usermenu]
 [widget=dirsort][/widget]
 [widget=dirsafe][/widget]
 [widget=dirtags][/widget]
