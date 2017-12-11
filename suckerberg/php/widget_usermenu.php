@@ -11,8 +11,8 @@ function widget_usermenu($args) {
 
   $o = replace_macros(get_markup_template('user_menu.tpl'), array(
     '$banner' => $channel['channel_name'],
-    '$user' => $channel['channel_address'],
-    '$avatar' => $profile['thumb'],
+    '$user' => App::$profile['channel_name'],,
+    '$avatar' => App::$profile['thumb'],
   ));
   return $o;
 

@@ -1,6 +1,6 @@
 <div class="widget">
   <div class="user_details">
-    <img class="avatar_tumb" src="{{$avatar}}">
+    <img class="avatar_thumb" src="{{$avatar}}">
     {{$banner}}
   </div>
   <ul class="nav nav-pills flex-column">
