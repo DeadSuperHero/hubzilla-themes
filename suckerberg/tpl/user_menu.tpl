@@ -1,6 +1,6 @@
 <div class="widget">
   <div class="user_details">
-    {{$channel.channel_name}}
+    {{$banner}}
   </div>
   <ul class="nav nav-pills flex-column">
     <li class="nav-item">
