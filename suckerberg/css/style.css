@@ -49,6 +49,12 @@ aside#region_1 .widget .nav > li > a {
   width: 100%;
 }
 
+section#region_2 {
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
 .widget .badge {
   text-shadow: none;
 }
@@ -144,7 +150,7 @@ abbr {
 
 a,
 .fakelink {
-  color: $link_colour;
+  color: #5980bc;
 }
 
 a:hover,
@@ -622,6 +628,12 @@ nav .acpopup {
 
 .profile-match-ignore .btn-outline-secondary {
 	border-color: #c5c1c1;
+}
+
+.btn-outline-secondary.active, .btn-outline-secondary:active, .show > .btn-outline-secondary.dropdown-toggle {
+    color: #000;
+    background-color: #d5d5d5;
+    border-color: #b9b9b9;
 }
 
 .side-link {
@@ -1140,10 +1152,10 @@ img.mail-conv-sender-photo {
 }
 
 .wall-item-photo {
-	width: 2.3rem;
-	height: 2.3rem;
-	border: 1px solid #000;
-	border-radius: 4px;
+  width: 3em;
+  height: 3em;
+  border: none;
+  border-radius: 3em;
 }
 
 .comment .wall-item-photo {
@@ -1479,6 +1491,11 @@ blockquote {
 	color: $font_colour;
 }
 
+.dropdown-item.active {
+  color: #fff;
+  background-color: #5980bc;
+}
+
 .dropdown-item:active,
 .dropdown-item:focus,
 .dropdown-item:hover,
@@ -1497,6 +1514,11 @@ blockquote {
 .navbar-inverse .navbar-nav .nav-link,
 .usermenu i {
 	color: $nav_icon_colour;
+}
+
+.nav-pills .nav-link.active, .show > .nav-pills .nav-link {
+    color: #fff;
+    background-color: #5980bc;
 }
 
 .navbar-inverse .navbar-nav .nav-link:focus,
