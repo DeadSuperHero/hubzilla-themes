@@ -16,6 +16,9 @@ html {
 
 /* Overrides */
 
+.bg-dark {
+  background-color: #5980bc !important;
+}
 
 aside#region_1 {
 	width: 230px;
@@ -835,10 +838,10 @@ div.jGrowl div.jGrowl-notification {
 }
 
 .shared_container {
-	border: 1px solid #50abd5;
+	border: 1px solid #b1c7e4;
 	padding: 10px;
 	border-radius: 3px;
-	background: #c3e9e9;
+	background: #dceffe;
 	color: #000;
 	margin: 5px;
 	padding: 15px;
@@ -1099,7 +1102,12 @@ img.mail-conv-sender-photo {
 }
 
 .wall-item-head {
-	border-bottom: 1px solid #d2cfcf;
+  border: none;
+  background: #fff;
+}
+
+.wall-item-head-new {
+  border-top: none;
 }
 
 .hide-comments-outer {
