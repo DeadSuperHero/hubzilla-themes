@@ -1090,6 +1090,21 @@ img.mail-conv-sender-photo {
 	border-top-left-radius: $radius;
 }
 
+.wall-item-title {
+	font-weight: 300;
+	margin: 0px;
+	word-wrap: break-word;
+	border-bottom: 1px solid #dedede;
+}
+
+.wall-item-title .bg-primary {
+    background-color: #fff !important;
+}
+
+.wall-item-title.bg-primary a {
+    color: #939393;
+}
+
 .wall-item-footer {
 	font-size: 0.75rem;
 	margin-top: 2em;
