@@ -62,7 +62,7 @@ section#region_2 {
 
 body {
   font-size: 0.9rem;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(234, 235, 237);
   background-image: url(style.pcss);
   background-attachment: fixed;
   background-size: cover;
@@ -1291,9 +1291,9 @@ img.mail-conv-sender-photo {
 }
 
 #avatar {
-	width: 2.35rem;
-	height: 2.35rem;
-	border-radius: $radius;
+  width: 2.35rem;
+  height: 2.35rem;
+  border-radius: 3em;
 }
 
 .avatar_thumb {
