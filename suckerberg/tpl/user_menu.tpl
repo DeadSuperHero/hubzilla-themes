@@ -1,3 +1,11 @@
+<script>
+$(function hideProfilelink() {
+  if(window.location.href.match('channel')) {
+    $('li.user_details').hide();
+  }
+})
+</script>
+
 <div class="widget" id="user_menu">
   <ul class="nav nav-pills flex-column">
 
