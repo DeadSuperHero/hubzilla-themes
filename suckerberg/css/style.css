@@ -1091,17 +1091,20 @@ img.mail-conv-sender-photo {
 }
 
 .wall-item-title {
-	font-weight: 300;
 	margin: 0px;
 	word-wrap: break-word;
 	border-bottom: 1px solid #dedede;
+}
+
+.wall-item-title.h3 {
+		font-weight: 300;
 }
 
 .bg-primary {
     background-color: #fff !important;
 }
 
-.wall-item-title.bg-primary a {
+.wall-item-title a {
     color: #939393;
 }
 
@@ -1486,10 +1489,11 @@ main.fullscreen .section-content-wrapper-np {
 
 blockquote {
 	font-size: 1rem;
-	font-style: italic;
-	border-left: 3px solid #ccc;
+	font-style: normal;
+	border-left: 3px solid #cbc8c8;
 	padding: 1em 0px 1em 1.5em;
-	margin: 0px;
+	margin: 0px 0px 1em 1em;
+	color: #9e9b9b;
 }
 
 .dropdown-menu {
