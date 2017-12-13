@@ -762,6 +762,10 @@ div.jGrowl div.jGrowl-notification {
 	text-align: center;
 }
 
+.active .conv-participants {
+    color: #595454;
+}
+
 .conv-participants {
 	color: $font_colour;
 }
@@ -1181,6 +1185,10 @@ img.mail-conv-sender-photo {
 	height: $reply_photo;
 }
 
+widget .active .wall-item-ago, .widget .active .dropdown-sub-text {
+    color: #878787;
+}
+
 .wall-item-ago,
 .dropdown-sub-text {
 	color: #777;
@@ -1536,8 +1544,9 @@ blockquote {
 }
 
 .nav-pills .nav-link.active, .show > .nav-pills .nav-link {
-    color: #fff;
-    background-color: #5980bc;
+	color: #fff;
+	background-color: #007bff;
+	box-shadow: 0px 0px 2px #bfbfbf;
 }
 
 .navbar-inverse .navbar-nav .nav-link:focus,
