@@ -1,0 +1,8 @@
+[region=aside]
+[widget=vcard][/widget]
+[widget=collections][var=mode]abook[/var][/widget]
+[/region]
+[region=right_aside]
+[widget=suggestions][/widget]
+[widget=findpeople][/widget]
+[/region]
