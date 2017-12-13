@@ -10,7 +10,7 @@ $(function hideProfilelink() {
   <ul class="nav nav-pills flex-column">
 
       <li class="user_details">
-        <a class="nav-link" href="channel/{{$user}}"><img src="{{$avatar}}" class="avatar_thumb">
+        <a class="nav-link" href="channel/{{$channel}}"><img src="{{$avatar}}" class="avatar_thumb">
           <b>{{$banner}}</b></a>
       </li>
 
@@ -23,11 +23,11 @@ $(function hideProfilelink() {
     </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="photos/{{$user}}"> <i class="fa fa-fw fa-photo"></i> Photos</a>
+      <a class="nav-link" href="photos/{{$channel}}"> <i class="fa fa-fw fa-photo"></i> Photos</a>
     </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="cloud/{{$user}}"> <i class="fa fa-fw fa-folder-open"></i> Files</a>
+      <a class="nav-link" href="cloud/{{$channel}}"> <i class="fa fa-fw fa-folder-open"></i> Files</a>
     </li>
 
   </ul>
