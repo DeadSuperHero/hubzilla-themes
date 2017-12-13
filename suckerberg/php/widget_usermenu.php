@@ -1,8 +1,5 @@
 <?php
 
-require_once('include/network.php');
-require_once('include/channel.php');
-
 function widget_usermenu($args) {
 
     $channel = channelx_by_n(\App::$profile_uid);
