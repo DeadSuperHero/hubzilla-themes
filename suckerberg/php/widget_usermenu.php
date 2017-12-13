@@ -5,8 +5,8 @@ require_once('include/channel.php');
 
 function widget_usermenu($args) {
 
-    if(local_channel()) {
-      $local_channel = true;
+    if(! local_channel()) {
+      $local_channel = false;
     }
 
     $channel = channelx_by_n(\App::$profile_uid);
