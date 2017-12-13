@@ -18,9 +18,11 @@ $(function hideProfilelink() {
       <a class="nav-link" href="network"> <i class="fa fa-fw fa-th"></i> Network</a>
     </li>
 
+{{if $local_channel}}
     <li class="nav-item">
       <a class="nav-link" href="mail/combined" ><i class="fa fa-fw fa-envelope"></i> Mail</a>
     </li>
+{{/if}}
 
     <li class="nav-item">
       <a class="nav-link" href="photos/{{$channel}}"> <i class="fa fa-fw fa-photo"></i> Photos</a>
