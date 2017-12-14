@@ -11,12 +11,6 @@ html {
 	font-size: $font_size;
 }
 
-span.item.app, .item.app {
-	font-weight: bold;
-}
-
-
-
 /* Overrides */
 
 .bg-dark {
