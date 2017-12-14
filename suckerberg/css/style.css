@@ -11,6 +11,9 @@ html {
 	font-size: $font_size;
 }
 
+span.item.app, .item.app {
+	font-weight: bold;
+}
 
 
 
@@ -51,8 +54,6 @@ aside#region_1 .widget .nav > li > a {
 
 section#region_2 {
   width: 100%;
-  padding-left: 2%;
-  padding-right: 2%;
 }
 
 .widget .badge {
