@@ -1573,6 +1573,20 @@ aside#region_1 .nav-pills .nav-link.active, .show > .nav-pills .nav-link {
 		border-right: 1px solid $nav_bd;
 	}
 
+	section#region_2 {
+		max-width: 100%;
+		width: 57.3%;
+		padding: 0px;
+	}
+
+	form#profile-jot-form {
+		padding: 5px;
+	}
+
+	.thread-wrapper {
+		margin: 5px;
+	}
+
 	main {
 		left: -$aside_widthpx;
 		width: calc( 100% + $aside_widthpx );

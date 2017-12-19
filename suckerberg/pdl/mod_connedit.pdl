@@ -3,6 +3,6 @@
 [widget=collections][var=mode]abook[/var][/widget]
 [/region]
 [region=right_aside]
-[widget=suggestions][/widget]
 [widget=findpeople][/widget]
+[widget=suggestions][/widget]
 [/region]
