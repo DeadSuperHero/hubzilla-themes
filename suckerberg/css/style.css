@@ -1577,6 +1577,7 @@ aside#region_1 .nav-pills .nav-link.active, .show > .nav-pills .nav-link {
 @media screen and (max-width: 620px) {
 	section#region_2 {
 	    width: 68%;
+	    padding: 10px;
 	}
 }
 
@@ -1599,6 +1600,7 @@ aside#region_1 .nav-pills .nav-link.active, .show > .nav-pills .nav-link {
 
 	section#region_2 {
 		width: 100%;
+	  padding: 10px;
 	}
 
 	form#profile-jot-form {
