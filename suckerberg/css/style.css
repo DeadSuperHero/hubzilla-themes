@@ -1567,12 +1567,26 @@ aside#region_1 .nav-pills .nav-link.active, .show > .nav-pills .nav-link {
 	color: $nav_active_icon_colour;
 }
 
+@media screen and (max-width: 440px) {
+	section#region_2 {
+	    width: 59%;
+	    padding: 10px;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	section#region_2 {
+	    width: 68%;
+	}
+}
+
+
 
 @media screen and (min-width: 768px) {
 	section#region_2 {
 		max-width: 100%;
-		width: 65%;
-		padding: 0px;
+		width: 80%;
+		padding: 10px;
 	}
 
 }
