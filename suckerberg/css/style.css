@@ -46,9 +46,12 @@ aside#region_1 .widget .nav > li > a {
   width: 100%;
 }
 
+/*
+
 section#region_2 {
   width: 100%;
 }
+*/
 
 .widget .badge {
   text-shadow: none;
@@ -1573,11 +1576,12 @@ aside#region_1 .nav-pills .nav-link.active, .show > .nav-pills .nav-link {
 		border-right: 1px solid $nav_bd;
 	}
 
-	section#region_2 {
+/*	section#region_2 {
 		max-width: 100%;
 		width: 57.3%;
 		padding: 0px;
 	}
+*/
 
 	form#profile-jot-form {
 		padding: 5px;
