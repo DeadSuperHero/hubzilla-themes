@@ -1568,7 +1568,7 @@ aside#region_1 .nav-pills .nav-link.active, .show > .nav-pills .nav-link {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 	section#region_2 {
 		max-width: 100%;
 		width: 65%;
@@ -1609,7 +1609,7 @@ aside#region_1 .nav-pills .nav-link.active, .show > .nav-pills .nav-link {
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
 
 	aside#region_1 {
 		border-right: 1px solid $nav_bd;
