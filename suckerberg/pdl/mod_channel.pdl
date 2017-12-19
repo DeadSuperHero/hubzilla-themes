@@ -1,6 +1,7 @@
 [region=aside]
 [widget=usermenu][/widget]
-[widget=shortprofile][var=scale]2[/var][/widget]
+[widget=archive][var=wall]1[/var][/widget]
+[widget=categories][/widget]
 [/region]
 
 [region=content]
@@ -9,7 +10,5 @@ $content
 [/region]
 
 [region=right_aside]
-[widget=archive][var=wall]1[/var][/widget]
-[widget=categories][/widget]
-[widget=tagcloud_wall][var=limit]24[/var][/widget]
+[widget=shortprofile][var=scale]2[/var][/widget]
 [/region]
