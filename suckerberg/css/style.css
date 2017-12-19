@@ -1575,7 +1575,7 @@ aside#region_1 .nav-pills .nav-link.active, .show > .nav-pills .nav-link {
 
 	section#region_2 {
 		max-width: 100%;
-		width: 57%;
+		width: 65%;
 		padding: 0px;
 	}
 
@@ -1586,6 +1586,38 @@ aside#region_1 .nav-pills .nav-link.active, .show > .nav-pills .nav-link {
 	.thread-wrapper {
 		margin: 5px;
 	}
+
+	.hz_profile_photo {
+    position: relative;
+    top: -165px;
+    left: 30px;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hz_name {
+    position: relative;
+    top: -6em;
+    left: 10px;
+    color: #fff;
+    font-size: 32px;
+    text-rendering: optimizelegibility;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.hz_addr {
+    position: relative;
+    top: -11em;
+    left: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-rendering: optimizelegibility;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
 
 	main {
 		left: -$aside_widthpx;
