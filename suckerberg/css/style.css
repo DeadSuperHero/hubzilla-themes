@@ -1009,6 +1009,14 @@ img.mail-conv-sender-photo {
 	border-radius: $radius;
 }
 
+.mail-conv-body {
+	border: 1px solid #5980bc;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #c7ddff;
+	margin: 10px 0px 10px 0px;
+}
+
 /* jot */
 
 .jothidden {
