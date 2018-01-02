@@ -1,20 +1,38 @@
 Hubzilla Themes!
 ================
 
+## Quick Note 
+These themes were originally designed for an older build of Hubzilla, and are in the process of being updated.
+At the moment, only __Suckerberg__ and __Clarity__ are compatible with Hubzilla 2.8
+
 [Hubzilla](http://hubzilla.org) is a content management platform with social features and web-scale ACL for privacy. It is decentralized, compatible with [Diaspora](https://diasporafoundation.org) (in terms of federation), and highly customizable.
 
 The goal of this repo is to hack on the default base theme (RedBasic) and produce many different styles to choose from. Part of the current fun is in emulating the styles of existing centralized social networks, to drive the point home about how decentralization can benefit everyone using the platform.
 
 This readme is in the process of being updated. Keep an eye out for new themes!
 
+
+### Installation
+Theme files for hubzilla need to live in the __/view/theme/__ directory of your
+Hubzilla installation. One straightforward way is to simply SSH into that directory
+and simply git clone this repo.
+
+For a straightforward workaround, you can use the `add_theme_repo` and
+`update_theme_repo` utility scripts that ship with Hubzilla. Just SSH into your
+server and then run this command:
+`./util/add_theme_repo git@github.com:DeadSuperHero/hubzilla-themes.git dsh`
+
+to update your Hubzilla theme, simply type `./util/update_theme_repo dsh`
+
+
 ## Available Themes
-    
+
 
 ### Sporadic
 ![Sporadic-Preview](https://github.com/DeadSuperHero/redmatrix-themes/blob/master/sporadic/img/screenshot.jpg)
 
 A mutated clone of Diaspora's visual style.
-  
+
 
 ### Sunbeam
 ![SunBeam-Preview](https://github.com/DeadSuperHero/redmatrix-themes/blob/master/sunbeam/img/screenshot.jpg)
@@ -66,5 +84,5 @@ A style imitation of Ello, because fuck Ello.
 
 I dedicate a lot of spare time to maintaining these themes. If you use them and like my work, please feel free to donate to my cause in the following manners:
 
-* Bitcoin: 1H8aRrQfJ7LBj7KTgcaCdESj3GnZwkgjsR
+* Bitcoin: 1EV6EH67eY2UfF1kewmHmNXCsoXN3CWzBM
 * PayPal: sean@deadsuperhero.com
