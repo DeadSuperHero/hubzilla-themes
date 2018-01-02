@@ -1013,8 +1013,9 @@ img.mail-conv-sender-photo {
 	border: 1px solid #5980bc;
 	padding: 10px;
 	border-radius: 4px;
-	background-color: #c7ddff;
+	background-color: #5980bc;
 	margin: 10px 0px 10px 0px;
+	color: #fff;
 }
 
 /* jot */
