@@ -1,5 +1,5 @@
 [template]choklet[/template]
-[region=aside]
+[region=right_aside]
 [widget=usermenu][/widget]
 [widget=notifications][/widget]
 [widget=categories][var=articles]1[/var][/widget]
