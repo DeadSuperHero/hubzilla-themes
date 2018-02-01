@@ -1,0 +1,20 @@
+/* Experimental overrides for the Articles module. Subject to frequent changes */
+
+.wall-item-title.h3 {
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.wall-item-title {
+  border-bottom: none;
+}
+
+
+.wall-item-body.e-content {
+  font-size: 16px;
+  margin: 10px 40px 10px 10px;
+}
+
+.wall-item-body.e-content li {
+  margin-bottom: 10px;
+}
