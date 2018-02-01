@@ -1,6 +1,6 @@
 [template]choklet[/template]
 [region=htmlhead]
-    [css]bootstrap[/css]
+    [css]style[/css]
     [css]articles[/css]
     [js]jquery[/js]
     [js]bootstrap[/js]
