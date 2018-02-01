@@ -1,5 +1,6 @@
 [region=aside]
 [widget=vcard][/widget]
+[widget=notifications][/widget]
 [widget=collections][var=mode]abook[/var][/widget]
 [/region]
 [region=right_aside]
