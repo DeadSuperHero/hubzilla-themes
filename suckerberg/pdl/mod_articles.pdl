@@ -1,7 +1,5 @@
-[template]choklet[/template]
-[navbar]tucson[/navbar]
+[template=edgestwo]choklet[/template]
 [region=aside]
 [widget=usermenu][/widget]
-[widget=notifications][/widget]
 [widget=categories][var=articles]1[/var][/widget]
 [/region]
