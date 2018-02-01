@@ -18,7 +18,7 @@ i.fa fa-bars {
 }
 
 .wall-item-title {
-  border-bottom: none;
+  border-bottom: none !important;
 }
 
 
@@ -28,5 +28,6 @@ i.fa fa-bars {
 }
 
 .wall-item-body.e-content li {
-  margin-bottom: 10px;
+  padding: 5px;
+  margin: 9px;
 }
