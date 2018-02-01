@@ -1,4 +1,5 @@
 [template]choklet[/template]
+[navbar]tucson[/navbar]
 [region=aside]
 [widget=usermenu][/widget]
 [widget=notifications][/widget]
