@@ -18,9 +18,12 @@ html {
 }
 
 aside#region_1 {
-	width: 230px;
-  min-width: 230px;
-  max-width: 230px;
+	min-width: 285px;
+	max-width: 285px;
+	display: table-cell;
+	width: 285px;
+	margin-left: 10px;
+	vertical-align: top;
 }
 
 aside#left_aside_wrapper {
