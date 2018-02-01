@@ -46,9 +46,6 @@ aside#region_1 .widget .nav > li > a {
   width: 100%;
 }
 
-section#region_2 {
-  width: 100%;
-}
 
 .widget .badge {
   text-shadow: none;
@@ -1576,39 +1573,11 @@ aside#region_1 .nav-pills .nav-link.active, .show > .nav-pills .nav-link {
 	color: $nav_active_icon_colour;
 }
 
-@media screen and (max-width: 440px) {
-	section#region_2 {
-	    width: 59%;
-	    padding: 10px;
-	}
-}
-
-@media screen and (max-width: 620px) {
-	section#region_2 {
-	    width: 68%;
-	    padding: 10px;
-	}
-}
-
-
-
-@media screen and (min-width: 768px) {
-	section#region_2 {
-		max-width: 100%;
-		width: 80%;
-	}
-
-}
 
 @media screen and (max-width: 767px) {
 
 	aside#region_1 {
 		border-right: 1px solid $nav_bd;
-	}
-
-	section#region_2 {
-		width: 100%;
-	  padding: 10px;
 	}
 
 	form#profile-jot-form {
