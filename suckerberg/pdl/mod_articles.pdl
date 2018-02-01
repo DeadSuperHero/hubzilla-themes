@@ -1,4 +1,3 @@
-[template=bannertwo]choklet[/template]
 [region=aside]
 [widget=usermenu][/widget]
 [widget=categories][var=articles]1[/var][/widget]
