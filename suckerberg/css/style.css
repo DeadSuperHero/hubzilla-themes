@@ -11,6 +11,14 @@ html {
 	font-size: $font_size;
 }
 
+
+/* Utility Classes - basically CSS rules for bespoke elements */
+
+img.jumbo-avatar {
+	float: left;
+	margin: 15px;
+}
+
 /* Overrides */
 
 .bg-dark {
