@@ -15,8 +15,12 @@ html {
 /* Utility Classes - basically CSS rules for bespoke elements */
 
 img.jumbo-avatar {
-	float: left;
+	display: inline-block;
 	margin: 15px;
+}
+
+.jumbo-about {
+	display: inline-block;
 }
 
 /* Overrides */
