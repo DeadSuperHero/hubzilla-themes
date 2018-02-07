@@ -1,0 +1,24 @@
+/* Utility Classes - basically CSS rules for bespoke elements */
+
+bblock widget {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    padding: 4rem 2rem;
+    margin: auto;
+}
+
+img.jumbo-avatar {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.jumbo-about {
+    display: inline-block;
+    margin: 15px;
+    vertical-align: top;
+}
