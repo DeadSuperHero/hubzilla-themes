@@ -1,5 +1,5 @@
 [region=aside]
 [widget=usermenu][/widget]
-[widget=categories][var=articles]1[/var][/widget]
 [widget=notifications][/widget]
+[widget=categories][var=articles]1[/var][/widget]
 [/region]

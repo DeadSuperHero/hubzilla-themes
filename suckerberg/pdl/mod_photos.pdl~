@@ -1,17 +1,14 @@
-[region=nav]$nav[/region]
-
 [region=aside]
 [widget=usermenu][/widget]
-[widget=forums][/widget]
 [widget=notifications][/widget]
+[widget=photo_albums][/widget]
 [/region]
 
 [region=content]
-[widget=affinity][/widget]
+[widget=zcard][/widget]
 $content
 [/region]
 
 [region=right_aside]
-[widget=savedsearch][/widget]
-[widget=collections][/widget]
+[widget=suggestions][/widget]
 [/region]

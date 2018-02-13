@@ -1,7 +1,7 @@
 [region=aside]
 [widget=usermenu][/widget]
-[widget=notifications][/widget]
 [widget=photo_albums][/widget]
+[widget=notifications][/widget]
 [/region]
 
 [region=content]

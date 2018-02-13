@@ -2,8 +2,8 @@
 
 [region=aside]
 [widget=usermenu][/widget]
-[widget=notifications][/widget]
 [widget=collections][/widget]
+[widget=notifications][/widget]
 [/region]
 
 [region=content]

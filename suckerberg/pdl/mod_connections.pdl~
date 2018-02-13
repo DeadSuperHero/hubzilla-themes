@@ -2,16 +2,16 @@
 
 [region=aside]
 [widget=usermenu][/widget]
-[widget=forums][/widget]
 [widget=notifications][/widget]
+[widget=collections][/widget]
 [/region]
 
 [region=content]
-[widget=affinity][/widget]
 $content
 [/region]
 
 [region=right_aside]
-[widget=savedsearch][/widget]
-[widget=collections][/widget]
+[widget=findpeople][/widget]
+[widget=follow][/widget]
+[widget=suggestions][/widget]
 [/region]

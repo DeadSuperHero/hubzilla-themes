@@ -2,10 +2,10 @@
 
 [region=aside]
 [widget=usermenu][/widget]
-[widget=notifications][/widget]
 [widget=dirsort][/widget]
 [widget=dirsafe][/widget]
 [widget=dirtags][/widget]
+[widget=notifications][/widget]
 [/region]
 
 [region=content]

@@ -1,8 +1,8 @@
 [region=aside]
 [widget=usermenu][/widget]
-[widget=notifications][/widget]
 [widget=eventsmenu][/widget]
 [widget=eventstools][/widget]
+[widget=notifications][/widget]
 [/region]
 
 [region=content]
