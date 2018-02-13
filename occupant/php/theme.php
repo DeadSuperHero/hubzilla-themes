@@ -3,9 +3,10 @@
 /**
  *   * Name: Occupant
  *   * Description: An Occupy theme.
- *   * Version: 1.0
+ *   * MinVersion: 2.3.1
+ *   * MaxVersion: 3.5
  *   * Author: Sean Tilley
- *   * Compat: Red [*]
+ *   * Compat: Hubzilla [*]
  *
  */
 
