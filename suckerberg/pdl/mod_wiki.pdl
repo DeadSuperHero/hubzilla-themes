@@ -1,6 +1,6 @@
 [region=aside]
 [widget=usermenu][/widget]
-[widget=wiki_page_list][/widget]
+[widget=wiki_pages][/widget]
 [widget=notifications][/widget]
 [/region]
 
