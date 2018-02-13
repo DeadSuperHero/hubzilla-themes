@@ -33,7 +33,6 @@ $(function hideProfilelink() {
     <li class="nav-item">
       <a class="nav-link" href="wiki/{{$channel}}"> <i class="fa fa-fw fa-pencil-square-o"></i> Wiki</a>
     </li>
-""""
 
   </ul>
 </div>
