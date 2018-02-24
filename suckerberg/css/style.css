@@ -1014,6 +1014,18 @@ img.mail-conv-sender-photo {
 	border-radius: $radius;
 }
 
+.mb-2.clearfix.wall-item-head {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15px;
+}
+
+.mail-conv-content {
+	display: inline-block;
+	width: 80%;
+	margin-left: 10px;
+}
+
 .mail-conv-body {
 	border: 1px solid #5980bc;
 	padding: 10px;
