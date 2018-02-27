@@ -1,5 +1,14 @@
+section {
+  margin: 0px;
+}
+
 .section-content-wrapper {
     padding: 0px;
+}
+
+.generic-content-wrapper {
+    border: none;
+    box-shadow: none;
 }
 
 .jumbo-about {
