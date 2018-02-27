@@ -1,0 +1,40 @@
+.section-content-wrapper {
+    padding: 0px;
+}
+
+.jumbo-about {
+  margin-left: 21px;
+  vertical-align: top;
+  display: inline-block;
+  max-width: 70%;
+}
+
+img.jumbo-avatar {
+  width: 21%;
+  display: inline-block;
+}
+
+img.hubzilla-banner {
+  max-width: 100%;
+}
+
+.widget {
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+
+#art {
+  margin: 10px;
+  border: none;
+}
+
+ul.pmenu-body.nav.nav-pills.flex-column {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+}
