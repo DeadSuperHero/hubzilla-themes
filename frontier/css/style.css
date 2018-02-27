@@ -1,3 +1,14 @@
+/* FRONTIER - the theme starter kit for page builders! */
+
+/* 001 - Base Elements */
+/* This section provides overrides to the default CSS that Hubzilla uses
+for specific HTML classes. */
+
+/* Because we are dealing with a landing page (that's this theme's purpose),
+we must get rid of borders, unnecessary padding, and margins. The intent is to
+be as chromeless as possible, and save the actual styling for
+custom elements. */
+
 section {
   margin: 0px;
 }
@@ -15,6 +26,28 @@ section {
     box-shadow: none;
 }
 
+.widget {
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+/* By default, the horizontal class declaration used on menus does not work out
+of the box, meaning that we must override it for now. */
+
+ul.pmenu-body.nav.nav-pills.flex-column {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+}
+
+/* 002 - Custom UI Elements */
+/* This section provides styling to bespoke classes and IDs that are explicitly
+being used on my personal site. */
+
 .jumbo-about {
   margin-left: 21px;
   vertical-align: top;
@@ -31,23 +64,7 @@ img.jumbo-avatar {
   max-width: 100%;
 }
 
-.widget {
-    background-color: transparent;
-    border: none;
-    border-radius: 0px;
-    margin: 0;
-    padding: 0;
-}
-
-
 #art {
   margin: 10px;
   border: none;
-}
-
-ul.pmenu-body.nav.nav-pills.flex-column {
-    -webkit-box-orient: horizontal !important;
-    -webkit-box-direction: normal !important;
-    -ms-flex-direction: row !important;
-    flex-direction: row !important;
 }
