@@ -61,15 +61,20 @@ being used on my personal site. */
   vertical-align: top;
   display: inline-block;
   max-width: 70%;
+  color: #fff;
 }
 
 .jumbo_wrap {
-  background-image:url('../img/stars.jpg');
+  background-image: url('../img/stars.jpg');
+  background-attachment: fixed;
+  background-size: contain;
 }
 
 img.jumbo-avatar {
   width: 21%;
   display: inline-block;
+  border-radius: 100%;
+  box-shadow: 0px 0px 14px #6e6e6e;
 }
 
 #hubzilla_banner img {
