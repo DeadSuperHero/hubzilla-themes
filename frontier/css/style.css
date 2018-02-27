@@ -2,6 +2,10 @@ section {
   margin: 0px;
 }
 
+.section-title-wrapper h2, .section-subtitle-wrapper h3 {
+  padding-top: 0px;
+}
+
 .section-content-wrapper {
     padding: 0px;
 }
@@ -23,7 +27,7 @@ img.jumbo-avatar {
   display: inline-block;
 }
 
-img.hubzilla-banner {
+#hubzilla-banner img {
   max-width: 100%;
 }
 
