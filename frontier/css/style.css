@@ -64,6 +64,10 @@ img.jumbo-avatar {
   max-width: 100%;
 }
 
+.artwork {
+  margin: auto;
+}
+
 #art {
   margin: 10px;
   border: none;
