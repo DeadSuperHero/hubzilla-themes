@@ -38,6 +38,10 @@ section {
     padding: 0;
 }
 
+.jumbotron {
+  background-color: transparent;
+}
+
 /* By default, the horizontal class declaration used on menus does not work out
 of the box, meaning that we must override it for now. */
 
@@ -57,6 +61,10 @@ being used on my personal site. */
   vertical-align: top;
   display: inline-block;
   max-width: 70%;
+}
+
+.jumbo-wrap {
+  background-image:url('../img/stars.jpg');
 }
 
 img.jumbo-avatar {
