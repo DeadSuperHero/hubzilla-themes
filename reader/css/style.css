@@ -1,2 +1,63 @@
 /* Hub-wide theme overrides go here, if you want to modify a specific feature,
 create a file called mod_$feature.css in the CSS directory */
+
+/* Content Overrides */
+
+.generic-content-wrapper {
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: none;
+}
+
+.wall-item-title {
+    background: #fff;
+    border: none;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 5px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.wall-item-title.h3 {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+h3, .h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.wall-item-comment-wrapper {
+    padding: 7px 10px;
+    background-color: rgb(72, 70, 70);
+    border: 1px solid #000;
+}
+
+.wall-item-content-wrapper.comment {
+    background-color: #424242;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    color: #fff;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+/* Button Overrides */
+
+
+.btn-outline-secondary {
+    color: #c5c5c5;
+    background-color: #4d4d4d;
+    background-image: none;
+    border-color: #939598;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #232323;
+    border-color: #6c757d;
+}
