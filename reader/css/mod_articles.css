@@ -31,8 +31,16 @@ h3, .h3 {
 
 .wall-item-comment-wrapper {
     padding: 7px 10px;
-    background-color: rgb(104, 104, 104);
+    background-color: rgb(72, 70, 70);
     border: 1px solid #000;
+}
+
+.wall-item-content-wrapper.comment {
+    background-color: #424242;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    color: #fff;
+    border-bottom: 1px solid #2a2a2a;
 }
 
 /* Button Overrides */
