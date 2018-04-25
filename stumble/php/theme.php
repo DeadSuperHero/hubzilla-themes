@@ -5,7 +5,7 @@
  *   * Description: A Tumblr-like theme based on redbasic
  *   * Version: 1.0
  *   * MinVersion: 2.3.1
- *   * MaxVersion: 3.5
+ *   * MaxVersion: 4.0
  *   * Author: Sean Tilley
  *   * Compat: Hubzilla [*]
  *
