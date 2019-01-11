@@ -29,26 +29,26 @@ to update your Hubzilla theme, simply type `./util/update_theme_repo dsh`
 
 
 ### Sporadic
-![Sporadic-Preview](https://github.com/DeadSuperHero/redmatrix-themes/blob/master/sporadic/img/screenshot.jpg)
+![Sporadic-Preview](https://github.com/DeadSuperHero/hubzilla-themes/blob/master/sporadic/img/screenshot.jpg)
 
 A mutated clone of Diaspora's visual style.
 
 
 ### Sunbeam
-![SunBeam-Preview](https://github.com/DeadSuperHero/redmatrix-themes/blob/master/sunbeam/img/screenshot.jpg)
+![SunBeam-Preview](https://github.com/DeadSuperHero/hubzilla-themes/blob/master/sunbeam/img/screenshot.jpg)
 
 My second favorite theme. Fairly original style inspiration.
 
 
 ### Stumble
-![Stumble-Preview](https://github.com/DeadSuperHero/redmatrix-themes/blob/master/stumble/img/screenshot.jpg)
+![Stumble-Preview](https://github.com/DeadSuperHero/hubzilla-themes/blob/master/stumble/img/screenshot.jpg)
 
 A drunken Tumblr clone.
 
 
 
 ### VeryKool
-![VK-preview](https://github.com/DeadSuperHero/redmatrix-themes/blob/master/verykool/img/screenshot.jpg)
+![VK-preview](https://github.com/DeadSuperHero/hubzilla-themes/blob/master/verykool/img/screenshot.jpg)
 
 A visual clone of VK.com! This theme is currently highly experimental.
 
@@ -56,26 +56,26 @@ A visual clone of VK.com! This theme is currently highly experimental.
 _Below are some older themes that need to be updated to work with the latest Hubzilla layout improvements. Changes are coming, and screenshots will be updated._
 
 ### Suckerberg
-![SuckerBerg-Preview]()
+![SuckerBerg-Preview](https://github.com/DeadSuperHero/hubzilla-themes/blob/master/suckerberg/img/screenshot.jpg)
 
 This style is an emulation of Facebook's, and as such is intended to replicate the look and feel while also maintaining the default UX of RedMatrix. Currently, this is a work-in-progress, as development is in the evaluation phase for how far the style emulation should and can go. Some modification to underlying templates may be necessary.
 
 
 ### Nova
-![Nova-Preview]()
+![Nova-Preview](https://github.com/DeadSuperHero/hubzilla-themes/blob/master/nova/img/screenshot.jpg)
 
 Figured I'd go for something a little bit different for this one. Was originally conceived for a local hub for Peoria, Illinois.
 
 
 
 ### Occupant
-![Occupant-Preview]()
+![Occupant-Preview](https://github.com/DeadSuperHero/hubzilla-themes/blob/master/occupant/img/screenshot.jpg)
 
 An Occupy theme, originally developed for OccupySocial.org. If you have a local occupy group and want to run a hub for communication, this is for you!
 
 
 ### Yolo
-![Yolo-Preview]()
+![Yolo-Preview](https://github.com/DeadSuperHero/hubzilla-themes/blob/master/yolo/img/screenshot.jpg)
 
 A style imitation of Ello, because fuck Ello.
 
