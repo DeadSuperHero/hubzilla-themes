@@ -15,11 +15,11 @@ $(function hideProfilelink() {
       </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="network"> <i class="fa fa-fw fa-th"></i> Network</a>
+      <a class="nav-link" href="stream"> <i class="fa fa-fw fa-th"></i> Stream</a>
     </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="mail/combined" ><i class="fa fa-fw fa-envelope"></i> Mail</a>
+      <a class="nav-link" href="stream?dm=1" ><i class="fa fa-fw fa-envelope"></i> Direct Messages</a>
     </li>
 
     <li class="nav-item">
@@ -28,10 +28,6 @@ $(function hideProfilelink() {
 
     <li class="nav-item">
       <a class="nav-link" href="cloud/{{$channel}}"> <i class="fa fa-fw fa-folder-open"></i> Files</a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" href="wiki/{{$channel}}"> <i class="fa fa-fw fa-pencil-square-o"></i> Wiki</a>
     </li>
 
   </ul>
