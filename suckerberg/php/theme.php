@@ -3,9 +3,7 @@
 /**
  *   * Name: Suckerberg
  *   * Description: A Facebook-like theme based on redbasic
- *   * Version: 2.1
- *   * MinVersion: 2.3.1
- *   * MaxVersion: 4.0
+ *   * Version: 2.2
  *   * Author: Sean Tilley
  *   * Compat: Hubzilla [*]
  *
